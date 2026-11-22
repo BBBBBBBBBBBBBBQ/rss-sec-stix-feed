@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--32f413d1-c181-55af-8ffd-6c99be36ab5d",
+  "id": "bundle--313aa102-362f-5938-b871-cd951d9c4f05",
   "objects": [
     {
       "type": "attack-pattern",
@@ -20402,6 +20402,41 @@
     },
     {
       "type": "report",
+      "id": "report--05dad103-e06c-5ea9-893b-7abb6893a151",
+      "name": "Microsoft Entra Connect Health 漏洞被利用，租户元数据遭未授权读取",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "Microsoft 在 11 月 9 日发现 Entra Connect Health API 中的漏洞，该漏洞于 7 月 23 日引入。调查确认漏洞被利用，未经授权方获得对租户级元数据的只读访问，并可能修改 Connect Health 监控配置。Microsoft 于 11 月 20 日结束调查，称未发现未授权配置更改。\n\n影响\nMicrosoft 确认 Entra Connect Health API 漏洞被利用，攻击者可读取管理员邮箱地址与租户配置元数据，涉及身份基础设施监控面。\n\n防御建议\n- 检查 Entra Connect Health 监控配置是否存在异常变更\n- 审查管理员邮箱地址与租户元数据暴露面，评估是否需要加强访问控制\n- 关注 Microsoft 后续修复与通知，及时应用更新\n\n### 时间线\n\n- 微软于2026年11月9日在Entra Connect Health API中发现该漏洞，该漏洞最初于7月23日引入。 〔1 · Summary〕\n- 微软于2026年11月19日部署服务器端修复以阻止进一步利用，并于11月20日完成调查后开始通知受影响组织。 〔1 · Summary〕\n\n### 影响范围\n\n- 调查确认漏洞已被利用，未授权方能够访问租户和服务监控元数据，并可能修改Connect Health监控配置。 〔1 · Summary〕\n- 微软在通知中表示，调查确认发生了对租户级元数据的未授权只读访问，但未发现任何未授权的配置更改。 〔1 · Summary〕\n- 暴露的信息包括租户技术联系人和管理员账户的电子邮件地址。 〔1 · Summary〕\n- 暴露的信息还包括租户ID、显示名称、初始域名、国家代码和区域信息。 〔1 · Summary〕\n- 暴露的信息包括Microsoft Entra许可证层级和目录同步状态，包括同步是否启用及最后同步时间戳。 〔1 · Summary〕\n- 暴露的信息包括Connect Health入门状态，以及一张已过期的证书，该证书曾用于向微软内部服务注册Connect Health代理，该服务已于2024年底停用。 〔1 · Summary〕\n- 微软表示该过期证书已不再使用，但仍保留在Connect Health存储中，且API仍会返回该证书。 〔1 · Summary〕\n- 微软表示该漏洞未暴露用户密码、密码哈希、认证令牌、有效加密密钥、本地服务器和Active Directory拓扑详情或Azure订阅信息。 〔1 · Summary〕\n- 微软未披露受影响组织的数量，但超过十二名管理员在Reddit帖子中报告收到了通知。 〔1 · Summary〕\n- 一些托管服务提供商（MSP）也报告收到了针对多个客户租户的通知，一名管理员称这些邮件相隔数小时到达。 〔1 · Summary〕\n\n### 响应与修复\n\n- 通知称无需软件更新或其他客户修复措施来解决该漏洞。 〔1 · Summary〕\n- 微软建议组织提醒安全团队注意可能针对暴露的管理员电子邮件地址和租户信息的定向钓鱼和社会工程攻击。 〔1 · Summary〕\n- 组织还被建议确保特权账户使用抗钓鱼的多因素认证，审查Connect Health配置，并检查Microsoft Entra审计和登录日志中的可疑活动。 〔1 · Summary〕\n- 该脚本显示的是当前配置值，而非泄露期间被访问的信息。 〔1 · Summary〕\n\n### 证据局限\n\n- 微软未披露谁利用了该漏洞、受影响租户数量或攻击最初开始的时间。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Microsoft Entra Connect Health flaw exploited to steal tenant data\n   https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-high",
+        "rss-sec-stix",
+        "vulnerability",
+        "t:cloud",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--06544cf9-c81d-546c-be24-c1526493ff03",
       "name": "AuditTeam勒索软件组织使用OpsAgent框架针对多国组织",
       "published": "2026-11-18T16:48:01.000Z",
@@ -20764,42 +20799,6 @@
     },
     {
       "type": "report",
-      "id": "report--0fbbf96a-41c7-570c-88bc-455aedc67da3",
-      "name": "SonicWall 修复 SSL-VPN SAML 认证绕过漏洞并调查潜在利用",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "SonicWall 发布安全更新修复 SonicOS 防火墙中的七个漏洞，其中包括已遭利用的 SSL-VPN 认证绕过漏洞 CVE-2026-19868。该漏洞允许持有备用认证方式有效凭据的攻击者绕过 SAML 认证控制，可能包括 SAML 强制的多因素认证，CVSS 评分为 7.1，仅影响配置为使用 SAML 认证的 SonicOS SSL-VPN 服务。SonicWall 表示 PSIRT 已调查到该漏洞可能被利用的报告，强烈建议客户尽快升级至最新版本。\n\n影响\n该漏洞可绕过 SAML 认证控制（可能包括强制 MFA），且厂商已调查到潜在利用报告，影响暴露在外的 SSL-VPN 服务。\n\n防御建议\n- 将 SonicOS 升级至厂商发布的最新修复版本\n- 审查 SSL-VPN 的 SAML 认证配置与 MFA 策略，检查异常登录与认证日志\n- 限制 SSL-VPN 管理面暴露范围并加强访问监控\n\n### 时间线\n\n- SonicWall 于周五发布安全公告，警告已调查有关该漏洞被利用的报告，并敦促客户安装最新安全更新。 〔1 · Summary〕\n- CISA 将 CVE-2026-19868 加入已知被利用漏洞目录，要求联邦民事行政部门机构在 2026 年 11 月 20 日前完成受影响系统的安全加固。 〔1 · Summary〕\n\n### 影响范围\n\n- 该漏洞编号为 CVE-2026-19868，CVSS 严重性评分为 7.1，仅影响配置为使用 SAML 认证的 SonicOS SSL-VPN 服务。 〔1 · Summary〕\n- 拥有备用认证方式有效凭据的攻击者可绕过 SAML 认证控制，可能包括 SAML 强制实施的多因素认证（MFA）。 〔1 · Summary〕\n- 漏洞影响 SonicOS Gen7 7.3.3-7015 及更早版本和 Gen8 8.2.2-8015 及更早版本；SonicWall 已在 7.3.4-7013 和 8.2.3-8015 版本中修复，并表示没有可用的变通方案。 〔1 · Summary〕\n- 同一公告还修复了 SonicOS 中另外六个漏洞，包括两个管理接口缺陷（严重性 8.8），允许未认证攻击者在特定条件下执行未授权操作。 〔1 · Summary〕\n- 其余漏洞包括 SSL-VPN 和 TACACS+ 服务中的预认证缓冲区溢出（可导致拒绝服务）以及影响虚拟设备的弱密码哈希漏洞。 〔1 · Summary〕\n\n### 归因与依据\n\n- SonicWall PSIRT 表示已调查一份指示该漏洞可能被利用的报告，并强烈敦促客户尽快升级以缓解相关风险。 〔1 · Summary〕\n- 该漏洞由 The Electronic Office 的 Ryan Harris 发现并报告。 〔1 · Summary〕\n\n### 响应与修复\n\n- SonicWall 已发布安全更新修复包括 CVE-2026-19868 在内的七个 SonicOS 防火墙漏洞，并建议升级至 7.3.4-7013 或 8.2.3-8015 版本。 〔1 · Summary〕\n\n### 证据局限\n\n- SonicWall 未公开所报告利用的细节，因此无法从公告中确认攻击目标、受害者或利用方式；CISA KEV 收录仅确认存在在野利用。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks\n   https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-high",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:credential-theft",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
-        "vulnerability--837b6446-39c7-55fa-88d4-767084e2a7e7"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
       "id": "report--11703523-16f7-552e-ae8e-f1e2cfa154d2",
       "name": "N-able 因公开披露30多个零日漏洞将 N-central 云平台下线",
       "published": "2026-11-10T16:48:36.000Z",
@@ -21051,6 +21050,40 @@
     },
     {
       "type": "report",
+      "id": "report--16d84f8c-bd80-5913-91ec-df411584b0c5",
+      "name": "FBI NCIC 系统据报遭入侵，官方尚未确认",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "据 CNN 援引两名知情人士报道，FBI 正在调查 NCIC 系统可能遭入侵的事件，入侵在近日被发现，但发生时间、攻击者访问方式及是否有信息被窃尚不清楚。FBI 未公开确认该事件，也未回应 CNN 的置评请求。报道称这是两个月内 FBI 系统第二次被指遭入侵。\n\n影响\n报道称 FBI 全国犯罪信息中心系统可能遭入侵，但 FBI 未公开确认，入侵时间、访问方式与数据是否被窃均不明确。\n\n防御建议\n- 关注 FBI 官方后续声明与事件确认\n- 执法相关合作方评估 NCIC 数据访问与共享链路的暴露风险\n\n### 时间线\n\n- 报道称 FBI 系统在两个月内第二次被指遭入侵，本次据称针对全国犯罪信息中心（NCIC）。 〔1 · Summary〕\n- 据 CNN 引述两名了解调查的人士，FBI 正在调查 NCIC 系统疑似遭入侵一事；入侵据称在近几日才被发现。 〔1 · Summary〕\n- 报道明确指出，入侵具体发生时间、攻击者如何获得访问权限以及是否有信息被窃取均不清楚。 〔1 · Summary〕\n\n### 影响范围\n\n- NCIC 是 FBI 运营的数据库，供全美执法机构共享通缉与失踪人员、逮捕令、被盗车辆和枪支、保护令及其他刑事司法记录。 〔1 · Summary〕\n- 报道称目前尚不清楚攻击者是否访问了 NCIC 中存储的敏感执法记录，也不清楚入侵是否影响系统对执法机构的可用性。 〔1 · Summary〕\n\n### 归因与依据\n\n- 报道称目前没有迹象表明本次 NCIC 事件与 ShinyHunters 或此前那次入侵有关联。 〔1 · Summary〕\n- 此前事件发生在约两个月前，ShinyHunters 勒索团伙声称利用未修补的 Oracle PeopleSoft 漏洞入侵 FBI 系统，目标是与 FBIJobs.gov 招聘网站相关的第三方平台。 〔1 · Summary〕\n\n### 响应与修复\n\n- FBI 尚未公开确认该事件，也未回应 CNN 的置评请求；BleepingComputer 同样表示未收到回复。 〔1 · Summary〕\n- 针对此前 ShinyHunters 相关事件，FBI 随后展开调查并导致疑似成员被捕，其中包括一名据报与攻击有关联的加拿大网络安全高管。 〔1 · Summary〕\n\n### 证据局限\n\n- 报道本身为发展中的消息，信息来源为 CNN 引述的两名知情人士，缺乏官方确认，且未提供可验证的日志或主机层面检测线索。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · FBI reportedly hacked again, this time targeting nationwide police database\n   https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-low",
+        "rss-sec-stix",
+        "vulnerability",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--17bb9cc7-c581-5b03-ac01-7da5bd5480c0",
       "name": "2026 年 11 月补丁星期二：1,252 个 CVE 含一个零日与 68 个严重漏洞",
       "published": "2026-11-15T16:48:05.000Z",
@@ -21193,6 +21226,41 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "report",
+      "id": "report--23560642-d10e-56fb-8e14-3138b76b8c8f",
+      "name": "Rackspace Spot 云平台遭凭据泄露，攻击者访问客户 Kubernetes Secrets",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "Rackspace 通知客户，2026 年 11 月 17 日约 00:20 至 22:00 UTC 期间，未经授权方使用泄露凭据访问 Rackspace Spot 部分平台。攻击者可在部分客户组织中创建 Kubernetes Pod、读取 Kubernetes Secrets，并列出节点与卷。Rackspace 于 11 月 18 日收到客户报告后得知入侵并确认影响。\n\n影响\n攻击者使用泄露凭据在云平台内以合法用户身份创建 Pod 并读取 Kubernetes Secrets，可能影响客户集群中的敏感凭据。\n\n防御建议\n- 轮换 Rackspace Spot 相关凭据及集群内 Kubernetes Secrets\n- 审查 11 月 17 日前后集群中的异常 Pod、节点与卷访问记录\n- 启用多因素认证并限制云平台管理凭据的使用范围\n\n### 时间线\n\n- 攻击者于 2026 年 11 月 17 日约 00:20 至 22:00 UTC 期间，使用泄露的凭据访问了 Rackspace Spot 平台的部分系统。 〔1 · Summary〕\n- Rackspace 在 11 月 18 日收到客户报告后得知入侵，并于同日确认该客户所属组织受到影响。 〔1 · Summary〕\n- 在多次延迟后，Rackspace 于 11 月 21 日宣布服务已完全恢复。 〔1 · Summary〕\n\n### 影响范围\n\n- 攻击者能在部分客户组织中冒充合法用户，在 Kubernetes 集群中创建 pod、读取 Kubernetes Secrets，并列出节点和卷。 〔1 · Summary〕\n- Rackspace 警告称，攻击者可能读取受影响用户集群中存储的任何 Secret，以及该用户持有的 Spot API 令牌或刷新令牌。 〔1 · Summary〕\n- 此次入侵还导致 Rackspace Spot 管理控制台长时间中断，客户一度无法管理集群或轮换可能已泄露的凭据。 〔1 · Summary〕\n\n### 归因与依据\n\n- Rackspace 将入侵归因于攻击者使用泄露的凭据，而非利用漏洞；原文未指明具体攻击者身份。 〔1 · Summary〕\n\n### 检测线索\n\n- Rackspace 公布了与攻击相关的 IOC，包括 IP 地址 23.224.79.106 和 IP 段 23.224.0.0/15。 〔1 · Summary〕\n- 可疑的 Kubernetes pod 与对象前缀为 i1、glm- 和 probe，可作为排查未授权工作负载的线索。 〔1 · Summary〕\n- Rackspace 建议客户分析自 11 月 17 日起与数据库、容器镜像仓库、Git 仓库、云存储及第三方服务相关的日志，以识别暴露凭据是否被滥用。 〔1 · Summary〕\n\n### 响应与修复\n\n- Rackspace 表示已撤销受影响的令牌和会话、移除未授权 pod、轮换密钥，并加强访问控制与监控。 〔1 · Summary〕\n- 受影响客户被要求重新签发 Spot API 令牌、替换自动化工具中的刷新令牌、下载新的 Kubernetes 配置文件，并轮换集群 Secret 中存储的凭据。 〔1 · Summary〕\n- Platform9 联合创始人 Sirish Raghuram 表示，公司决定关闭全部访问并清理整个环境，以最大程度保护 Spot 用户。 〔1 · Summary〕\n\n### 证据局限\n\n- BleepingComputer 曾询问 Rackspace 受影响客户数量及客户数据是否被窃取，但未获回应，因此影响规模和数据外泄情况仍未知。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Rackspace Spot breach let hackers access customer Kubernetes secrets\n   https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-high",
+        "rss-sec-stix",
+        "threat-activity",
+        "t:cloud",
+        "t:credential-theft"
+      ],
+      "object_refs": [
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
     },
     {
       "type": "report",
@@ -22866,10 +22934,10 @@
     },
     {
       "type": "report",
-      "id": "report--6b2059c8-4d1a-55f1-b3b3-d705248c2bb5",
-      "name": "Chainalysis 称入侵事件泄露全部客户凭据",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "Chainalysis 表示，近期对其系统和内部工具的攻擊泄露了全部客户的凭据和有效令牌。公司此前披露攻击者使用 AI 工具获取了客户姓名、邮箱地址、用户 ID 和组织角色标签，最初称影响仅限于非敏感身份元数据，后续更新显示全部客户的用户名和口令哈希在一次“路径上攻击”（即中间人攻击）中泄露。公司称未发现攻击者访问调查图谱数据或篡改其区块链归属仓库的证据。\n\n影响\n区块链情报公司客户包括执法、政府与金融机构，全部客户的用户名与口令哈希被泄露，可能被用于后续针对高价值目标的攻击。\n\n防御建议\n- 如为 Chainalysis 客户，立即轮换账号口令与 API 令牌并启用强 MFA\n- 排查异常登录与令牌使用记录，评估凭据泄露后的横向风险\n- 关注厂商后续通报与执法机构相关提示\n\n### 时间线\n\n- Chainalysis 在上周五披露，攻击者使用 AI 工具访问了客户姓名、电子邮件地址、用户 ID 和组织角色标签，并称其使用了“进攻性代理技术”。 〔1 · Summary〕\n- 该公司在周三的更新中表示，周一发现包括姓名、用户名、密码哈希和所有 Chainalysis 用户的实时令牌在内的某些客户信息被暴露给恶意行为者。 〔1 · Summary〕\n\n### 影响范围\n\n- Chainalysis 最初称影响有限，仅涉及非敏感身份元数据，但后续更新显示所有客户的用户名和密码哈希在“路径攻击”（即中间人攻击）中暴露。 〔1 · Summary〕\n- 该公司表示，所有 Chainalysis 用户的姓名、用户名、密码哈希和实时令牌均被暴露给恶意行为者。 〔1 · Summary〕\n- Chainalysis 的客户包括全球的执法机构、政府机构、金融机构、保险公司和加密货币企业。 〔1 · Summary〕\n\n### 归因与依据\n\n- 公司称攻击者使用了 AI 工具和“进攻性代理技术”来访问客户元数据，但未提供具体归因证据或置信度。 〔1 · Summary〕\n- Chainalysis 表示没有证据表明攻击者访问了调查图形数据或篡改了其区块链归因存储库。 〔1 · Summary〕\n\n### 检测线索\n\n- 公司在发现部分客户密码暴露后锁定了 Chainalysis 账户，并在发现进一步异常活动后下线了登录门户、Reactor 和 Data Solutions、KYT 用户界面和 API 以及地址筛查产品。 〔1 · Summary〕\n\n### 响应与修复\n\n- Chainalysis 要求客户提供可信 IP 地址以加入允许列表，以便在登录门户恢复后重置凭据并重新获得访问权限。 〔1 · Summary〕\n- 公司要求所有用户在获得访问权限后重置密码并轮换 API 密钥，然后才能注册交易。 〔1 · Summary〕\n- Chainalysis 表示正在全天候加固系统并恢复 Reactor 和 Data Solutions 上线，同时将要求额外的账户保护措施。 〔1 · Summary〕\n\n### 证据局限\n\n- 公司未提供攻击者身份、具体攻击向量或技术细节，仅称使用了 AI 工具和“进攻性代理技术”，且未说明数据访问的具体范围。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Chainalysis says breach exposed credentials for all customers\n   https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers",
+      "id": "report--6ace4b9f-2f61-5f0e-8663-83b56f668ead",
+      "name": "Ghostscript 沙箱逃逸漏洞 Upload2Shell（CVE-2026-125396）可经文件上传触发远程代码执行",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "Ghostscript 的 Type 1 字体加载器存在释放后使用漏洞，可突破 -dSAFER 沙箱执行命令。VulnCheck 将其评为 CVSS 4.0 8.5（High），10.08.0 之前版本均受影响。pwn.ai 演示了在 Debian 13、Roundcube、Plesk、MediaWiki 及 WordPress 插件等约十个常见应用中的利用，并称在 Google 文档渲染器中有生产环境命中。漏洞已于 9 月 8 日修复，目前无在野攻击报告。\n\n影响\n该漏洞影响文件上传、打印与邮件处理链路，攻击者可通过普通上传表单或附件触发，且已有多个应用被确认可利用，补丁覆盖情况仍需核查。\n\n防御建议\n- 核查 Ghostscript 版本，升级至 10.08.0 或更高版本\n- 审查文件上传、缩略图生成、打印与邮件附件处理链路是否调用 Ghostscript\n- 对 PostScript/EPS 内容实施隔离渲染或禁用不必要的格式转换\n\n### 时间线\n\n- Artifex 于 2026 年 9 月 8 日在 Ghostscript 10.08.0 中修复了该根因漏洞，上游修复由开发者 Ken Sharp 完成，上游跟踪条目为 Artifex Bug 709684。 〔1 · Summary〕\n- WordPress 于 2026 年 8 月 12 日在 7.0.4 版本中单独修复了自身的上传暴露路径，编号 CVE-2026-65640（CVSS 8.8），并向后移植至 4.7 分支。 〔1〕\n- Roundcube 于 10 月 19 日自行加固，编号 CVE-2026-114727，限制哪些附件类型会被送入图像转换流程。 〔1 · Which Distributions Have Patched CVE-2026-125396〕\n- Ubuntu 于 10 月 21 日发布 USN-8949-1 修复该问题，该公告早于 CVE 编号存在，并将问题描述为字体加载操作数校验缺陷。 〔1 · Which Distributions Have Patched CVE-2026-125396〕\n- pwn.ai 的 Paulos Yibelo 于 11 月 17 日（周二）公开 Upload2Shell 证据索引与技术分析；Google 于 11 月 10 日缓解了其文档渲染器中的相关路径。 〔1 · Summary〕\n\n### 影响范围\n\n- 该漏洞为 Ghostscript Type 1 字体加载器中的释放后使用（use-after-free），可让构造的 PostScript 或 PDF 文档突破 -dSAFER 沙箱；VulnCheck 作为 CVE 编号机构按 CVSS 4.0 评为 8.5（高），所有低于 10.08.0 的版本均列为受影响。 〔1 · Summary〕\n- pwn.ai 证据索引记录了约十个目标上的确认命令执行，包括 Debian 13 上匿名 IPP 打印任务以 lp 用户执行、Roundcube 1.7.2 中收件人打开外部邮件即以 www-data 执行（需配置经测试的 ImageMagick delegate）。 〔1〕\n- 未登录访客可通过 Forminator 1.55.1 的公开表单和 Essential Addons for Elementor Lite 6.7.0 的小组件达成代码执行；MediaWiki 1.46.0（含 PdfHandler）与 DokuWiki 2026-07-14a 的匿名上传同样可行，Mayan EDMS 4.11.5 经发往已配置 POP3 源的邮件被攻陷，ResourceSpace 11.0 则需认证上传。 〔1〕\n- Plesk Obsidian 18.0.79 捆绑 Roundcube 1.6.17 与 Ghostscript 9.54.0，代码以 roundcube_sysuser 运行；但在一次启用 AppArmor 的测试中 shell 被阻止，且 pwn.ai 表示未测试任何在线 Plesk 端点。 〔1〕\n- 在 Google，pwn.ai 称一个未登录请求指向攻击者托管文件，触达 Google 文档渲染器中的 Ghostscript 10.05.0，研究者获得渲染器的原生控制并读取了 worker 的 /proc/version，但未声称取得完整 shell。 〔1〕\n- 研究者名单中部分名称需区分：9 月 25 日预告曾列 Box、Dropbox、Zoom 与 Wikimedia，但当前证据索引未给出 Box 或 Zoom 细节，Dropbox 案例及四个被隐去的生产服务被描述为独立的 Ghostscript 发现而非 Upload2Shell；Gradio、ComfyUI 等仅列为“源码映射”代码路径，并非确认利用。 〔1〕\n- 截至 2026 年 11 月 22 日，Debian 12（Bookworm）仍为易受攻击状态且无修复包，Amazon Linux 2/2023 修复待定且无 ALAS 公告，Red Hat 的 Bugzilla 2569593 状态仍为 NEW；SUSE Linux Enterprise 与 openSUSE Leap 16 为进行中或受影响。 〔1 · Which Distributions Have Patched CVE-2026-125396〕\n- Debian 13、Ubuntu 16.04–26.10、Arch、Alpine、Gentoo、Fedora Rawhide、Kali、openSUSE Tumbleweed 以及 Windows、macOS（Homebrew、MacPorts）、FreeBSD 均已修复；由于发行版向后移植，已修复系统的版本号可能仍低于 10.08.0。 〔1 · Which Distributions Have Patched CVE-2026-125396〕\n\n### 归因与依据\n\n- CVE 记录显示，gs_fonts.ps 中的 .putgstringcopy 过程调用特权操作符 .forceput 前未检查操作数类型；恶意文档在该过程内触发类型错误，再用自己的错误处理器捕获并取回可用的 .forceput，从而在 restore 释放对象后留下悬空引用，形成释放后使用及写任意地址原语，最终可改写 -dSAFER 的强制状态。 〔1 · How the Ghostscript Upload2Shell Flaw Works〕\n- 上游修复由 Artifex 开发者 Ken Sharp 完成：首个改动在失败的复制前检查操作数，后续改动把辅助函数移入 C 代码以不再依赖 .forceput；Sharp 对研究者表示“要推翻代码中 30 年的假设并不容易”。 〔1 · How the Ghostscript Upload2Shell Flaw Works〕\n\n### 检测线索\n\n- 管理员可用 dpkg -l ghostscript（Debian/Ubuntu）或 rpm -q ghostscript（RPM 系）核对已安装构建，并与厂商公告比对而非上游版本号；gs --version 仅显示上游基础版本。 〔1 · What Admins Should Do Now〕\n\n### 响应与修复\n\n- 应安装发行版修复包或上游 10.08.0，并重启持续运行转换器的服务，如 CUPS、PHP-FPM、队列 worker 或预览守护进程；容器镜像与应用包内捆绑的 Ghostscript 副本不会随主机更新，需重建镜像。 〔1 · What Admins Should Do Now〕\n- 无法立即打补丁时，pwn.ai 建议四项缓解：共享打印队列要求认证、在文件到达 ImageMagick 或 Ghostscript 前检查真实类型、阻止渲染进程启动 shell（如 Plesk 测试中 AppArmor 的效果）、限制送入转换器的文件类型；Amazon Linux 与 Red Hat 未发布单独变通方案。 〔1 · What Admins Should Do Now〕\n\n### 证据局限\n\n- 目前无厂商或政府机构报告该漏洞在野利用，其也不在 CISA 已知被利用漏洞目录中，发布后 EPSS 评分为 0.0013。 〔1〕\n- pwn.ai 仅公开一个自包含 PostScript 概念验证，它破坏渲染器原生内存但不启动 shell、不触碰主机文件，且在 Ghostscript 10.08.0 上失败；完整命令执行链尚未公开，Debian 13 CUPS 链将作为首个完整案例与利用发布。 〔1〕\n- pwn.ai 自身报告称无法确认 Rocky Linux、AlmaLinux、Oracle Linux 或稳定版 Fedora 的修复状态，Plesk、Elementor、Forminator、Mayan EDMS、DokuWiki、MediaWiki 与 ResourceSpace 的修复状态亦未说明。 〔1 · Which Distributions Have Patched CVE-2026-125396〕\n\n### 研判来源\n\n1. Security – Cyber Kendra · Upload2Shell Ghostscript Bug Turns File Uploads Into Remote Code Execution, Patch Gaps Remain\n   https://www.cyberkendra.com/2026/11/upload2shell-ghostscript-bug-turns-file-uploads-into-remote-code-execution-patch-gaps-remain.html\n2. The Hacker News · Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps\n   https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
       "lang": "zh",
       "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
       "report_types": [
@@ -22877,28 +22945,36 @@
       ],
       "labels": [
         "c:threat-intel",
-        "source:bleepingcomputer",
+        "source:cyberkendra-security",
+        "source:the-hacker-news",
         "archive-analysis",
         "daily-analysis",
-        "priority-high",
+        "priority-critical",
         "rss-sec-stix",
         "vulnerability",
-        "t:credential-theft",
-        "t:ransomware",
+        "t:malware",
         "t:vulnerability"
       ],
       "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
+        "identity--7b46b8c6-c0d2-5abf-935a-dc85b6f291ca",
+        "vulnerability--646b05c4-96f9-592a-9bd7-c6a5d914ce24",
+        "vulnerability--b5908226-7fa4-5b23-9f85-65925e23b39e",
+        "vulnerability--efebefd5-0690-52f5-8f67-00743ada9eb4"
       ],
       "external_references": [
         {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers"
+          "source_name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+        },
+        {
+          "source_name": "Security – Cyber Kendra",
+          "url": "https://www.cyberkendra.com/2026/11/upload2shell-ghostscript-bug-turns-file-uploads-into-remote-code-execution-patch-gaps-remain.html"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
     },
     {
       "type": "report",
@@ -23048,40 +23124,6 @@
         {
           "source_name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--7347062d-7e76-5aa3-97b8-8757ff751479",
-      "name": "伪造礼品卡骗局利用知名品牌大规模诱导用户",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "CTM360 披露，伪造奖励门户和虚假礼品卡赠送活动在全球激增，通过名人代言的广告诱导用户点击、领取知名品牌免费礼品卡并完成“真人验证”，实际不提供任何礼品卡。这些活动实为大规模联盟营销变现计划，用于收集个人信息、推动应用安装并将不知情用户纳入循环移动订阅。CTM360 观察到的相关事件超过 1,000 起，攻击者常冒充 PlayStation、Sephora、SHEIN、Walmart 等主要零售商和消费平台。\n\n影响\n活动规模超过 1,000 起事件，利用消费者对知名品牌的信任实施信息收集与订阅扣费，具有广泛社会影响。\n\n防御建议\n- 对员工与用户开展礼品卡与奖励骗局识别宣传\n- 监控仿冒品牌域名与广告投放，及时下架\n\n### 时间线\n\n- 该报告标注日期为2026年11月7日，由CTM360赞助发布，说明这是厂商在特定日期披露的观察性研究，而非执法或监管机构的事件通报。 〔1 · Summary〕\n\n### 影响范围\n\n- CTM360分析师称已识别出与这一反复出现的活动相关的1000多起事件，表明骗局并非孤立个案而是规模化运作。 〔1〕\n- 被冒用的品牌集中在大型零售商和消费平台，报告点名PlayStation、Sephora、SHEIN、Walmart和Amazon，利用的是消费者对这些品牌的熟悉度。 〔1〕\n- 骗局通过社交媒体赞助广告、鼓吹“赠品”的病毒式帖文以及伪造的MrBeast、Alix Earle等名人代言扩散，以提升可信度并吸引受害者。 〔1〕\n- 受害者面临个人信息泄露、意外的手机账单扣费以及大量垃圾信息涌入等后果，损失不止于浪费时间。 〔1 · Risks to Users and Organizations〕\n\n### 归因与依据\n\n- 报告将活动定性为大规模联盟营销变现计划，目的是收集个人信息、推动应用安装并让用户订阅周期性移动服务，而非传统窃取凭据的网络钓鱼。 〔1 · Summary〕\n- CTM360观察到诱饵页面通过携带offer_id、aff_id等参数的联盟跟踪URL重定向受害者，跟踪令牌把受害者注册直接关联到威胁行为者的联盟网络账户。 〔1〕\n- 当受害者完成手机号提交及订阅所需的PIN/OTP验证后，威胁行为者即获得佣金，这是其获利链条的关键环节。 〔1〕\n- 由于底层基础设施高度模块化，攻击者无需重建核心诈骗引擎即可更换被冒用品牌、名人诱饵和域名，这解释了活动能快速复制扩张的原因。 〔1〕\n\n### 检测线索\n\n- 伪造奖励门户会展示克隆的品牌标识与配色、虚假参与人数与实时倒计时、以及“近期中奖者”的编造证言，这些页面元素可作为识别线索。 〔1〕\n- 页面会显示部分打码的卡号（如XXXX-XXXX-7F3A-XXXX）以让用户相信奖励真实可领，随后才弹出所谓“安全检查”或“人工验证”关卡。 〔1〕\n\n### 响应与修复\n\n- 所谓“人工验证”实为CTM360所称的“Trap 10”，会把受害者重定向到旨在为运营者创收的第三方活动，包括问卷、测验、促销优惠、安装第三方应用或浏览器扩展，以及通过本地运营商计费订阅付费移动服务。 〔1 · The Endless Verification Loop and Monetization〕\n- 在CTM360测试的所有流程中均未发放任何奖励：用户完成任务后网站只标记为“未完成”并推送下一个优惠，说明不存在真实的修复或兑付机制。 〔1 · The Endless Verification Loop and Monetization〕\n\n### 证据局限\n\n- 报告未给出具体受害地区、受影响产品版本、域名或哈希等可验证指标，也未区分实验室测试与在野受害情况，相关结论主要依赖厂商自身观察。 〔1〕\n\n### 研判来源\n\n1. BleepingComputer · CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands\n   https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-low",
-        "rss-sec-stix",
-        "threat-activity",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands"
         }
       ],
       "spec_version": "2.1",
@@ -23791,39 +23833,6 @@
         {
           "source_name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--902c2ac1-488c-5b30-b88a-479d47bae310",
-      "name": "Veeam 警告 AMD EPYC 主机上软件设备虚拟机启动失败",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "Veeam 警告称，在搭载 AMD EPYC 处理器的主机上，Software Appliance 虚拟机可能出现启动失败。该虚拟机为预配置的基于 Linux 的虚拟机，用于在 Linux 设备上运行 Veeam Backup & Replication。为符合安全框架要求，底层 Linux 内核在早期启动时以 FIPS 模式运行完整性与加密检查（如 jitterentropy 健康测试），但在部分 AMD EPYC 处理器上该检查失败后虚拟机会崩溃并出现内核恐慌。Veeam 表示该问题表现为重启后间歇性无法启动，包括安装新内核的更新后重启。\n\n影响\n该问题影响备份基础设施可用性，可能导致备份任务中断，但属于兼容性缺陷而非安全攻击。\n\n防御建议\n- 在 AMD EPYC 主机上评估受影响虚拟机并关注 Veeam 后续修复指引\n- 为备份设备准备回滚与高可用方案，避免重启后不可用\n\n### 时间线\n\n- Veeam 在周三发布公告，说明该启动失败问题。 〔1 · Summary〕\n\n### 影响范围\n\n- 受影响的软件为 Veeam Software Appliance 13.1 及更高版本，问题源自其使用的 Linux 内核版本。 〔1 · Summary〕\n- 故障发生在搭载 AMD EPYC 处理器的主机上，Veeam 点名 AMD EPYC 7262、7302 和 7F72 等型号。 〔1 · Summary〕\n- 虚拟机在重启后间歇性启动失败，包括安装新内核的更新后触发的重启。 〔1 · Summary〕\n\n### 归因与依据\n\n- Veeam 将原因归于早期启动阶段 FIPS 模式下的 jitterentropy 健康测试在部分 AMD EPYC 处理器上间歇性失败，测试失败后内核以 kernel panic 终止启动。 〔1 · Summary〕\n\n### 检测线索\n\n- 受影响系统会出现特定的内核 panic 报错，提示 jitterentropy 初始化失败、主机不符合要求 9。 〔1 · Summary〕\n\n### 响应与修复\n\n- 缓解方式之一是将设备重新部署到使用其他处理器的主机。 〔1 · Mitigation available〕\n- 若无法迁移到未受影响的处理器，建议关闭自动更新并手动安装更新，同时在虚拟机重启时进行监控。 〔1 · Mitigation available〕\n- 发生 kernel panic 后需先关机再开机，重启客户机操作系统无法恢复虚拟机；成功启动后预计不再报错，且不影响 Veeam Backup & Replication 的运行。 〔1 · Mitigation available〕\n\n### 证据局限\n\n- 原文未说明该问题是否已有内核层面的正式修复版本，仅给出迁移主机和手动更新等缓解措施。 〔1 · Mitigation available〕\n\n### 研判来源\n\n1. BleepingComputer · Veeam warns of Software Appliance boot failures on AMD EPYC hosts\n   https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "other",
-        "priority-low",
-        "rss-sec-stix"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts"
         }
       ],
       "spec_version": "2.1",
@@ -25019,6 +25028,40 @@
     },
     {
       "type": "report",
+      "id": "report--c0d06799-2733-59cb-b336-245440cef76e",
+      "name": "OpenRouter 移除三家 AI 推理提供商，因提示词数据被窃取数月",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "Dragos 通过约 200 万条带唯一链接与凭据的 canary token 提示词研究发现，攻击者从三家 AI 推理提供商内部窃取数据持续数月，三家提供商在研究人员告知前均不知情。部分被窃请求标记为 Zero Data Retention。OpenRouter 表示已移除三家提供商、取消 125 个端点的零数据保留资格并通知可能受影响客户，称 OpenRouter 自身未被入侵。最早一起泄露始于 7 月中旬。\n\n影响\n三家 AI 推理提供商内部数据被窃取数月未被发现，部分被标记为“零数据保留”的请求也遭复制，影响 AI 服务供应链信任。\n\n防御建议\n- 审查使用第三方 AI 推理提供商时的数据保留与隔离策略\n- 对敏感提示词实施脱敏或本地推理，避免依赖零数据保留承诺\n- 关注 OpenRouter 通知并评估受影响端点与客户范围\n\n### 时间线\n\n- Dragos 表示，三起入侵中最早的一起始于 7 月中旬，攻击者植入的提示词是诱饵，但与真实客户请求一同被处理，这些真实请求几乎肯定也被复制。 〔1〕\n- Dragos 在 7 月至 11 月间向约两百万条提示词植入唯一网页链接和凭据作为金丝雀令牌，并监测是否有人使用；植入的秘密只可能在一处被获知，因此任何使用都意味着有人读取了承载它的提示词。 〔1〕\n- 规模最大的一起事件涉及约两百个 AWS 密钥，每个密钥仅在 10 月下旬的几个短窗口内被发送给同一提供商一次，而这些窗口内的所有请求均被窃取。 〔1〕\n- 11 月 1 日，同一攻击者引入 AI 驱动的渗透测试框架 ARTEX，仅用于确认其已持有的密钥仍然有效；其两个 user agent 未出现在 Dragos 能找到的任何公开指标列表中。 〔1〕\n\n### 影响范围\n\n- OpenRouter 表示已从平台移除三家提供商、将 125 个端点移出零数据保留资格并通知所有可能受影响的客户，同时称未发现 OpenRouter 自身遭入侵。 〔1〕\n- 部分被窃请求被标记为零数据保留，该设置本应意味着提示词永不被存储；Dragos 研究主管 Moore 写道，被标记的提示词实际上被保留、传给其他公司并由人工阅读。 〔1〕\n- Phala 在初步事件报告中称，攻击者控制了其推理服务器，可在请求处理期间查看请求数据；事件于 11 月 8 日得到控制，模型服务在增加防护后恢复。 〔1 · What the Providers Have Disclosed〕\n- Phala 称，10 月 21 日 00:00 UTC 至 11 月 8 日 05:35 UTC 经网关到达其平台的 DeepSeek V4 Flash 0731 模型请求应视为已暴露，其中的密钥、令牌、密码等秘密均应轮换。 〔1 · What the Providers Have Disclosed〕\n- Together AI 称，一名未授权方在其 AI 编码代理将凭据提交到公司公开 GitHub 仓库后，下载了存储的客户提示词样本；这些样本为常规软件测试收集，来自 6 月和 7 月对 MiniMax M3、GLM-5.2 和 Kimi K2.6 模型的请求。 〔1 · What the Providers Have Disclosed〕\n- Novita 确认，一处路由配置问题导致部分 MiniMax 请求被发送至 MiniMax 官方 API，超出了这些客户原本的预期范围。 〔1 · What the Providers Have Disclosed〕\n\n### 归因与依据\n\n- Dragos 称一名攻击者似乎同时入侵了两家提供商，从同一台租用服务器使用了两家的秘密；该判断基于金丝雀凭据被使用的方式，但 Dragos 未公开点名三家被入侵的提供商。 〔1〕\n- 一家未被点名的中国 AI 实验室在 7 月至 10 月间抓取了发送给其模型的一半以上种子提示词中的秘密链接，其中包括约三分之二标记为不收集数据或零数据保留的请求；经转售其模型的美国托管商发送的提示词也触发了同一抓取器。 〔1〕\n- 一条提示词发出 24 天后，其秘密链接被发布到飞书聊天中，链接在两分钟内被北京和上海的三个桌面端和三个手机端打开；由于 Dragos 仅披露了链接前 8 个字符，发布者读取的是完整提示词的缓存副本。 〔1〕\n\n### 检测线索\n\n- 攻击者在数小时内测试密钥，列举 S3 存储桶、搜索 Secrets Manager 和 Parameter Store，并尝试创建 Bedrock API 密钥和添加 IAM 用户以维持访问，产生数万次 AWS API 调用。 〔1〕\n- 规模最大事件中的部分被窃请求是提供商在模型运行前就已拒绝的请求，表明攻击者在流量到达的第一环节复制流量，而非在推理栈更深处。 〔1〕\n- 另一云环境中的 git 客户端尝试克隆提示词中引用的私有仓库，但仅针对该实验室的模型；一家大型美国提供商在单次请求其搜索端点两个多月后仍在抓取秘密链接。 〔1〕\n\n### 响应与修复\n\n- OpenRouter 称，被移出零数据保留资格的 125 个端点既包括研究人员标记的提供商，也包括作为预防措施削减的其他端点；审查期间被移除的端点须提供保证并通过验证才能恢复状态。 〔1〕\n- OpenRouter 正在采用研究人员的测试方法以持续运行检查，并验证网络路径以识别请求和响应可能被转发给第三方之处。 〔1〕\n- Together AI 称没有理由认为数据进一步扩散，认为数据已被删除，并将零数据保留设为新账户的默认设置。 〔1 · What the Providers Have Disclosed〕\n\n### 证据局限\n\n- Dragos 未点名三家被入侵的提供商，OpenRouter 未点名其移除的三家，双方也未公开说明是否为同样三家；OpenRouter 称并非所有受影响提供商都已公开披露，但已有三家发布公告。 〔1 · What the Providers Have Disclosed〕\n- 7 月中旬入侵所涉提供商最初将问题归咎于内部配置错误，随后归咎于合作伙伴的数据处理，最终其自身调查发现攻击者入侵了其内部凭据；截至本周该提供商仍未公开披露该事件。 〔1 · What the Providers Have Disclosed〕\n- Phala 称第三方研究人员自 7 月 1 日起在请求中放置唯一金丝雀凭据，但只有 10 月 21 日和 22 日发送的凭据后来被滥用；由于测试是抽样而非监控每个请求，该提供商维持了更宽泛的预防性时间窗口。 〔1 · What the Providers Have Disclosed〕\n- 研究人员目前正与约十几家提供商合作，截至本周，在首批窃取发生数月后，植入的密钥和秘密链接仍被访问。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms\n   https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:the-hacker-news",
+        "archive-analysis",
+        "daily-analysis",
+        "data-breach",
+        "priority-medium",
+        "rss-sec-stix",
+        "t:credential-theft"
+      ],
+      "object_refs": [
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea"
+      ],
+      "external_references": [
+        {
+          "source_name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--c319b579-adbd-5148-af4c-0ecd1b7f371d",
       "name": "QUIC 驱动的 RAT 针对东南亚政府",
       "published": "2026-11-17T16:48:10.000Z",
@@ -25182,45 +25225,6 @@
         {
           "source_name": "Rapid7 Cybersecurity Blog",
           "url": "https://www.rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--c84724c9-b331-53b1-b225-a4efae6a724a",
-      "name": "QNAP 通报 Plex2Shell 漏洞链致 NAS 疑似被入侵",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "QNAP 建议用户将 Plex Media Server 升级至 QNAP App Center 中的最新版本，并称已收到部分用户 NAS 上的 Plex Media Server 疑似通过 Plex2Shell 漏洞被入侵的报告，技术支持正在协助受影响用户。Plex2Shell 是 Plex Media Server 中的四个漏洞链，编号为 CVE-2026-96652、CVE-2026-96654、CVE-2026-96655、CVE-2026-96656，由安全研究员 Zach Main 于 7 月 27 日发现并报告；完整技术细节于 10 月 16 日公开后不久即出现利用，CISA 于 2026 年 10 月 20 日将四个漏洞加入已知被利用漏洞目录。\n\n影响\n厂商确认收到多起用户 NAS 疑似通过 Plex2Shell 漏洞链被入侵的报告，四个漏洞已被 CISA 列入已知被利用漏洞目录，利用已实际发生。\n\n防御建议\n- 核查 QNAP NAS 上 Plex Media Server 版本，升级至 Plex 1.43.3.10861 或更高版本\n- 排查 NAS 上 Plex 相关异常进程、账号与网络连接，评估是否已被入侵\n- 关注 CISA KEV 中四个 CVE 的修复时限要求并优先处置\n\n### 时间线\n\n- 安全研究员 Zach Main 于 7 月 27 日发现并向 Plex 报告了这些漏洞；完整技术细节于 10 月 16 日公开后不久，利用活动随即开始。 〔1 · Summary〕\n- CISA 于 2026 年 10 月 20 日将全部四个漏洞加入已知被利用漏洞目录，要求联邦机构在三天内升级至 Plex 1.43.3.10861 或更高版本，并给予最高优先级。 〔1 · Summary〕\n\n### 影响范围\n\n- Plex2Shell 是 Plex Media Server 中的四个漏洞组成的漏洞链，编号为 CVE-2026-96652、CVE-2026-96654、CVE-2026-96655 和 CVE-2026-96656。 〔1 · Summary〕\n- QNAP 表示已收到多起涉及客户 NAS 设备疑似被入侵的报告，但原文仅称“疑似被入侵”，未确认具体受害设备数量或身份。 〔1 · Summary〕\n- QNAP PSIRT 确认漏洞仅存在于 Plex Media Server，QTS、QuTS hero 及其他 QNAP 操作系统本身不受影响。 〔1 · Summary〕\n\n### 归因与依据\n\n- QNAP 在公告中称，部分用户报告其 NAS 上的 Plex Media Server 似乎通过 Plex2Shell 漏洞被入侵，技术支持正在协助受影响用户；该表述为厂商基于用户报告的说法，未给出攻击者归因。 〔1 · Summary〕\n\n### 检测线索\n\n- QNAP 建议用户对照安全公告中列出的入侵迹象进行检查，但原文未具体列出这些迹象内容。 〔1 · User action required〕\n- QNAP 提供对疑似入侵日志的调查服务，用户可通过其技术支持门户提交日志。 〔1 · User action required〕\n\n### 响应与修复\n\n- QNAP 建议用户将 Plex Media Server 更新至 QNAP App Center 中提供的最新版本，目前为 1.43.3.10861，以防御 Plex2Shell 攻击。 〔1 · Summary〕\n- QNAP 警告，如果 NAS 上运行的 Plex 服务器存在漏洞且暴露在公网，用户应将 NAS 设备及所有个人内容视为已被入侵。 〔1 · User action required〕\n- 厂商警告，现在更新不会移除攻击者已在设备上安装的任何载荷。 〔1 · User action required〕\n- 建议措施为：检查安全公告中的入侵迹象，对操作系统（QTS 或 QuTS hero）执行干净重装，然后重置 Plex 和 NAS 凭据。 〔1 · User action required〕\n- 不需要远程访问 Plex 的用户应禁用相关功能并停止转发 32400 端口；需要远程访问的用户应通过 VPN 连接。 〔1 · User action required〕\n- QNAP 已发布详细的分步修复指南，说明如何执行上述操作。 〔1 · User action required〕\n\n### 证据局限\n\n- 原文未说明疑似被入侵的 NAS 设备数量、具体地区分布、攻击者身份，也未提供可验证的日志或主机检测指标；受影响情况主要基于用户报告和厂商公告。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · QNAP says hackers breaching NAS devices in Plex2Shell attacks\n   https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-critical",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:cloud",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
-        "vulnerability--0ddf1e41-d6ac-5b2a-9b7b-c64a80f353f9",
-        "vulnerability--85c20da5-1fc0-597a-b655-950b1cd5515b",
-        "vulnerability--9eada441-6577-53b1-8ec8-1ececa55e44c",
-        "vulnerability--b71b61cb-69d6-513d-a288-9f293ec9a54e"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks"
         }
       ],
       "spec_version": "2.1",
@@ -26037,41 +26041,6 @@
     },
     {
       "type": "report",
-      "id": "report--e3f01ecd-2d77-5653-9974-09535b74c68c",
-      "name": "OpenAI 称 GPT-6 Cyber 发现大量 Firefox 与 Linux 内核漏洞",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "OpenAI 公布 GPT-6 Cyber 模型，称其发现 81 个此前未知的 Firefox 高危漏洞，并为 948 个不同的 Linux 内核漏洞开发出可用利用。在 Linux 内核研究中，该模型识别出 2,308 个潜在安全缺陷，成功复现 1,724 个漏洞，并为其中 948 个可导致非特权用户获取 root 权限的漏洞开发了本地提权利用。在 ExploitGym 基准测试中，GPT-6 Cyber 成功利用 48.5% 的漏洞，高于 GPT-5.6 Cyber 的 32.1%。\n\n影响\nAI 模型在漏洞发现与利用开发上的能力提升，可能压缩漏洞利用窗口，对防御方补丁管理节奏提出更高要求。\n\n防御建议\n- 关注 Mozilla 与 Linux 内核相关修复公告并及时打补丁\n- 评估 AI 辅助漏洞发现对自身漏洞管理流程的影响\n- 加强本地提权检测与最小权限控制\n\n### 时间线\n\n- OpenAI 于周四宣布 GPT-6 Cyber 模型，称其在发现漏洞、验证影响和协助开发者修复方面明显优于早期模型。 〔1 · Summary〕\n\n### 影响范围\n\n- 在安全测试中，该模型在 Firefox 中发现 81 个此前未知的高危漏洞，并协助开发补丁，其中许多补丁已由 Mozilla 发布。 〔1 · Summary〕\n- 在独立的 Linux 内核研究中，模型识别出 2,308 个潜在安全缺陷，成功复现 1,724 个漏洞，并为 948 个不同漏洞开发了本地提权利用，可使非特权用户获得 root 权限。 〔1 · Summary〕\n- 在 ExploitGym 基准测试中，GPT-6 Cyber 成功利用了 48.5% 的漏洞，而 GPT-5.6 Cyber 为 32.1%。 〔1 · Summary〕\n\n### 归因与依据\n\n- OpenAI 依据其 Preparedness Framework 将该模型评为“Critical”网络安全能力等级，高于上一代模型的“High”评级。 〔1 · Summary〕\n\n### 响应与修复\n\n- 该模型目前不公开可用，仅限 OpenAI Daybreak Red 中一小批获批客户使用，OpenAI 计划很快向所有 Daybreak Red 客户扩大开放。 〔1 · Summary〕\n- Daybreak Red 支持高级利用开发和授权安全测试，Daybreak Blue 项目则允许经核实的防御者在较少限制下调查漏洞并验证修复。 〔1 · Summary〕\n- OpenAI 警告防御者窗口有限，需在类似能力更广泛地落入攻击者手中之前，利用前沿模型发现并修补漏洞。 〔1 · Summary〕\n\n### 证据局限\n\n- 上述 Firefox 与 Linux 内核漏洞数量、复现与利用成功率均来自 OpenAI 自身公布的数据，材料未提供第三方独立验证或具体漏洞编号。 〔1 · Summary〕\n- 材料中关于 AI 加速漏洞发现与攻击的其他案例（如 PHP2Shell、OpenSSH 缺陷、Hugging Face 事件、ARTEX 框架）属于背景性引用，并非 GPT-6 Cyber 本身的在野影响证据。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs\n   https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-medium",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:cloud",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
       "id": "report--e4efb268-1826-5584-9078-08febf8c5375",
       "name": "F5发布BIG-IP紧急补丁修复五个严重RCE漏洞",
       "published": "2026-11-20T16:48:05.000Z",
@@ -26111,6 +26080,40 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "report",
+      "id": "report--e4f8b7a1-b0a0-596e-9dd9-72a7be9f522f",
+      "name": "BADBOX 3.0 僵尸网络回归，每日广告竞价请求达 400 亿次",
+      "published": "2026-11-22T16:48:18.000Z",
+      "description": "HUMAN 的 Satori 研究人员发现并 disrupt 了 BADBOX 3.0 变种，称其已成为按每日竞价请求量计算的最大广告欺诈操作。BADBOX 最早于 2023 年在 Android TV 盒子中发现，2024 年德国机构警告数万台设备感染，2025 年 3 月 HUMAN 与 Shadowserver 切断了超过 50 万台 BADBOX 2.0 设备与控件的连接，Google 下架 24 个传播应用并起诉运营者。\n\n影响\nBADBOX 在多次打击后重建，规模达到每日 400 亿次欺诈广告竞价请求，显示受感染 Android 设备仍构成持续广告欺诈风险。\n\n防御建议\n- 排查网络内 Android 设备与电视盒子的异常广告流量\n- 关注 HUMAN/Shadowserver 后续披露的感染指标与清理建议\n- 对移动设备与应用安装来源实施更严格管控\n\n### 时间线\n\n- BADBOX 最早于 2023 年初在一台从亚马逊购买的 T95 Android TV 盒子中被发现。 〔1 · Summary〕\n- 2024 年 12 月，德国网络安全机构警告该僵尸网络已感染数万台设备。 〔1 · Summary〕\n- 2025 年 3 月开展了大规模打击行动，HUMAN 与 Shadowserver 切断了超过 50 万台 BADBOX 2.0 设备与控制服务器的连接，Google 同时从 Google Play 下架了 24 个传播该恶意软件的应用。 〔1 · Summary〕\n- Google 随后起诉该僵尸网络运营者，称截至 2025 年 4 月 BADBOX 2.0 已感染超过 1000 万台 Android 设备。 〔1 · Summary〕\n- 报道日期为 2026 年 11 月 21 日，此时 BADBOX 3.0 已在上一轮打击后重建并创下新的每日欺诈广告竞价请求纪录。 〔1 · Summary〕\n\n### 影响范围\n\n- BADBOX 3.0 每日产生约 400 亿次欺诈广告竞价请求，占 HUMAN 防御平台观测到的全部 CTV 流量的 4% 以上。 〔1 · BadBox returns〕\n- 其规模是此前纪录保持者 VASTFLUX 的三倍以上，峰值超过过去五年已公开的 Satori 调查总和。 〔1 · BadBox returns〕\n- 感染目标为运行 AOSP 的廉价手机、平板和流媒体电视盒子，恶意软件执行广告欺诈和流量代理。 〔1 · BadBox returns〕\n- 恶意软件在隐藏窗口中播放视频广告并冒充合法流媒体应用，使请求看似合法；还观察到伪造的服务端广告插入（SSAI）请求，让广告主误以为广告在流媒体设备上播放。 〔1 · BadBox returns〕\n- 代理模块在机主不知情或未同意的情况下，将受感染设备接入 11 个住宅代理网络之一；其中 PXYEDGE 被认定为与 BADBOX 2.0 相关的 IpMoYu 的更名后继。 〔1 · BadBox returns〕\n- PXYEDGE 宣称约 20 万个代理节点，而研究人员的监测显示唯一连接峰值约为 34 万。 〔1 · BadBox returns〕\n\n### 归因与依据\n\n- 研究人员通过域名、代码中的设备特定检查、出厂预装的电视启动器以及代码仓库维护者，将恶意软件与一家特定的中国电子制造商关联。 〔1 · BadBox returns〕\n\n### 检测线索\n\n- 受感染设备从公共代码仓库获取恶意模块，同一载荷还镜像到多个托管平台以实现冗余并抵抗下架。 〔1 · BadBox returns〕\n- 部分广告欺诈流量经由这些住宅代理转发，以显得合法并规避反滥用过滤。 〔1 · BadBox returns〕\n\n### 响应与修复\n\n- HUMAN 表示其参与了本月早些时候 Google 对相关 XCPE 恶意软件行动的打击，其中包括关闭 BADBOX 3.0 使用的多个 C2 域名。 〔1 · BadBox returns〕\n- 此外一个恶意软件仓库被下架，HUMAN 称其系统现已过滤与 BADBOX 3.0 相关的欺诈广告流量。 〔1 · BadBox returns〕\n- HUMAN 警告运营者很可能像过去一样适应最新打击；建议用户只从信誉良好的制造商购买经过认证的 Android 设备，并确保 Play Protect 可用且启用。 〔1 · BadBox returns〕\n\n### 证据局限\n\n- 报道未给出 BADBOX 3.0 受感染设备的具体数量、受影响地区清单或各恶意模块的版本信息，40 亿次竞价请求等数据来自 HUMAN 单方观测。 〔1 · BadBox returns〕\n- 对中国制造商的归因基于域名、代码检查、启动器和仓库维护者等间接线索，报道未披露具体厂商名称或置信度评级。 〔1 · BadBox returns〕\n\n### 研判来源\n\n1. BleepingComputer · BADBOX botnet returns with record-breaking 40 billion daily ad requests\n   https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "archive-analysis",
+        "daily-analysis",
+        "malware",
+        "priority-medium",
+        "rss-sec-stix",
+        "t:malware"
+      ],
+      "object_refs": [
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
     },
     {
       "type": "report",
@@ -26221,40 +26224,6 @@
         {
           "source_name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--f05cd82d-9647-5ef0-b340-624514f49bca",
-      "name": "法国 Crédit Mutuel Arkéa 经服务商遭攻击，涉资最高 1.33 亿美元",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "法国合作银行 Crédit Mutuel Arkéa 遭遇网络攻击，导致最高 1.33 亿美元的欺诈交易，银行因此暂停部分系统。银行称攻击者使用其自身账户向其他银行机构发起交易，客户资产未受影响。事件最早于 11 月 2 日由区块链欺诈调查员 ZachXBT 披露，其称攻击者可能窃取最高 1.18 亿欧元并以 USDC 和 USDT 稳定币提取，并指出缺乏公开披露使攻击者在 11 月 3 日前洗钱 3,000 万美元。银行于 11 月 4 日披露该事件。\n\n影响\n银行通过自身账户向其他银行机构发起欺诈交易，涉及金额巨大，且事件披露延迟可能影响资金冻结与追回。\n\n防御建议\n- 金融机构应复核与服务商的账户与交易授权边界\n- 加强对异常大额跨机构交易与稳定币出金的监控与拦截\n- 关注事件后续披露与执法进展\n\n### 时间线\n\n- 区块链欺诈调查员 ZachXBT 于 11 月 2 日首次公开相关报道，称前一天发生多起中心化交易所账户的大规模未授权提款。 〔1 · Summary〕\n- ZachXBT 表示，由于当时缺乏公开披露，攻击者截至 11 月 3 日已洗钱 3000 万美元，而这些资金本可被欧盟执法机构冻结。 〔1 · Summary〕\n- Crédit Mutuel Arkéa 于 11 月 4 日披露该事件，称事件“现已关闭并得到控制”，运营正逐步恢复正常。 〔1 · Summary〕\n\n### 影响范围\n\n- 调查员估计攻击者可能窃取最高 1.18 亿欧元（约 1.33 亿美元），并以 USDC 和 USDT 稳定币形式提走。 〔1 · Summary〕\n- 银行称攻击者使用其自有账户向其他银行机构发起交易，客户资产未受影响，仅导致部分转账交易延迟执行。 〔1 · Summary〕\n- 银行未确认 1.18 亿欧元的具体金额，但承认金额重大且部分资金已被拦截。 〔1 · Summary〕\n- 银行在 FAQ 中说明攻击者通过某服务商的平台直接进入其网络，但排除了 Fortuneo。 〔1 · Summary〕\n\n### 归因与依据\n\n- 银行排除内部人为失误，将事件定性为“复杂攻击”，目前正与司法当局和警方合作查明确切来源与作案手法。 〔1 · Summary〕\n- 攻击者利用 Arkéa 自有账户（而非客户账户）与其他银行机构交易并将资金转换为加密货币，这是目前公开的作案路径描述。 〔1 · Summary〕\n\n### 检测线索\n\n- 银行警告钓鱼风险上升，提醒客户警惕未经请求的通信，不要通过电话或电子邮件分享敏感信息。 〔1 · Summary〕\n- 银行建议客户通过直接致电银行顾问核实所有可疑信息。 〔1 · Summary〕\n\n### 响应与修复\n\n- 银行表示事件已关闭并受控，运营正逐步恢复正常，并称事件仅造成部分转账延迟，对客户资产无影响。 〔1 · Summary〕\n- 银行正与司法当局和警方合作，以确定攻击的确切来源和作案手法。 〔1 · Summary〕\n\n### 证据局限\n\n- BleepingComputer 已联系 Crédit Mutuel Arkéa 以了解攻击详情和调查进展，但尚未收到回复。 〔1 · Summary〕\n- 银行未确认 ZachXBT 的 1.18 亿欧元估算，仅表示可验证数量级，具体被盗金额仍不明确。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Hackers pull off $133 million French bank heist via service provider\n   https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-medium",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider"
         }
       ],
       "spec_version": "2.1",
@@ -26389,42 +26358,6 @@
         {
           "source_name": "Cisco Talos Blog",
           "url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--fd15cf74-9b59-5e7e-84fa-b3dfaab63991",
-      "name": "GitHub 上伪装安全工具的恶意仓库投放后门与窃密程序",
-      "published": "2026-11-08T16:48:15.000Z",
-      "description": "Dr. Web 研究人员发现，GitHub 上存在被植入恶意代码的安全项目，用于投放后门和信息窃取程序。该活动约始于两年前，最初针对加密钱包用户，近期转向发布用于自动化扫描、安全测试和日志分析的恶意仓库。研究人员发现的一个恶意仓库伪装成解析、清理和格式化 Fscan 网络扫描器输出的轻量脚本；恶意代码嵌入 Visual Studio 项目文件、Python 脚本和 Go 源文件中，隐藏在长段空白之后，部分 Visual Studio 项目通过预生成事件在编译前执行代码，感染链使用 PowerShell。研究人员称迄今已有超过 2,000 台 Windows 系统被入侵。\n\n影响\n攻击者以安全从业者为目标，通过看似合法的安全工具仓库传播后门与信息窃取程序，已造成大量 Windows 系统受影响，具有较强欺骗性。\n\n防御建议\n- 审查内部使用的 GitHub 安全工具来源与提交历史，避免直接运行来源不明的脚本\n- 监控 Visual Studio 预生成事件、PowerShell 执行及异常外联行为\n- 对开发与安全人员终端开展后门与窃密程序排查\n\n### 时间线\n\n- 该活动大约始于两年前，最初针对加密货币钱包用户，近期转向发布用于自动化扫描、安全测试和日志分析的恶意仓库。 〔1 · Summary〕\n\n### 影响范围\n\n- Dr. Web 的研究人员发现，迄今已有超过 2000 台 Windows 系统被入侵。 〔1 · Summary〕\n- 恶意代码被嵌入 Visual Studio 项目文件、Python 脚本和 Go 源文件中，并隐藏在长段空白之后，这是一种旧技术但仍然有效。 〔1 · Summary〕\n- 最终投递到主机的载荷包括 AsyncRAT 后门、替换剪贴板中加密货币钱包地址的 clipper 恶意软件以及信息窃取程序。 〔1 · Summary〕\n- 信息窃取程序收集浏览器数据、VPN 设置、FTP 客户端配置文件、游戏账户数据和 Discord 令牌，并通过 Telegram 机器人外泄这些详细信息。 〔1 · Summary〕\n\n### 归因与依据\n\n- Dr. Web 描述了加载器默认运行模式 Mode3 中的六种规避技术，包括让 explorer.exe 看起来是恶意软件的父进程、修改注册表禁用 Smart App Control、从磁盘恢复 ntdll.dll 原始代码以移除安全软件添加的钩子、进行直接系统调用、修补 EtwEventWrite 和 AmsiScanBuffer 以抑制事件跟踪和干扰脚本扫描。 〔1 · Summary〕\n- 如果 Mode3 启动失败，加载器会使用 Mode2，该模式添加 Microsoft Defender 排除项，并使用 PowerShell 脚本解密载荷并将其注入 RegAsm.exe。 〔1 · Summary〕\n\n### 检测线索\n\n- 感染链使用 PowerShell 获取加密的下载链接，进而下载名为“Microsoft.exe”的模块化 Electron 加载器。 〔1 · Summary〕\n- 加载器在受感染主机上建立持久化、提升权限、禁用 Windows 安全与恢复功能，并将下一阶段恶意软件注入合法进程。 〔1 · Summary〕\n- 恶意软件还尝试从受感染计算机中移除 ESET、McAfee 和 Malwarebytes 杀毒工具，试图断开它们与更新服务器的连接，并干扰 Windows 备份。 〔1 · Summary〕\n\n### 响应与修复\n\n- Dr. Web 研究人员还发现一个看似未完成的组件，该组件可帮助保持加载器运行，并在其从主机磁盘被移除时重新下载。 〔1 · Summary〕\n- 这一发现表明威胁行为者正在努力为恶意软件添加新功能。研究人员分享了此次活动中观察到的完整入侵指标列表。 〔1 · Summary〕\n\n### 证据局限\n\n- 目前尚不清楚恶意仓库的具体数量、攻击者身份以及修复状态，原文未提供这些信息。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Fake security tools on GitHub push backdoors and infostealers\n   https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-high",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:credential-theft",
-        "t:malware",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers"
         }
       ],
       "spec_version": "2.1",
@@ -27932,6 +27865,21 @@
     },
     {
       "type": "vulnerability",
+      "id": "vulnerability--646b05c4-96f9-592a-9bd7-c6a5d914ce24",
+      "name": "CVE-2026-114727",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-114727",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-114727"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
+    },
+    {
+      "type": "vulnerability",
       "id": "vulnerability--657a32b5-54b2-58e1-975b-2c8a96abc4ae",
       "name": "CVE-2026-109469",
       "external_references": [
@@ -28847,6 +28795,21 @@
     },
     {
       "type": "vulnerability",
+      "id": "vulnerability--b5908226-7fa4-5b23-9f85-65925e23b39e",
+      "name": "CVE-2026-65640",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-65640",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-65640"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
+    },
+    {
+      "type": "vulnerability",
       "id": "vulnerability--b6a21c07-af60-5972-8e5d-586736424bf8",
       "name": "CVE-2026-113856",
       "external_references": [
@@ -29474,6 +29437,21 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "vulnerability",
+      "id": "vulnerability--efebefd5-0690-52f5-8f67-00743ada9eb4",
+      "name": "CVE-2026-125396",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-125396",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-125396"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-22T16:48:18.000Z",
+      "modified": "2026-11-22T16:48:18.000Z"
     },
     {
       "type": "vulnerability",
