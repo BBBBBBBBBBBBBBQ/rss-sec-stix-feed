@@ -547,6 +547,10 @@
       <category>rss-sec-stix</category>
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
+      <category>t:credential-theft</category>
+      <category>clipboardhijacker</category>
+      <category>infostealer</category>
+      <category>overlord-rat</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录11 个文件哈希、1 个IPv4。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-11-11。&lt;/p&gt;</description>
     </item>
     <item>
@@ -1985,6 +1989,7 @@
       <category>rss-sec-stix</category>
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
+      <category>c2-framework</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录8 个文件哈希、1 个域名、2 个IPv4、1 个URL。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-10-20。&lt;/p&gt;</description>
     </item>
     <item>
@@ -1997,7 +2002,10 @@
       <category>rss-sec-stix</category>
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
+      <category>t:credential-theft</category>
       <category>t:malware</category>
+      <category>stealer</category>
+      <category>vbs-downloader</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录11 个文件哈希。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-10-07。&lt;/p&gt;&lt;h3&gt;厂商标注的 ATT&amp;amp;CK 技术&lt;/h3&gt;&lt;p&gt;- T1041 Exfiltration Over Command and Control Channel&lt;br/&gt;- T1047 Windows Management Instrumentation&lt;br/&gt;- T1059.001 PowerShell&lt;br/&gt;- T1059.005 Visual Basic&lt;br/&gt;- T1059.006 Python&lt;br/&gt;- T1497 Virtualization/Sandbox Evasion&lt;br/&gt;- T1570 Lateral Tool Transfer&lt;/p&gt;</description>
     </item>
     <item>
@@ -2024,6 +2032,8 @@
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
       <category>t:credential-theft</category>
+      <category>amaterastealer</category>
+      <category>nativeaot</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录46 个域名、4 个IPv4、5 个URL、22 个文件哈希。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-09-02。&lt;/p&gt;&lt;h3&gt;厂商标注的 ATT&amp;amp;CK 技术&lt;/h3&gt;&lt;p&gt;- T1027.006 HTML Smuggling&lt;br/&gt;- T1055.001 Dynamic-link Library Injection&lt;br/&gt;- T1059 Command and Scripting Interpreter&lt;br/&gt;- T1059.006 Python&lt;br/&gt;- T1086 PowerShell&lt;br/&gt;- T1129 Execution through Module Load&lt;br/&gt;- T1189 Drive-by Compromise&lt;br/&gt;- T1204.002 Malicious File&lt;br/&gt;- T1562 Impair Defenses&lt;br/&gt;- T1574 Hijack Execution Flow&lt;br/&gt;- T1608 Stage Capabilities&lt;br/&gt;- T1614 System Location Discovery&lt;br/&gt;- T1620 Reflective Code Loading&lt;/p&gt;</description>
     </item>
     <item>
@@ -2036,6 +2046,11 @@
       <category>rss-sec-stix</category>
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
+      <category>t:credential-theft</category>
+      <category>t:malware</category>
+      <category>backdoor</category>
+      <category>infostealer</category>
+      <category>rat</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录28 个文件哈希、8 个域名、6 个IPv4、10 个URL。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-07-13。&lt;/p&gt;</description>
     </item>
     <item>
@@ -2075,6 +2090,9 @@
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
       <category>t:cloud</category>
+      <category>t:credential-theft</category>
+      <category>infostealer</category>
+      <category>rat</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录5 个文件哈希、7 个URL、1 个IPv4。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-05-04。&lt;/p&gt;</description>
     </item>
     <item>
@@ -2088,6 +2106,7 @@
       <category>tlp:clear</category>
       <category>vendor-iocs</category>
       <category>t:vulnerability</category>
+      <category>botnet</category>
       <description>&lt;p&gt;Cisco Talos 发布的检测数据。对应原始文件见外部引用。&lt;/p&gt;&lt;h3&gt;检测线索&lt;/h3&gt;&lt;p&gt;本报告收录33 个文件哈希。&lt;/p&gt;&lt;p&gt;厂商指标的生效日期为 2026-04-14。&lt;/p&gt;</description>
     </item>
   </channel>

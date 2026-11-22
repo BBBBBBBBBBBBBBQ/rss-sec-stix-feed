@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--d23de5fc-6505-5b19-80e4-7909874b43fa",
+  "id": "bundle--32f413d1-c181-55af-8ffd-6c99be36ab5d",
   "objects": [
     {
       "type": "attack-pattern",
@@ -949,7 +949,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -960,7 +962,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -971,7 +975,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1007,7 +1013,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1018,7 +1026,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1028,7 +1038,12 @@
       "value": "web-devtools.com",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1075,7 +1090,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1109,7 +1126,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1157,7 +1176,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1168,7 +1189,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1178,7 +1201,12 @@
       "value": "aipythondevs.com",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1189,7 +1217,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1200,7 +1230,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1211,7 +1243,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1222,7 +1256,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1233,7 +1269,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1257,7 +1295,12 @@
       "value": "alphabitcapital.info",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1279,7 +1322,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1290,7 +1335,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1301,7 +1348,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1312,7 +1361,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1323,7 +1374,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1345,7 +1398,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1356,7 +1411,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1367,7 +1424,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1392,7 +1451,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1416,7 +1477,12 @@
       "value": "sastoro.com",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1427,7 +1493,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1438,7 +1506,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1449,7 +1519,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1460,7 +1532,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1471,7 +1545,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1504,7 +1580,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1515,7 +1593,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1526,7 +1606,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1537,7 +1619,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1548,7 +1632,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1584,7 +1670,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1595,7 +1683,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1630,7 +1720,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1641,7 +1733,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1652,7 +1746,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1674,7 +1770,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1684,7 +1782,12 @@
       "value": "niggerdemon.in",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1695,7 +1798,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1706,7 +1811,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1767,7 +1874,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1778,7 +1887,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1788,7 +1899,12 @@
       "value": "eorthopaedics.com",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1810,7 +1926,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1821,7 +1939,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1844,7 +1964,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -1854,7 +1976,8 @@
       "value": "total-sitevv.lol",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -1864,7 +1987,12 @@
       "value": "windowscreenrepairnearme.com",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1874,7 +2002,12 @@
       "value": "zynaris.io",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1900,7 +2033,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -1930,7 +2064,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -1942,7 +2077,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -1955,7 +2095,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -1981,7 +2122,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2009,7 +2151,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2034,7 +2179,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2062,7 +2212,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2075,7 +2226,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2088,7 +2240,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2100,7 +2253,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -2112,7 +2266,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2140,7 +2299,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -2153,7 +2316,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2199,7 +2365,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2212,7 +2380,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -2224,7 +2395,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -2237,7 +2412,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2249,7 +2426,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -2262,7 +2443,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2301,7 +2484,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2314,7 +2499,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2327,7 +2515,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2340,7 +2530,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2353,7 +2546,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2365,7 +2560,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2390,7 +2590,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2403,7 +2608,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2415,7 +2622,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2443,7 +2655,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -2456,7 +2671,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2469,7 +2685,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2541,7 +2758,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2554,7 +2776,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2566,7 +2790,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -2579,7 +2804,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2618,7 +2846,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2631,7 +2862,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2643,7 +2875,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2656,7 +2893,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2715,7 +2953,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -2728,7 +2969,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2741,7 +2983,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2770,7 +3014,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2798,7 +3044,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -2810,7 +3057,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2836,7 +3088,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2880,7 +3134,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2893,7 +3149,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -2906,7 +3164,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2918,7 +3177,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -2930,7 +3194,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -2943,7 +3208,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -2997,7 +3263,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3024,7 +3292,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3083,7 +3356,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3096,7 +3370,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3108,7 +3383,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -3121,7 +3397,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3133,7 +3410,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3146,7 +3427,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3174,7 +3456,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3187,7 +3470,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3213,7 +3497,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3225,7 +3511,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3237,7 +3528,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3250,7 +3546,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3263,7 +3560,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3292,7 +3592,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -3305,7 +3606,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3318,7 +3620,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3331,7 +3635,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3389,7 +3694,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -3442,7 +3750,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3454,7 +3766,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3480,7 +3797,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3493,7 +3811,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3533,7 +3852,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3545,7 +3869,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3599,7 +3927,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3612,7 +3945,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -3624,7 +3960,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3637,7 +3978,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3649,7 +3991,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3676,7 +4023,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3689,7 +4040,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3702,7 +4056,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3715,7 +4071,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3727,7 +4085,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3782,7 +4144,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -3794,7 +4160,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -3835,7 +4202,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -3847,7 +4216,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3859,7 +4233,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3885,7 +4264,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3897,7 +4277,8 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -3937,7 +4318,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3950,7 +4336,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -3962,7 +4349,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3974,7 +4366,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3986,7 +4383,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -3999,7 +4401,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -4027,7 +4432,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -4039,7 +4446,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -4078,7 +4490,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -4091,7 +4504,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -4118,7 +4532,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -4131,7 +4550,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -4159,7 +4579,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -4172,7 +4593,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -4199,7 +4623,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -4211,7 +4639,11 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -4224,7 +4656,8 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "spec_version": "2.1"
     },
@@ -4237,7 +4670,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -4249,7 +4684,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -4262,7 +4702,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "spec_version": "2.1"
     },
@@ -4274,7 +4717,12 @@
       },
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -4287,7 +4735,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -4467,7 +4917,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -4478,7 +4929,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4494,7 +4945,12 @@
       "description": "Starland RAT",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -4505,7 +4961,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4549,7 +5005,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -4560,7 +5018,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4576,7 +5034,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -4587,7 +5046,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4603,7 +5062,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -4614,7 +5074,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4630,7 +5090,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -4641,7 +5106,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4657,7 +5122,12 @@
       "description": "Trojan Installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -4668,7 +5138,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4741,7 +5211,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -4752,7 +5225,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4795,7 +5268,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -4806,7 +5280,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4850,7 +5324,11 @@
       "description": "Malicious LNK",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -4861,7 +5339,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4877,7 +5355,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -4888,7 +5367,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4932,7 +5411,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -4943,7 +5424,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -4988,7 +5469,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -4999,7 +5485,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5045,7 +5531,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -5056,7 +5545,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5072,7 +5561,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -5083,7 +5575,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5155,7 +5647,12 @@
       "description": "C2 URL",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -5166,7 +5663,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5240,7 +5737,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -5251,7 +5750,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5267,7 +5766,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -5278,7 +5778,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5294,7 +5794,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -5305,7 +5806,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5349,7 +5850,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -5360,7 +5862,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5405,7 +5907,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -5416,7 +5920,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5432,7 +5936,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -5443,7 +5949,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5459,7 +5965,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -5470,7 +5978,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5543,7 +6051,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -5554,7 +6063,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5599,7 +6108,12 @@
       "description": "Staging / C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -5610,7 +6124,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5626,7 +6140,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -5637,7 +6152,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5654,7 +6169,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -5665,7 +6183,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5709,7 +6227,12 @@
       "description": "JSON C2 response",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -5720,7 +6243,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5824,7 +6347,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -5835,7 +6361,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5935,7 +6461,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -5946,7 +6473,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5962,7 +6489,12 @@
       "description": "hosting / C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -5973,7 +6505,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -5989,7 +6521,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -6000,7 +6534,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6016,7 +6550,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -6027,7 +6562,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6071,7 +6606,12 @@
       "description": "PowerShell script",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -6082,7 +6622,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6153,7 +6693,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -6164,7 +6709,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6180,7 +6725,11 @@
       "description": "Malicious LNK",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -6191,7 +6740,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6235,7 +6784,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -6246,7 +6797,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6262,7 +6813,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -6273,7 +6827,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6405,7 +6959,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -6416,7 +6972,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6432,7 +6988,11 @@
       "description": "Malicious LNK",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -6443,7 +7003,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6519,7 +7079,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -6530,7 +7091,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6546,7 +7107,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -6557,7 +7119,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6573,7 +7135,12 @@
       "description": "C2 URL",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -6584,7 +7151,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6628,7 +7195,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -6639,7 +7207,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6655,7 +7223,8 @@
       "description": "C2 domain",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -6666,7 +7235,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6711,7 +7280,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -6722,7 +7293,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6766,7 +7337,12 @@
       "description": "remcosRAT",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -6777,7 +7353,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6793,7 +7369,8 @@
       "description": "C2 domain",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -6804,7 +7381,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6876,7 +7453,11 @@
       "description": "Good Game Stealer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -6887,7 +7468,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -6961,7 +7542,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -6972,7 +7555,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7017,7 +7600,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7028,7 +7613,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7045,7 +7630,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -7056,7 +7644,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7072,7 +7660,12 @@
       "description": "C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7083,7 +7676,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7099,7 +7692,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -7110,7 +7704,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7126,7 +7720,12 @@
       "description": "Shellcode loader",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7137,7 +7736,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7182,7 +7781,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -7193,7 +7793,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7209,7 +7809,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7220,7 +7822,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7236,7 +7838,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7247,7 +7851,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7263,7 +7867,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7274,7 +7880,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7290,7 +7896,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -7301,7 +7908,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7317,7 +7924,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -7328,7 +7938,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7344,7 +7954,11 @@
       "description": "Good Game Stealer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -7355,7 +7969,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7398,7 +8012,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -7409,7 +8024,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7425,7 +8040,12 @@
       "description": "Staging / C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7436,7 +8056,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7452,7 +8072,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7463,7 +8085,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7479,7 +8101,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -7490,7 +8113,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7506,7 +8129,12 @@
       "description": "hosting",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7517,7 +8145,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7647,7 +8275,12 @@
       "description": "Widows batch script",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7658,7 +8291,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7674,7 +8307,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7685,7 +8320,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7701,7 +8336,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7712,7 +8349,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7783,7 +8420,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7794,7 +8433,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7810,7 +8449,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7821,7 +8462,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7922,7 +8563,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -7933,7 +8576,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7949,7 +8592,11 @@
       "description": "Malicious XML",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -7960,7 +8607,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -7976,7 +8623,12 @@
       "description": "hosting",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -7987,7 +8639,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8003,7 +8655,11 @@
       "description": "Good Game Stealer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -8014,7 +8670,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8030,7 +8686,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8041,7 +8699,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8057,7 +8715,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -8068,7 +8727,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8112,7 +8771,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8123,7 +8784,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8139,7 +8800,12 @@
       "description": "Trojan Installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -8150,7 +8816,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8166,7 +8832,12 @@
       "description": "Trojan Installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -8177,7 +8848,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8249,7 +8920,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -8260,7 +8934,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8305,7 +8979,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -8316,7 +8991,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8360,7 +9035,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8371,7 +9048,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8416,7 +9093,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -8427,7 +9105,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8444,7 +9122,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -8455,7 +9136,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8471,7 +9152,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8482,7 +9165,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8498,7 +9181,8 @@
       "description": "C2 domain",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -8509,7 +9193,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8525,7 +9209,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -8536,7 +9225,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8552,7 +9241,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8563,7 +9254,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8689,7 +9380,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8700,7 +9393,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8774,7 +9467,12 @@
       "description": "C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -8785,7 +9483,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8801,7 +9499,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8812,7 +9512,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8859,7 +9559,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8870,7 +9572,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8886,7 +9588,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -8897,7 +9601,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8914,7 +9618,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -8925,7 +9632,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8941,7 +9648,12 @@
       "description": "PowerShell Script",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -8952,7 +9664,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8968,7 +9680,11 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -8979,7 +9695,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -8995,7 +9711,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9006,7 +9724,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9108,7 +9826,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9119,7 +9839,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9191,7 +9911,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9202,7 +9924,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9218,7 +9940,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -9229,7 +9952,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9301,7 +10024,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9312,7 +10037,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9329,7 +10054,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -9340,7 +10068,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9356,7 +10084,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9367,7 +10097,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9383,7 +10113,12 @@
       "description": "C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -9394,7 +10129,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9410,7 +10145,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9421,7 +10158,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9468,7 +10205,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -9479,7 +10219,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9523,7 +10263,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9534,7 +10276,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9550,7 +10292,12 @@
       "description": "hosting",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -9561,7 +10308,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9606,7 +10353,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9617,7 +10366,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9661,7 +10410,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9672,7 +10423,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9715,7 +10466,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -9726,7 +10478,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9797,7 +10549,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -9808,7 +10561,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9824,7 +10577,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -9835,7 +10589,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9934,7 +10688,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -9945,7 +10701,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -9961,7 +10717,12 @@
       "description": "Trojan Installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -9972,7 +10733,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10075,7 +10836,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -10086,7 +10850,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10102,7 +10866,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10113,7 +10879,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10129,7 +10895,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10140,7 +10908,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10185,7 +10953,11 @@
       "description": "Overlord RAT",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -10196,7 +10968,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10212,7 +10984,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -10223,7 +10996,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10267,7 +11040,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10278,7 +11056,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10351,7 +11129,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10362,7 +11142,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10435,7 +11215,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10446,7 +11228,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10462,7 +11244,12 @@
       "description": "C2 URL",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10473,7 +11260,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10576,7 +11363,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -10587,7 +11375,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10603,7 +11391,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10614,7 +11404,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10630,7 +11420,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -10641,7 +11432,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10657,7 +11448,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10668,7 +11464,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10713,7 +11509,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10724,7 +11522,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10740,7 +11538,12 @@
       "description": "C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10751,7 +11554,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10798,7 +11601,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -10809,7 +11613,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10825,7 +11629,12 @@
       "description": "hosting / C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10836,7 +11645,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10852,7 +11661,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10863,7 +11674,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10879,7 +11690,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10890,7 +11703,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10906,7 +11719,12 @@
       "description": "PowerShell script",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10917,7 +11735,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10933,7 +11751,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -10944,7 +11763,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10960,7 +11779,12 @@
       "description": "WLDR C2 agent",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -10971,7 +11795,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -10987,7 +11811,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -10998,7 +11824,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11161,7 +11987,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -11172,7 +12000,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11216,7 +12044,11 @@
       "description": "PowerShell Script - LNK generator",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -11227,7 +12059,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11243,7 +12075,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -11254,7 +12088,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11326,7 +12160,12 @@
       "description": "Malicious package ZIP",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -11337,7 +12176,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11384,7 +12223,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -11395,7 +12239,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11411,7 +12255,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -11422,7 +12267,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11438,7 +12283,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -11449,7 +12295,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11465,7 +12311,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -11476,7 +12325,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11520,7 +12369,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -11531,7 +12385,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11577,7 +12431,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -11588,7 +12444,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11659,7 +12515,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -11670,7 +12531,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11686,7 +12547,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -11697,7 +12560,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11773,7 +12636,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -11784,7 +12650,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11828,7 +12694,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -11839,7 +12707,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11882,7 +12750,11 @@
       "description": "Clipboard hijacker",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "overlord-rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -11893,7 +12765,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11909,7 +12781,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -11920,7 +12793,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11936,7 +12809,12 @@
       "description": "PowerShell Script",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -11947,7 +12825,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11964,7 +12842,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -11975,7 +12856,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -11992,7 +12873,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -12003,7 +12887,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12019,7 +12903,8 @@
       "description": "NIKC2 implant",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -12030,7 +12915,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12103,7 +12988,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -12114,7 +13004,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12158,7 +13048,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12169,7 +13061,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12185,7 +13077,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -12196,7 +13093,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12212,7 +13109,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12223,7 +13122,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12269,7 +13168,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12280,7 +13181,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12296,7 +13197,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12307,7 +13210,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12323,7 +13226,12 @@
       "description": "Trojan installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -12334,7 +13242,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12407,7 +13315,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -12418,7 +13329,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12464,7 +13375,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -12475,7 +13389,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12632,7 +13546,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12643,7 +13559,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12659,7 +13575,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -12670,7 +13589,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12686,7 +13605,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -12697,7 +13619,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12740,7 +13662,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12751,7 +13675,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12767,7 +13691,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12778,7 +13704,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12794,7 +13720,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12805,7 +13733,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12851,7 +13779,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -12862,7 +13795,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12878,7 +13811,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -12889,7 +13823,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12962,7 +13896,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -12973,7 +13909,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -12989,7 +13925,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13000,7 +13938,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13044,7 +13982,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13055,7 +13995,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13101,7 +14041,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "external_references": [
         {
@@ -13112,7 +14055,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13128,7 +14071,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13139,7 +14084,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13183,7 +14128,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13194,7 +14141,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13210,7 +14157,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13221,7 +14170,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13237,7 +14186,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13248,7 +14199,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13293,7 +14244,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13304,7 +14257,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13348,7 +14301,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13359,7 +14314,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13544,7 +14499,12 @@
       "description": "Shellcode loader",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -13555,7 +14515,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13571,7 +14531,12 @@
       "description": "Staging",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -13582,7 +14547,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13601,7 +14566,10 @@
         "source:cisco-talos-blog",
         "source:cisco-talos-iocs",
         "t:credential-theft",
-        "t:malware"
+        "t:malware",
+        "clipboardhijacker",
+        "infostealer",
+        "overlord-rat"
       ],
       "external_references": [
         {
@@ -13616,7 +14584,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13659,7 +14627,12 @@
       "description": "Python scripts",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -13670,7 +14643,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13686,7 +14659,12 @@
       "description": "Trojan installer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -13697,7 +14675,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13713,7 +14691,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -13724,7 +14704,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13826,7 +14806,12 @@
       "description": "C2",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -13837,7 +14822,7 @@
       "x_opencti_main_observable_type": "IPv4-Addr",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -13881,7 +14866,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -13892,7 +14878,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14022,7 +15008,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -14033,7 +15020,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14049,7 +15036,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -14060,7 +15048,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14076,7 +15064,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -14087,7 +15077,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14161,7 +15151,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -14172,7 +15164,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14188,7 +15180,10 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "external_references": [
         {
@@ -14199,7 +15194,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14242,7 +15237,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -14253,7 +15250,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14269,7 +15266,12 @@
       "description": "hosting",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -14280,7 +15282,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14325,7 +15327,12 @@
       "description": "PowerShell scriipt",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -14336,7 +15343,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14352,7 +15359,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -14363,7 +15372,7 @@
       "x_opencti_main_observable_type": "Domain-Name",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14408,7 +15417,12 @@
       "description": "C2 URL",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -14419,7 +15433,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14435,7 +15449,9 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "external_references": [
         {
@@ -14446,7 +15462,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14520,7 +15536,8 @@
       "description": "C2 URL",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "external_references": [
         {
@@ -14531,7 +15548,7 @@
       "x_opencti_main_observable_type": "Url",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14547,7 +15564,12 @@
       "description": "CastleStealer",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -14558,7 +15580,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14574,7 +15596,8 @@
       "labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "external_references": [
         {
@@ -14585,7 +15608,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14601,7 +15624,12 @@
       "description": "Malicious HTA",
       "labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "external_references": [
         {
@@ -14612,7 +15640,7 @@
       "x_opencti_main_observable_type": "File",
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-21T16:48:06.002Z"
     },
     {
       "type": "indicator",
@@ -14733,7 +15761,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -14765,7 +15795,12 @@
       "value": "185.238.191.234",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -14839,7 +15874,12 @@
       "value": "193.149.176.254",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -14922,7 +15962,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -14943,7 +15985,12 @@
       "value": "192.81.216.250",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -15024,7 +16071,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -15089,7 +16139,12 @@
       "value": "178.255.126.39",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -15126,7 +16181,10 @@
         "source:cisco-talos-blog",
         "source:cisco-talos-iocs",
         "t:credential-theft",
-        "t:malware"
+        "t:malware",
+        "clipboardhijacker",
+        "infostealer",
+        "overlord-rat"
       ],
       "spec_version": "2.1"
     },
@@ -15137,7 +16195,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -15206,7 +16266,8 @@
       "value": "2.26.51.12",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -15354,7 +16415,8 @@
       "value": "87.120.196.120",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -15402,7 +16464,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -15412,7 +16476,12 @@
       "value": "74.114.119.201",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -15422,7 +16491,12 @@
       "value": "104.248.233.104",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -20184,7 +21258,10 @@
         "rss-sec-stix",
         "tlp:clear",
         "vendor-iocs",
-        "t:malware"
+        "t:credential-theft",
+        "t:malware",
+        "stealer",
+        "vbs-downloader"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录11 个文件哈希。\n\n厂商指标的生效日期为 2026-10-07。\n\n### 厂商标注的 ATT&CK 技术\n\n- T1041 Exfiltration Over Command and Control Channel\n- T1047 Windows Management Instrumentation\n- T1059.001 PowerShell\n- T1059.005 Visual Basic\n- T1059.006 Python\n- T1497 Virtualization/Sandbox Evasion\n- T1570 Lateral Tool Transfer",
       "object_refs": [
@@ -20241,7 +21318,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -20887,7 +21964,11 @@
         "source:cisco-talos-iocs",
         "rss-sec-stix",
         "tlp:clear",
-        "vendor-iocs"
+        "vendor-iocs",
+        "t:credential-theft",
+        "clipboardhijacker",
+        "infostealer",
+        "overlord-rat"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录11 个文件哈希、1 个IPv4。\n\n厂商指标的生效日期为 2026-11-11。",
       "object_refs": [
@@ -20940,7 +22021,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -21156,7 +22237,12 @@
         "source:cisco-talos-iocs",
         "rss-sec-stix",
         "tlp:clear",
-        "vendor-iocs"
+        "vendor-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "backdoor",
+        "infostealer",
+        "rat"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录28 个文件哈希、8 个域名、6 个IPv4、10 个URL。\n\n厂商指标的生效日期为 2026-07-13。",
       "object_refs": [
@@ -21329,7 +22415,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -22899,7 +23985,8 @@
         "source:cisco-talos-iocs",
         "rss-sec-stix",
         "tlp:clear",
-        "vendor-iocs"
+        "vendor-iocs",
+        "c2-framework"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录8 个文件哈希、1 个域名、2 个IPv4、1 个URL。\n\n厂商指标的生效日期为 2026-10-20。",
       "object_refs": [
@@ -22952,7 +24039,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -23102,7 +24189,10 @@
         "rss-sec-stix",
         "tlp:clear",
         "vendor-iocs",
-        "t:cloud"
+        "t:cloud",
+        "t:credential-theft",
+        "infostealer",
+        "rat"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录5 个文件哈希、7 个URL、1 个IPv4。\n\n厂商指标的生效日期为 2026-05-04。",
       "object_refs": [
@@ -23158,7 +24248,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -23477,7 +24567,9 @@
         "rss-sec-stix",
         "tlp:clear",
         "vendor-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录46 个域名、4 个IPv4、5 个URL、22 个文件哈希。\n\n厂商指标的生效日期为 2026-09-02。\n\n### 厂商标注的 ATT&CK 技术\n\n- T1027.006 HTML Smuggling\n- T1055.001 Dynamic-link Library Injection\n- T1059 Command and Scripting Interpreter\n- T1059.006 Python\n- T1086 PowerShell\n- T1129 Execution through Module Load\n- T1189 Drive-by Compromise\n- T1204.002 Malicious File\n- T1562 Impair Defenses\n- T1574 Hijack Execution Flow\n- T1608 Stage Capabilities\n- T1614 System Location Discovery\n- T1620 Reflective Code Loading",
       "object_refs": [
@@ -23738,7 +24830,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -24582,7 +25674,8 @@
         "rss-sec-stix",
         "tlp:clear",
         "vendor-iocs",
-        "t:vulnerability"
+        "t:vulnerability",
+        "botnet"
       ],
       "description": "Cisco Talos 发布的检测数据。对应原始文件见外部引用。\n\n### 检测线索\n\n本报告收录33 个文件哈希。\n\n厂商指标的生效日期为 2026-04-14。",
       "object_refs": [
@@ -24694,7 +25787,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "modified": "2026-11-21T16:48:06.003Z"
     },
     {
       "type": "report",
@@ -25379,7 +26472,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -25411,7 +26506,12 @@
       "value": "https://sastoro.com/alpha/dpyb8w3ycih8/",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25422,7 +26522,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -25432,7 +26534,12 @@
       "value": "https://web-devtools.com/dopfile",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25442,7 +26549,8 @@
       "value": "https://2.26.51.12:4443/api/c2/update",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "c2-framework"
       ],
       "spec_version": "2.1"
     },
@@ -25464,7 +26572,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25475,7 +26586,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -25501,7 +26614,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25511,7 +26627,12 @@
       "value": "https://web-devtools.com/file.zip",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25566,7 +26687,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25587,7 +26711,12 @@
       "value": "https://eorthopaedics.com/feed/note",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25597,7 +26726,12 @@
       "value": "https://web-devtools.com/x32remka",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25607,7 +26741,12 @@
       "value": "https://eorthopaedics.com/feed/gnsmetadyx54/",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25617,7 +26756,12 @@
       "value": "https://web-devtools.com/starlandfox",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25628,7 +26772,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25650,7 +26797,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -25672,7 +26821,9 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:credential-theft"
+        "t:credential-theft",
+        "amaterastealer",
+        "nativeaot"
       ],
       "spec_version": "2.1"
     },
@@ -25683,7 +26834,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25694,7 +26848,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25704,7 +26861,12 @@
       "value": "https://sastoro.com/alpha/nrpilqjnut/",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25725,7 +26887,12 @@
       "value": "https://windowscreenrepairnearme.com/command",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
@@ -25736,7 +26903,10 @@
       "x_opencti_labels": [
         "c:threat-intel",
         "source:cisco-talos-iocs",
-        "t:cloud"
+        "t:credential-theft",
+        "t:cloud",
+        "rat",
+        "infostealer"
       ],
       "spec_version": "2.1"
     },
@@ -25746,7 +26916,12 @@
       "value": "https://eorthopaedics.com/feed/cew78zwvd2/",
       "x_opencti_labels": [
         "c:threat-intel",
-        "source:cisco-talos-iocs"
+        "source:cisco-talos-iocs",
+        "t:credential-theft",
+        "t:malware",
+        "rat",
+        "infostealer",
+        "backdoor"
       ],
       "spec_version": "2.1"
     },
