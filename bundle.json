@@ -1,7 +1,37 @@
 {
   "type": "bundle",
-  "id": "bundle--313aa102-362f-5938-b871-cd951d9c4f05",
+  "id": "bundle--da712c03-d4ad-5e13-a23c-ce2d3ac4b8b9",
   "objects": [
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--028ec45b-8b9c-52bb-b031-fd56ec6cb435",
+      "name": "Process Discovery",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1057",
+          "url": "https://attack.mitre.org/techniques/T1057/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--07b0009b-9def-5905-b5c8-1113a0d08473",
+      "name": "Obfuscated Files or Information: Embedded Payloads",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1027.009",
+          "url": "https://attack.mitre.org/techniques/T1027/009/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--0d8a3fee-aab6-57e0-adae-ed32f016fe94",
@@ -49,21 +79,6 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--1ac0fdb8-c923-5042-ab7b-9fb11962c2c9",
-      "name": "System Location Discovery: System Language Discovery",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1614.001",
-          "url": "https://attack.mitre.org/techniques/T1614/001/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
       "id": "attack-pattern--1f31e883-1cbc-5154-956a-d204a1eb92e1",
       "name": "Indicator Removal: File Deletion",
       "external_references": [
@@ -71,21 +86,6 @@
           "source_name": "mitre-attack",
           "external_id": "T1070.004",
           "url": "https://attack.mitre.org/techniques/T1070/004/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
-      "id": "attack-pattern--273ded29-e359-5286-bded-94a1492645cf",
-      "name": "Web Service: Dead Drop Resolver",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1102.001",
-          "url": "https://attack.mitre.org/techniques/T1102/001/"
         }
       ],
       "spec_version": "2.1",
@@ -184,8 +184,23 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--35b67e9d-3717-55b2-9d27-5c29261bb087",
+      "name": "Encrypted Channel",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1573",
+          "url": "https://attack.mitre.org/techniques/T1573/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--3924f8c3-80b8-59ec-8363-c372181ec4b4",
-      "name": "Command and Scripting Interpreter: Python",
+      "name": "Python",
       "external_references": [
         {
           "source_name": "mitre-attack",
@@ -195,7 +210,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -244,18 +259,33 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--55d0c929-1bef-57bc-afc2-02e97392508c",
-      "name": "Credentials from Password Stores",
+      "id": "attack-pattern--4472e3c5-3959-5402-bc61-b74a32ab7a4c",
+      "name": "Input Capture: Keylogging",
       "external_references": [
         {
           "source_name": "mitre-attack",
-          "external_id": "T1555",
-          "url": "https://attack.mitre.org/techniques/T1555/"
+          "external_id": "T1056.001",
+          "url": "https://attack.mitre.org/techniques/T1056/001/"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--53ad4a19-cc4b-5a4d-9ba7-c1a1af4b1751",
+      "name": "Application Layer Protocol: Web Protocols",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071/001/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -289,6 +319,21 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--6083ec70-744b-5c88-9737-797818538d9e",
+      "name": "Disable or Modify Tools",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1685",
+          "url": "https://attack.mitre.org/techniques/T1685/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--6375784f-6a35-53a1-8553-f0d48e9b9dd8",
       "name": "Impair Defenses",
       "external_references": [
@@ -305,7 +350,7 @@
     {
       "type": "attack-pattern",
       "id": "attack-pattern--6520a060-b35c-5ae4-b24f-0b7c36b8c064",
-      "name": "Malicious File",
+      "name": "User Execution: Malicious File",
       "external_references": [
         {
           "source_name": "mitre-attack",
@@ -315,7 +360,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -334,18 +379,33 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--699cbfd8-96a7-58b5-b6eb-a95cf6aa6ad5",
-      "name": "Exfiltration Over Web Service: Exfiltration to Code Repository",
+      "id": "attack-pattern--69035417-64c0-567b-99f5-3e792a663d84",
+      "name": "Command and Scripting Interpreter: Lua",
       "external_references": [
         {
           "source_name": "mitre-attack",
-          "external_id": "T1567.001",
-          "url": "https://attack.mitre.org/techniques/T1567/001/"
+          "external_id": "T1059.011",
+          "url": "https://attack.mitre.org/techniques/T1059/011/"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--69cb85fd-7913-51ba-8c32-7abcbfd7d820",
+      "name": "Scheduled Task/Job",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053/005/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -364,6 +424,36 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--6b3d6efe-0d48-5d0d-875a-086b0d02d110",
+      "name": "Phishing: Spearphishing Attachment",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.001",
+          "url": "https://attack.mitre.org/techniques/T1566/001/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--6f03e11f-0a4d-5938-abb7-5031a5a279cf",
+      "name": "Command and Scripting Interpreter",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059/003/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--7404b580-2f50-5641-a9e5-e20f672b2a69",
       "name": "Email Collection",
       "external_references": [
@@ -379,6 +469,36 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--75df232a-bb77-57f1-b664-05fbaeb62ef7",
+      "name": "Native API",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1106",
+          "url": "https://attack.mitre.org/techniques/T1106/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--7b00e985-e495-509f-a4c0-9fb8f8532ebc",
+      "name": "Obfuscated Files or Information: Dynamic API Resolution",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1027.007",
+          "url": "https://attack.mitre.org/techniques/T1027/007/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--7ca11b10-9dbc-5658-8c0c-753ca1a7a595",
       "name": "Acquire Infrastructure",
       "external_references": [
@@ -386,21 +506,6 @@
           "source_name": "mitre-attack",
           "external_id": "T1583",
           "url": "https://attack.mitre.org/techniques/T1583/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
-      "id": "attack-pattern--822124c8-d575-5123-862c-c55cc594d777",
-      "name": "Create or Modify System Process: Launch Agent",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1543.001",
-          "url": "https://attack.mitre.org/techniques/T1543/001/"
         }
       ],
       "spec_version": "2.1",
@@ -431,21 +536,6 @@
           "source_name": "mitre-attack",
           "external_id": "T1567.002",
           "url": "https://attack.mitre.org/techniques/T1567/002/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
-      "id": "attack-pattern--8d9c5a8a-bdc2-54a3-b99d-b379d250704a",
-      "name": "OS Credential Dumping: Proc Filesystem",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1003.007",
-          "url": "https://attack.mitre.org/techniques/T1003/007/"
         }
       ],
       "spec_version": "2.1",
@@ -544,21 +634,6 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--97304314-f203-5696-ad6c-d5ff0a6c2957",
-      "name": "Compromise Software Supply Chain",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1195.002",
-          "url": "https://attack.mitre.org/techniques/T1195/002/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
       "id": "attack-pattern--97d7c015-72d8-5342-afa7-687865021804",
       "name": "Multi-Factor Authentication Request Generation",
       "external_references": [
@@ -619,21 +694,6 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--b20065ad-29a8-528d-b9ed-f537dafb24f3",
-      "name": "Data Destruction",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1485",
-          "url": "https://attack.mitre.org/techniques/T1485/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
       "id": "attack-pattern--bab942ff-7c9c-5062-9e92-3392bfb2fd74",
       "name": "Command and Scripting Interpreter",
       "external_references": [
@@ -676,6 +736,21 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--c7a85d3f-3de3-5e0e-b698-acc5098a5a5e",
+      "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1547.001",
+          "url": "https://attack.mitre.org/techniques/T1547/001/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -724,6 +799,21 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--da0a83e4-6dbe-5470-9d79-e4d72d769c58",
+      "name": "Hide Artifacts: Hidden Window",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1564.003",
+          "url": "https://attack.mitre.org/techniques/T1564/003/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--da9ba300-9f0f-5f3e-ab0f-8ac8dcbde839",
       "name": "Automated Collection",
       "external_references": [
@@ -754,33 +844,18 @@
     },
     {
       "type": "attack-pattern",
-      "id": "attack-pattern--dda9cad8-fd58-5908-9c31-f13e4d1afd0d",
-      "name": "Impair Defenses: Disable or Modify Tools",
+      "id": "attack-pattern--e32bf01f-5410-5d31-8cbf-183aea1a91a4",
+      "name": "Application Layer Protocol",
       "external_references": [
         {
           "source_name": "mitre-attack",
-          "external_id": "T1562.001",
-          "url": "https://attack.mitre.org/techniques/T1562/001/"
+          "external_id": "T1071",
+          "url": "https://attack.mitre.org/techniques/T1071/"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "attack-pattern",
-      "id": "attack-pattern--e379d4aa-118a-5941-87c1-06b189bdf89a",
-      "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching",
-      "external_references": [
-        {
-          "source_name": "mitre-attack",
-          "external_id": "T1548.003",
-          "url": "https://attack.mitre.org/techniques/T1548/003/"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "attack-pattern",
@@ -889,6 +964,21 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--fa7c2996-72b0-58d6-a487-093765e37059",
+      "name": "Screen Capture",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1113",
+          "url": "https://attack.mitre.org/techniques/T1113/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--fb5adb10-bb73-5267-a0a8-7f5339fcd4fe",
       "name": "System Information Discovery",
       "external_references": [
@@ -904,8 +994,23 @@
     },
     {
       "type": "attack-pattern",
+      "id": "attack-pattern--fb9127d9-586e-5c01-ab44-db0dff2dd35c",
+      "name": "Clipboard Data",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1115",
+          "url": "https://attack.mitre.org/techniques/T1115/"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "attack-pattern",
       "id": "attack-pattern--fec09a00-d06e-57d9-a14a-16665bf9e81c",
-      "name": "Exfiltration Over C2 Channel",
+      "name": "Exfiltration Over Command and Control Channel",
       "external_references": [
         {
           "source_name": "mitre-attack",
@@ -915,7 +1020,7 @@
       ],
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.001Z"
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "domain-name",
@@ -1044,6 +1149,18 @@
         "rat",
         "infostealer",
         "backdoor"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "domain-name",
+      "id": "domain-name--243833d5-6062-5d8b-a43a-740058a5879c",
+      "value": "cloaderx.sytes.net",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -1660,6 +1777,18 @@
         "c:threat-intel",
         "source:cisco-talos-iocs",
         "t:malware"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "domain-name",
+      "id": "domain-name--a6e74de1-d805-55ec-8a6a-d64f22229080",
+      "value": "secureapi-connect.xyz",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -2341,6 +2470,20 @@
     },
     {
       "type": "file",
+      "id": "file--185810a7-47cc-5362-af37-e50884f8f18b",
+      "hashes": {
+        "SHA-256": "564754458cf28616e072c9b5fcb01ebe1de452a652c9b74fd1548c95ae257f5b"
+      },
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "file",
       "id": "file--19a25c2c-6123-5989-80b5-fa2615d2ed6c",
       "hashes": {
         "SHA-256": "39fa329f2a93f734b0bb8f5adb203ea3331d1ae479832a5015a54cb17aabd663"
@@ -2446,6 +2589,20 @@
         "t:credential-theft",
         "amaterastealer",
         "nativeaot"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "file",
+      "id": "file--21f28c8a-a112-5fd9-822f-d8369cb7838c",
+      "hashes": {
+        "SHA-256": "5f4bc01dea3f65f2612a7e1ecb369e244e2417b2af8b0df7425b9ff04ff75101"
+      },
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -2611,6 +2768,20 @@
         "t:credential-theft",
         "amaterastealer",
         "nativeaot"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "file",
+      "id": "file--37de1c4f-3a20-52aa-80dc-be1b1debbc12",
+      "hashes": {
+        "SHA-256": "240196bff6c00f5365df69ed50b7164f56e9b1831236b80edc0782ea1e167234"
+      },
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -2881,6 +3052,20 @@
         "rat",
         "infostealer",
         "backdoor"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "file",
+      "id": "file--57e104ef-cc23-5af1-8784-606acee40ac6",
+      "hashes": {
+        "SHA-256": "46f8061e237bcc615a0b17b83ff4042853ec42327034e1e3dba6df5f873264bb"
+      },
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -4887,6 +5072,15 @@
     },
     {
       "type": "identity",
+      "id": "identity--e93f3b4b-0cba-55d0-ab78-8eecb9939bc9",
+      "name": "Seqrite Labs",
+      "identity_class": "organization",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "identity",
       "id": "identity--ede174b1-16a2-5bd4-8af5-3f0420eff795",
       "name": "Blog",
       "identity_class": "organization",
@@ -5107,6 +5301,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0475b29d-3b05-58da-8daa-64b4acabd726",
+      "name": "31.56.209.48",
+      "pattern": "[ipv4-addr:value = '31.56.209.48']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "IPv4-Addr",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -5368,6 +5590,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--08438359-835e-5eed-b2a6-06b2ba4c1954",
+      "name": "82.26.104.192",
+      "pattern": "[ipv4-addr:value = '82.26.104.192']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "IPv4-Addr",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -5722,6 +5972,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--13331b38-8253-5e1e-a9a0-d4e1d54eab63",
+      "name": "151.244.30.176",
+      "pattern": "[ipv4-addr:value = '151.244.30.176']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "IPv4-Addr",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -6422,6 +6700,35 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--2441ba28-666c-5758-b44a-de7903b24c61",
+      "name": "66.245.219.252",
+      "pattern": "[ipv4-addr:value = '66.245.219.252']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "t:malware",
+        "t:vulnerability",
+        "t:cloud"
+      ],
+      "x_opencti_main_observable_type": "IPv4-Addr",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--24cb243b-da6c-5bdc-8bc3-c5806bc75acf",
       "name": "80.76.42.139",
       "pattern": "[ipv4-addr:value = '80.76.42.139']",
@@ -7035,6 +7342,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3343aad8-9dfc-533d-94bc-2d6acfcbf8d4",
+      "name": "564754458cf28616e072c9b5fcb01ebe1de452a652c9b74fd1548c95ae257f5b",
+      "pattern": "[file:hashes.'SHA-256' = '564754458cf28616e072c9b5fcb01ebe1de452a652c9b74fd1548c95ae257f5b']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "File",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -7855,6 +8190,34 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--494d41b8-33d2-50cf-8ca9-29eddd340d83",
+      "name": "http://151.244.30.176:80/505a3c0c-3cf2-4f5d-83b7-f6637ca3209f",
+      "pattern": "[url:value = 'http://151.244.30.176:80/505a3c0c-3cf2-4f5d-83b7-f6637ca3209f']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "Url",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--49cb1b53-ac66-53b1-b08f-3fb9eb9219a6",
       "name": "0d660045808528c0525313b148f649eb77a341a2a2f8c5641721551362aa73d0",
       "pattern": "[file:hashes.'SHA-256' = '0d660045808528c0525313b148f649eb77a341a2a2f8c5641721551362aa73d0']",
@@ -8495,6 +8858,34 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--5553eaf9-82af-58b4-9485-8a8f084c26e8",
+      "name": "46f8061e237bcc615a0b17b83ff4042853ec42327034e1e3dba6df5f873264bb",
+      "pattern": "[file:hashes.'SHA-256' = '46f8061e237bcc615a0b17b83ff4042853ec42327034e1e3dba6df5f873264bb']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "File",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--563c8db7-e380-5237-bb2c-b3d8864c5bf6",
       "name": "356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c",
       "pattern": "[file:hashes.'SHA-256' = '356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c']",
@@ -8640,6 +9031,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5a9d55c6-8ae0-5c33-97f4-4b053d040562",
+      "name": "secureapi-connect.xyz",
+      "pattern": "[domain-name:value = 'secureapi-connect.xyz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "Domain-Name",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -9840,6 +10259,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--76cde9ab-e51a-5fac-beb0-7594a3a3a701",
+      "name": "5f4bc01dea3f65f2612a7e1ecb369e244e2417b2af8b0df7425b9ff04ff75101",
+      "pattern": "[file:hashes.'SHA-256' = '5f4bc01dea3f65f2612a7e1ecb369e244e2417b2af8b0df7425b9ff04ff75101']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "File",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -11497,6 +11944,34 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--9ca1fbcd-6836-5c6c-ad3a-dca4757ab32d",
+      "name": "https://pastebin.com/raw/bts1Yn4Z",
+      "pattern": "[url:value = 'https://pastebin.com/raw/bts1Yn4Z']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "Url",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--9ce6a74a-0a80-5e36-84c0-7e8a1e8bdbca",
       "name": "https://phys.stunned-amniotic.com/hub.log",
       "pattern": "[url:value = 'https://phys.stunned-amniotic.com/hub.log']",
@@ -12826,6 +13301,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bfc2b3b8-c503-55b4-90fb-1d0b51ef88d6",
+      "name": "15.235.227.117",
+      "pattern": "[ipv4-addr:value = '15.235.227.117']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "IPv4-Addr",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -14203,6 +14706,34 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--de515a92-9b91-509d-b076-53b29f25e9bd",
+      "name": "240196bff6c00f5365df69ed50b7164f56e9b1831236b80edc0782ea1e167234",
+      "pattern": "[file:hashes.'SHA-256' = '240196bff6c00f5365df69ed50b7164f56e9b1831236b80edc0782ea1e167234']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "File",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--df48d52d-6e27-52bf-b8bb-65a7a65fa6a5",
       "name": "microsoft-flash.com",
       "pattern": "[domain-name:value = 'microsoft-flash.com']",
@@ -14229,6 +14760,34 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e08737c1-e60d-50a3-94bc-ee38b6815214",
+      "name": "http://151.244.30.176/194ff485-5d31-4a51-912e-b138e98ff750",
+      "pattern": "[url:value = 'http://151.244.30.176/194ff485-5d31-4a51-912e-b138e98ff750']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "Url",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "indicator",
@@ -15347,6 +15906,34 @@
     },
     {
       "type": "indicator",
+      "id": "indicator--f906ab0d-7e51-5e3e-9c73-a1928ee8fca0",
+      "name": "cloaderx.sytes.net",
+      "pattern": "[domain-name:value = 'cloaderx.sytes.net']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-11-23T16:48:28.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "x_opencti_main_observable_type": "Domain-Name",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "indicator",
       "id": "indicator--f9cbcb15-d763-5947-9492-fbf6d8f9bcd7",
       "name": "wdm.velqo7.co",
       "pattern": "[domain-name:value = 'wdm.velqo7.co']",
@@ -15791,6 +16378,19 @@
     },
     {
       "type": "ipv4-addr",
+      "id": "ipv4-addr--1beb135f-a702-5e5c-a3ee-68bb47346db4",
+      "value": "66.245.219.252",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "t:malware",
+        "t:vulnerability",
+        "t:cloud"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "ipv4-addr",
       "id": "ipv4-addr--2477dcbd-50bb-5b0b-bda1-96da898cbeec",
       "value": "185.238.191.234",
       "x_opencti_labels": [
@@ -15935,6 +16535,18 @@
     },
     {
       "type": "ipv4-addr",
+      "id": "ipv4-addr--390a5e41-be53-522c-a7d5-906300646606",
+      "value": "82.26.104.192",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "ipv4-addr",
       "id": "ipv4-addr--3fa352fd-042b-5b40-bea4-f4ba72855208",
       "value": "157.20.241.16",
       "x_opencti_labels": [
@@ -16061,6 +16673,18 @@
         "t:credential-theft",
         "t:vulnerability",
         "t:cloud"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "ipv4-addr",
+      "id": "ipv4-addr--6d08c6b5-1ab6-57d0-9978-df097f957c52",
+      "value": "31.56.209.48",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -16233,6 +16857,18 @@
         "c:threat-intel",
         "source:cisco-talos-iocs",
         "t:malware"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "ipv4-addr",
+      "id": "ipv4-addr--979e67b8-67d3-5e45-95b5-c0da7ba935e8",
+      "value": "151.244.30.176",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -16508,6 +17144,18 @@
         "c:threat-intel",
         "source:cisco-talos-iocs",
         "t:malware"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "ipv4-addr",
+      "id": "ipv4-addr--feae3810-072a-573f-b455-2ecccdcca7fb",
+      "value": "15.235.227.117",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -16843,6 +17491,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--1439b68d-2ee5-581d-9738-6dd0311c6349",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--3343aad8-9dfc-533d-94bc-2d6acfcbf8d4",
+      "target_ref": "file--185810a7-47cc-5362-af37-e50884f8f18b",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -17356,6 +18014,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--3d4b4196-da14-58d1-9738-1e2b19bd1c21",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--0475b29d-3b05-58da-8daa-64b4acabd726",
+      "target_ref": "ipv4-addr--6d08c6b5-1ab6-57d0-9978-df097f957c52",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--3d870456-78a7-5101-be5b-3c6094c37421",
       "relationship_type": "based-on",
       "source_ref": "indicator--354f60ab-1ea5-5ca8-8a64-5e8fcb109f64",
@@ -17586,6 +18254,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--4e6f3400-219b-53fd-b9be-f21ce092987a",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--2441ba28-666c-5758-b44a-de7903b24c61",
+      "target_ref": "ipv4-addr--1beb135f-a702-5e5c-a3ee-68bb47346db4",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--4f5a5f6b-2c4a-5ac7-8a58-e9b18ab7667d",
       "relationship_type": "based-on",
       "source_ref": "indicator--ef7e294a-8916-501a-a9c5-7816b2d9ff9d",
@@ -17713,6 +18391,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--57d1b0dd-1542-5b99-a9cd-52eb7bf3594a",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--e08737c1-e60d-50a3-94bc-ee38b6815214",
+      "target_ref": "url--ecac4c08-b532-5548-be5f-e58e547a6671",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -17953,6 +18641,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--653b3497-334b-531f-b286-ff42347ab86f",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--76cde9ab-e51a-5fac-beb0-7594a3a3a701",
+      "target_ref": "file--21f28c8a-a112-5fd9-822f-d8369cb7838c",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -18376,6 +19074,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--7df79573-e2bc-56ac-a54a-db4e52ce91d9",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--f906ab0d-7e51-5e3e-9c73-a1928ee8fca0",
+      "target_ref": "domain-name--243833d5-6062-5d8b-a43a-740058a5879c",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--7e3b9ae8-d08c-54db-8110-f6ab83bf9d04",
       "relationship_type": "based-on",
       "source_ref": "indicator--8c552543-e9e2-537a-9179-789f05c07636",
@@ -18636,6 +19344,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--907048a2-75f7-509f-84e4-0f839744e4d5",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--5a9d55c6-8ae0-5c33-97f4-4b053d040562",
+      "target_ref": "domain-name--a6e74de1-d805-55ec-8a6a-d64f22229080",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--91169ef9-2392-5edd-bd4c-c839518d984c",
       "relationship_type": "based-on",
       "source_ref": "indicator--2f9b9858-e540-54e7-9c98-06696bcdfba1",
@@ -18663,6 +19381,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--92c3d557-00d4-58f4-bfc0-c6884fa38671",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--de515a92-9b91-509d-b076-53b29f25e9bd",
+      "target_ref": "file--37de1c4f-3a20-52aa-80dc-be1b1debbc12",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -18756,6 +19484,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--9a29b427-772d-5388-a0dd-d64a7742cb32",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--bfc2b3b8-c503-55b4-90fb-1d0b51ef88d6",
+      "target_ref": "ipv4-addr--feae3810-072a-573f-b455-2ecccdcca7fb",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--9b38df51-23b0-5d2b-9a7e-8a1249825581",
       "relationship_type": "based-on",
       "source_ref": "indicator--db13b374-f6c9-5f2b-b879-b26ea2afbf50",
@@ -18803,6 +19541,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--9dddeccf-17e7-5a42-936b-4266fdaa92e1",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--5553eaf9-82af-58b4-9485-8a8f084c26e8",
+      "target_ref": "file--57e104ef-cc23-5af1-8784-606acee40ac6",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -19293,6 +20041,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c1a32e09-829c-5bd9-96d2-893363044ec7",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--494d41b8-33d2-50cf-8ca9-29eddd340d83",
+      "target_ref": "url--68d95766-27a9-51a3-b540-fe8f8a4abf7c",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -19996,6 +20754,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--ed1b5471-14b9-5496-80b8-62eee389f93d",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--9ca1fbcd-6836-5c6c-ad3a-dca4757ab32d",
+      "target_ref": "url--c8d8ea92-ab8d-583e-b839-b482f4cc60de",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--ed4d5887-6b75-55fb-838a-d637d93b92a4",
       "relationship_type": "based-on",
       "source_ref": "indicator--ac6fe80d-b499-5dae-bf7e-99fdefb15248",
@@ -20096,6 +20864,16 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--f40a140c-0641-54d2-b5c2-6de473c22b3d",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--13331b38-8253-5e1e-a9a0-d4e1d54eab63",
+      "target_ref": "ipv4-addr--979e67b8-67d3-5e45-95b5-c0da7ba935e8",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--f423f441-12d3-5353-afb6-447e585935b2",
       "relationship_type": "based-on",
       "source_ref": "indicator--a0c9f69b-32ee-5293-a670-00e195c56cd5",
@@ -20183,6 +20961,16 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--fc5f9c68-619d-50e4-9795-42b68ab20c67",
+      "relationship_type": "based-on",
+      "source_ref": "indicator--08438359-835e-5eed-b2a6-06b2ba4c1954",
+      "target_ref": "ipv4-addr--390a5e41-be53-522c-a7d5-906300646606",
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "relationship",
@@ -20841,45 +21629,6 @@
     },
     {
       "type": "report",
-      "id": "report--133eb2a9-2888-5a2c-9bee-d3cebc32d785",
-      "name": "QNAP NAS设备遭Plex2Shell攻击链攻击",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "QNAP敦促用户将Plex Media Server更新至QNAP App Center中的最新版本，因为攻击者正在利用Plex2Shell漏洞链。QNAP表示已收到多份客户NAS设备疑似失陷的报告。Plex2Shell是Plex Media Server中的四个漏洞链（CVE-2026-96652、CVE-2026-96654、CVE-2026-96655、CVE-2026-96656），CISA于2026年10月20日将其加入KEV目录。\n\n影响\nQNAP已收到用户NAS设备通过Plex2Shell漏洞链疑似失陷的报告，该漏洞链包含四个CVE，CISA已列入KEV目录。\n\n防御建议\n- 通过QNAP App Center将Plex Media Server升级至最新版本\n- 检查NAS设备是否异常访问\n- 限制Plex服务的互联网暴露\n\n### 时间线\n\n- 安全研究员 Zach Main 于 7 月 27 日发现并向 Plex 报告了这些漏洞。完整技术细节于 10 月 16 日公开后不久，利用活动随即开始。 〔1 · Summary〕\n- CISA 于 2026 年 10 月 20 日将全部四个漏洞加入已知被利用漏洞目录，要求联邦机构在三天内升级到 Plex 1.43.3.10861 或更高版本，并给予最高优先级。 〔1 · Summary〕\n\n### 影响范围\n\n- Plex2Shell 是 Plex Media Server 中的四个漏洞组成的攻击链，编号为 CVE-2026-96652、CVE-2026-96654、CVE-2026-96655 和 CVE-2026-96656。 〔1 · Summary〕\n- QNAP 表示已收到多份关于客户 NAS 设备疑似遭入侵的报告，其技术支持团队正在协助受影响用户。 〔1 · Summary〕\n- QNAP PSIRT 确认漏洞仅存在于 Plex Media Server 中，QTS、QuTS hero 及其他 QNAP 操作系统本身不受影响。 〔1 · Summary〕\n\n### 归因与依据\n\n- QNAP 在公告中称，部分用户报告其 NAS 上的 Plex Media Server 似乎通过 Plex2Shell 漏洞遭到入侵，但未给出攻击者身份或具体归因证据。 〔1 · Summary〕\n\n### 检测线索\n\n- QNAP 建议用户对照安全公告中列出的入侵迹象进行检查，并称可调查疑似入侵的日志，用户可通过其技术支持门户提交。 〔1 · User action required〕\n- QNAP 表示，若 NAS 上运行的是暴露在公网上的易受攻击 Plex 服务器，用户应将 NAS 设备及所有个人内容视为已遭入侵。 〔1 · User action required〕\n\n### 响应与修复\n\n- QNAP 建议用户通过 QNAP App Center 将 Plex Media Server 更新至当前最新版本 1.43.3.10861，以防御 Plex2Shell 攻击。 〔1 · Summary〕\n- QNAP 警告，现在更新不会清除攻击者已在设备上安装的任何载荷，因此更新本身不足以恢复安全。 〔1 · User action required〕\n- 推荐处置流程为：检查安全公告中的入侵迹象，对操作系统（QTS 或 QuTS hero）执行干净重装，然后重置 Plex 与 NAS 凭据。 〔1 · User action required〕\n- 不需要远程访问 Plex 的用户应禁用相关功能并停止转发 32400 端口；需要远程访问的用户应通过 VPN 连接。 〔1 · User action required〕\n- QNAP 已发布详细的分步修复指南，说明如何完成上述处置操作。 〔1 · User action required〕\n\n### 证据局限\n\n- 现有材料仅说明 QNAP 收到用户关于疑似入侵的报告，未披露受影响设备数量、具体地区、确认受害者名单或在野利用的独立验证结果。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · QNAP says hackers breaching NAS devices in Plex2Shell attacks\n   https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-medium",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:cloud",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
-        "vulnerability--0ddf1e41-d6ac-5b2a-9b7b-c64a80f353f9",
-        "vulnerability--85c20da5-1fc0-597a-b655-950b1cd5515b",
-        "vulnerability--9eada441-6577-53b1-8ec8-1ececa55e44c",
-        "vulnerability--b71b61cb-69d6-513d-a288-9f293ec9a54e"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
       "id": "report--15396207-fe44-55db-87d6-008eaff344fd",
       "name": "攻击者利用自主AI代理Cairn发现医疗影像软件零日并获取root权限",
       "published": "2026-11-21T16:48:06.000Z",
@@ -20913,62 +21662,6 @@
         {
           "source_name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--1590d8ef-b03f-57dd-af68-06bd06fe7f24",
-      "name": "恶意Ruby gem strutil-core传播凭据窃取蠕虫",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "Socket分析发现strutil-core 1.0.1是一个恶意RubyGems包，安装时运行5.48 MB的凭据窃取蠕虫。该gem由账户jamnajiea发布，先发布干净的1.0.0，不到两小时后推送恶意1.0.1。Socket的AI扫描器在发布后70秒标记，RubyGems在约五小时后移除两个版本。该gem为独立包，未发现依赖它的公开项目，也未确认受害者。\n\n影响\n该gem在安装时运行凭据窃取蠕虫，毒害AI编码工具，并可在GitHub令牌被撤销时擦除文件，属于Shai-Hulud衍生家族，技术信息充分。\n\n防御建议\n- 检查RubyGems是否安装strutil-core 1.0.1\n- 若已安装，轮换可能暴露的凭据（如GitHub令牌）\n- 监控AI编码工具的异常行为\n\n### 时间线\n\n- 2026年11月1日02:19:56 UTC，RubyGems账户jamnajiea发布了干净的strutil-core 1.0.0版本。 〔1 · Exposure and Timeline〕\n- 2026年11月1日04:05:04 UTC，同一账户发布了恶意版本1.0.1，距干净版本发布不到两小时。 〔1 · Exposure and Timeline〕\n- 2026年11月1日04:06:14 UTC，Socket的AI扫描器在1.0.1发布70秒后将其标记为恶意软件。 〔1 · Exposure and Timeline〕\n- 2026年11月1日08:52至09:13 UTC，RubyGems移除了两个版本，恶意版本公开窗口约五小时。 〔1 · Exposure and Timeline〕\n\n### 影响范围\n\n- strutil-core是独立的gem，未发现依赖它的公开项目，也未确认任何受害者或由其感染的包。 〔1 · Summary〕\n- 恶意版本1.0.1在安装时执行，影响Linux和macOS的x86-64或ARM64系统，无需应用require该gem。 〔1 · A String Helper With a JavaScript Worm Attached〕\n- 截至2026年11月1日04:05:29 UTC，公开元数据跟踪器记录总下载89次，其中1.0.1为0次，这些下载可能来自镜像和自动扫描器。 〔1 · Exposure and Timeline〕\n\n### 归因与依据\n\n- 该gem的安装器与蠕虫RubyGems注入模块的输出完全相同，extconf.rb的SHA-256哈希一致，表明是注入器生成。 〔1 · The Gem Is the Worm’s Own RubyGems Injector Output〕\n- 与2026年6月Miasma载荷相比，strutil-core安装器36行非空行中有33行逐字相同，但Bun版本、下载URL拆分、发布User-Agent和日志功能有变化。 〔1 · The Gem Is the Worm’s Own RubyGems Injector Output〕\n- 与testmetest蠕虫共享sync.py哈希、msync-3f7a标记、net-health-checker等组件，但C2不同且交付方式为RubyGems extconf.rb钩子。 〔1 · How This Build Relates to testmetest and Miasma〕\n\n### 检测线索\n\n- 持久化产物包括pkg-runtime、net-health-checker、~/.config/index.js和/var/tmp/.fontconfig_state，可用于主机狩猎。 〔1 · For Security Teams〕\n- 网络外传目标为paleasbest[.]top，GitHub仓库描述为project-utils，分支名chore/ci-*，提交含skip-checks:true或AutoSyncComplete。 〔1 · For Security Teams〕\n\n### 响应与修复\n\n- RubyGems已移除两个版本，OpenSSF恶意包PR 1701于2026年11月1日19:16:47 UTC由Samy Al Bahra提交。 〔1 · Exposure and Timeline〕\n- 清除感染需先隔离主机，停止并移除net-health-checker和pkg-runtime及其服务单元，再撤销令牌，否则可能触发删除主目录。 〔1 · For Users〕\n\n### 证据局限\n\n- 除Bitbison沙箱确认安装时执行和读取凭据文件外，其余分析来自静态代码，未在受害者系统上观察到活动。 〔1 · Summary〕\n- 未确认从该gem成功向下游发布任何包，也未测试C2端点是否活跃。 〔1 · Propagation Beyond RubyGems〕\n\n### 研判来源\n\n1. Socket · Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools\n   https://socket.dev/blog/shai-hulud-descendant-malicious-ruby-gem",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:socket-dev",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-high",
-        "rss-sec-stix",
-        "threat-activity",
-        "t:credential-theft",
-        "t:malware",
-        "t:supply-chain"
-      ],
-      "object_refs": [
-        "attack-pattern--1ac0fdb8-c923-5042-ab7b-9fb11962c2c9",
-        "attack-pattern--273ded29-e359-5286-bded-94a1492645cf",
-        "attack-pattern--3058a897-edc7-5439-aa5e-3a94b4405f34",
-        "attack-pattern--3924f8c3-80b8-59ec-8363-c372181ec4b4",
-        "attack-pattern--3e834504-2fbb-503f-85b7-39b308850cb7",
-        "attack-pattern--55d0c929-1bef-57bc-afc2-02e97392508c",
-        "attack-pattern--5c1deea5-94da-515c-ab31-07f7348c993f",
-        "attack-pattern--699cbfd8-96a7-58b5-b6eb-a95cf6aa6ad5",
-        "attack-pattern--6a9ebc0d-3d47-500b-891c-b90e1cb54bf0",
-        "attack-pattern--822124c8-d575-5123-862c-c55cc594d777",
-        "attack-pattern--8cec97dd-45a4-5932-9028-a0ed04065fa6",
-        "attack-pattern--8d9c5a8a-bdc2-54a3-b99d-b379d250704a",
-        "attack-pattern--95c84171-8095-52c9-a333-32c58f2e049f",
-        "attack-pattern--97304314-f203-5696-ad6c-d5ff0a6c2957",
-        "attack-pattern--9e920a62-95f1-5349-8c49-3403b8c4f562",
-        "attack-pattern--b20065ad-29a8-528d-b9ed-f537dafb24f3",
-        "attack-pattern--dda9cad8-fd58-5908-9c31-f13e4d1afd0d",
-        "attack-pattern--e379d4aa-118a-5941-87c1-06b189bdf89a",
-        "attack-pattern--e8a8f23a-c1d2-5f4b-8356-d31b2a0c8065",
-        "attack-pattern--fec09a00-d06e-57d9-a14a-16665bf9e81c",
-        "identity--5160dd50-3439-56d9-9553-c061f5c1065c"
-      ],
-      "external_references": [
-        {
-          "source_name": "Socket",
-          "url": "https://socket.dev/blog/shai-hulud-descendant-malicious-ruby-gem"
         }
       ],
       "spec_version": "2.1",
@@ -21605,6 +22298,43 @@
     },
     {
       "type": "report",
+      "id": "report--2eb7bd07-d098-5e05-ae19-4923c1e169a0",
+      "name": "CISA警告Cisco Expressway严重RCE漏洞正被积极利用",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "CISA警告攻击者正在利用Cisco Expressway Series的一个严重漏洞（CVE-2026-76466）。该漏洞源于硬编码凭证和客户端证书验证不完整，允许未认证攻击者以root权限远程执行任意操作系统命令。Cisco已于10月发布补丁。\n\n影响\nCISA确认该漏洞已被积极利用，影响联邦机构，且可未授权远程以root权限执行命令，风险极高。\n\n防御建议\n- 立即为Cisco Expressway-C和Expressway-E设备安装最新补丁\n- 监控针对数据库服务的异常RPC调用\n- 审查集群配置中的证书验证设置\n\n### 时间线\n\n- 思科于十月下旬发布安全补丁修复该漏洞，当时其PSIRT表示未发现野外利用或公开的概念验证利用代码。 〔1 · Summary〕\n- CISA在周五将该漏洞标记为已被积极利用，并于周二将其加入已知被利用漏洞（KEV）目录。 〔1 · Summary〕\n- 俄罗斯网络安全公司F6于周四表示，观察到攻击者利用一个未具名的AI助手成功利用该漏洞。 〔1 · Exploited to gain root on Internet-exposed devices〕\n\n### 影响范围\n\n- 受影响产品为配置在集群中的Cisco Expressway-C和Cisco Expressway-E设备，这些设备是企业协作网关，用于连接内部语音视频系统与外部网络及远程用户。 〔1 · Summary〕\n- 该漏洞编号为CVE-2026-76466，源于使用硬编码凭据以及未能完整验证客户端证书，可使未认证攻击者以root权限远程执行任意操作系统命令。 〔1 · Summary〕\n- F6称攻击者最初攻陷两台面向互联网的Cisco Expressway设备，并通过其中一台进入组织内部网络中的另外两个集群节点。 〔1 · Exploited to gain root on Internet-exposed devices〕\n\n### 归因与依据\n\n- 思科说明，持有相关cookie的攻击者可连接数据库服务并调用特定远程过程调用（RPC）命令来利用该漏洞。 〔1 · Summary〕\n- F6报告称攻击者获得root权限后使用定制Python脚本扫描网络、发现可访问的SMB资源、与SQL Server和WinRM交互并探查GitLab仓库，以窃取凭据等敏感信息。 〔1 · Exploited to gain root on Internet-exposed devices〕\n\n### 响应与修复\n\n- CISA依据约束性操作指令BOD 26-04，要求美国联邦文职行政部门（FCEB）机构在三天内加固系统。 〔1 · Summary〕\n- 尽管BOD 26-04仅针对联邦机构，CISA仍敦促包括私营部门安全团队在内的所有网络防御者优先修补该漏洞，以阻止可能针对其网络的持续攻击。 〔1 · Summary〕\n\n### 证据局限\n\n- CISA尚未公布这些持续攻击的细节，目前关于在野利用的具体情况主要来自F6的披露。 〔1 · Exploited to gain root on Internet-exposed devices〕\n- 思科在发布补丁时称其PSIRT并不知晓该漏洞的野外积极利用或公开的概念验证利用代码，这与CISA后来的积极利用标记存在时间差。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · CISA flags critical Cisco RCE flaw as actively exploited in attacks\n   https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:bleepingcomputer",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-critical",
+        "rss-sec-stix",
+        "vulnerability",
+        "t:credential-theft",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
+        "vulnerability--72a9ab3a-816f-5d3c-94ec-2662de5ec52e",
+        "vulnerability--ceab423d-9287-509d-ad32-da03702120e2"
+      ],
+      "external_references": [
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--2ed594d7-a548-5a04-a1ec-7e39ddf0ddf5",
       "name": "Turla组织使用Cereal工具集针对Exchange服务器",
       "published": "2026-11-11T16:47:49.000Z",
@@ -22093,6 +22823,43 @@
     },
     {
       "type": "report",
+      "id": "report--42a2c15f-2be1-5b96-bb97-338afef0b71e",
+      "name": "ScreenConnect严重漏洞被利用劫持MSP技术人员PC",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "攻击者正在利用ConnectWise ScreenConnect的一个已修补严重漏洞（CVE-2026-84869），针对MSP服务器。攻击者通过guest推送批处理文件，解码Telegram bot令牌，下载MSI安装程序并启动恶意ScreenConnect客户端，从而获得远程访问权限。\n\n影响\n漏洞CVSS评分9.9，攻击者可在约9秒内完成从利用到部署恶意ScreenConnect客户端的全过程，直接威胁MSP及其客户。\n\n防御建议\n- 确保ScreenConnect服务器已更新至最新版本\n- 监控异常的批处理文件执行和Telegram API通信\n- 检查ScreenConnect客户端连接是否指向未知中继\n\n### 时间线\n\n- 2026年11月12日，Huntress 观察到某 MSP 技术员工作站被利用，约9秒内完成访客推送批处理、向 Telegram 机器人回连、从 masterdarky[.]com 下载安装程序并启动指向攻击者中继的恶意 ScreenConnect 客户端。 〔1〕\n- 相关活动被观测于2026年10月20日至11月16日之间，攻击者以盲扫方式向服务器投放请求。 〔1〕\n- 2026年10月的一起定向攻击中，攻击者以访客身份加入技术员创建的三次真实会话，并要求客户运行文件，将 Sync.bat 投放至技术员机器的 Windows 启动文件夹。 〔1〕\n- 截至2026年11月13日，Huntress 已在至少118台自托管 ScreenConnect 服务器上看到相关活动，自11月3日以来共发现2,408个未授权会话。 〔1〕\n\n### 影响范围\n\n- 漏洞为 CVE-2026-84869，CVSS 评分9.9，属 ScreenConnect 客户端严重缺陷，允许访客在接入的技术员主机上传输并执行恶意载荷。 〔1〕\n- 攻击目标为 MSP 服务器及其技术员工作站；技术员工作站通常保存 RMM 控制台、凭据和所有客户访问权限，因此成为高价值目标。 〔1〕\n- 另有一批数千个未授权访客会话来自以加密货币交易所命名的机器（如 BITMEX-BOT、KUCOIN-SRV、LAPTOP-BINANCE），意在诱骗技术员连接；目前未观察到后续文件传输或命令执行等恶意行为。 〔1〕\n\n### 归因与依据\n\n- 文章将本次利用与另一波攻击区分开：后者通过第三方扩展的认证缺陷未授权访问合作伙伴 ScreenConnect 环境，并部署 SCKit 恶意工具包，再借该漏洞传播至技术员工作站。 〔1〕\n- 攻击者从可公开下载的 ScreenConnect Access 安装程序中提取中继地址，用以向对应服务器注册访客客户端，再伪造访客会话并使其显示为在线。 〔1〕\n- Huntress 称这些未授权访客机器来自模拟 Windows ScreenConnect 客户端的脚本化模拟器，几乎所有连接均来自单一 IONOS 托管 IP 74.208.158[.]106。 〔1〕\n\n### 检测线索\n\n- 批处理脚本 update_224ac089.bat 会解码 Base64 编码的 Telegram 机器人令牌与聊天 ID 以登记新感染，随后下载伪装成 Windows 更新的 WindowsUpdate.msi 以启动 ScreenConnect 客户端。 〔1〕\n- 在另一案例中，IP 91.224.92[.]167 的访客机器在技术员加入会话两秒后推送看似无害的 marker.txt，作为探测漏洞可利用性的“金丝雀”信号，随后才发送真实载荷。 〔1〕\n- 盲扫访客的请求具有重复性，且会话名为空或使用默认样式的 Windows 主机名，可作为识别异常访客的线索。 〔1〕\n\n### 响应与修复\n\n- 建议将技术员的 ScreenConnect 主机客户端升级至26.6.5或更高版本，排查暴露迹象、隔离受影响工作站并轮换该工作站可达的所有凭据。 〔1〕\n- 若无法立即修补，建议从角色和会话组中移除 TransferFiles 权限，以阻断访客向技术员主机传文件的能力。 〔1〕\n\n### 证据局限\n\n- 文章称该漏洞“现已修补”，但未给出补丁发布或修复的具体日期，也未说明各受影响版本范围。 〔1〕\n- 文章未明确将本次利用归因于特定威胁组织，也未说明除已观测到的 MSP 技术员工作站外是否有确认的客户侧受害者。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning\n   https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:the-hacker-news",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-high",
+        "rss-sec-stix",
+        "vulnerability",
+        "t:credential-theft",
+        "t:malware",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
+        "vulnerability--6583f164-7dbe-5697-b9fe-201e362482fc"
+      ],
+      "external_references": [
+        {
+          "source_name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--466984a4-61ff-54e0-aba8-de9695bb6a97",
       "name": "React Server Components Flight协议未认证RCE（CVE-2026-126187，CVSS 9.5）",
       "published": "2026-11-16T16:48:17.000Z",
@@ -22237,54 +23004,6 @@
         {
           "source_name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--4db3bc5d-c277-529c-a294-38eb936f990c",
-      "name": "CISA将SonicWall SonicOS MFA绕过漏洞列入KEV目录",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "SonicWall SonicOS SSL-VPN服务存在认证执行漏洞（CVE-2026-19868），拥有备用认证方式有效凭据的用户可绕过SAML认证控制，可能绕过SAML强制的MFA。SonicWall已调查潜在利用报告并敦促客户升级。CISA已将该漏洞加入已知被利用漏洞目录。\n\n影响\n该漏洞允许拥有有效凭据的攻击者绕过SAML认证和MFA，且CISA已确认可能被利用，影响SSL-VPN服务，风险极高。\n\n防御建议\n- 立即升级SonicWall SonicOS至最新版本\n- 检查SSL-VPN日志中异常的SAML认证绕过行为\n- 限制SSL-VPN服务的互联网暴露面\n\n### 时间线\n\n- 2026年11月9日报道显示，CISA已将影响SonicWall SonicOS的高危漏洞纳入已知被利用漏洞（KEV）目录，理由是有报告称该漏洞可能已在真实攻击中被利用。 〔1〕\n- SonicWall在周五发布的安全公告中承认，已调查一份表明该漏洞可能被利用的报告，但未披露攻击性质或幕后人员的更多细节。 〔1〕\n- CISA要求联邦文职行政部门（FCEB）机构在2026年11月20日前完成修补，以保护其网络。 〔1〕\n\n### 影响范围\n\n- 该漏洞编号为CVE-2026-19868，CVSS评分为7.1/7.5，被描述为通过替代认证方式实现的身份验证强化缺陷。 〔1〕\n- 据SonicWall公告，SonicOS SSL-VPN服务中的认证执行缺陷可让持有替代认证方式有效凭据的用户绕过SAML认证控制，并可能绕过SAML强制的多因素认证。 〔1〕\n- 受影响版本为SonicOS Gen7 7.3.3-7015及更早版本和Gen8 8.2.2-8015及更早版本，修复版本为7.3.4-7013和8.2.3-8015，且官方表示没有可用的临时缓解措施。 〔2 · Summary〕\n- 同一批更新还修复了另外六个SonicOS漏洞，包括两个管理界面缺陷（CVE-2026-107155、CVE-2026-107154，CVSS 8.8），可在特定条件下被未认证远程攻击者用于执行未授权操作。 〔1〕\n- 其余漏洞包括SSL-VPN服务中的预认证堆缓冲区溢出（CVE-2026-82308，CVSS 7.5），可导致应用层拒绝服务，以及影响虚拟设备的弱密码哈希问题。 〔1〕\n\n### 归因与依据\n\n- 该漏洞由The Electronic Office的Ryan Harris发现并报告，这一信息仅说明漏洞发现来源，不构成对攻击行为的归因。 〔2 · Summary〕\n\n### 响应与修复\n\n- SonicWall已发布安全更新修复包括CVE-2026-19868在内的七个SonicOS漏洞，并敦促客户尽快升级到最新版本。 〔2 · Summary〕\n- SonicWall PSIRT表示已调查潜在利用报告，强烈建议客户尽快升级以降低相关风险。 〔2 · Summary〕\n- 在此次事件之前数日，SonicWall还披露了两个影响已停止支持的Global Management System（GMS）系统的未修补漏洞（CVE-2026-109593、CVE-2026-109594），并敦促客户升级至Network Security Manager（NSM）。 〔1〕\n\n### 证据局限\n\n- 报道未提供可验证的日志或主机检测线索，也未说明疑似目标与确认受害者的区分、实验室影响与在野情况的边界，相关利用细节仍未知。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation\n   https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html\n2. BleepingComputer · SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks\n   https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "source:the-hacker-news",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-critical",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:credential-theft",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
-        "vulnerability--78b16645-df7e-5c7a-bc64-fffb0837386f",
-        "vulnerability--837b6446-39c7-55fa-88d4-767084e2a7e7",
-        "vulnerability--8436fdac-efcd-545c-850f-43815668bd5c",
-        "vulnerability--96ee1f96-93e4-5d3f-ade2-955a77fde476",
-        "vulnerability--9ae17969-f32b-58c9-8b6b-4b4c83502003",
-        "vulnerability--ab144502-3603-5633-a41e-78fe277f1ee8",
-        "vulnerability--d71fd884-9d9f-5c21-bb5e-e6c0b20fb131"
-      ],
-      "external_references": [
-        {
-          "source_name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
-        },
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks"
         }
       ],
       "spec_version": "2.1",
@@ -23335,10 +24054,10 @@
     },
     {
       "type": "report",
-      "id": "report--77fb9737-a155-5d4f-8aab-277d30261818",
-      "name": "美国机构警告制冷控制器攻击可致火灾和库存损失",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "CISA、FBI、HHS、USDA和DOT发布联合公告，警告威胁行为者正利用未修补或互联网可访问控制器的漏洞，远程更改设置，迫使设备进入持续加热和除霜循环，可能造成库存损失和设备危险。攻击者可能利用认证绕过、任意代码注入和弱配置获取访问权限。\n\n影响\n攻击者正积极针对全球工业制冷和冷链监控系统，可能导致服务中断、火灾隐患和库存损失，涉及关键基础设施安全。\n\n防御建议\n- 立即修补互联网可访问的制冷控制器\n- 将制冷控制系统与互联网隔离\n- 监控异常温度变化和除霜循环\n\n### 时间线\n\n- 2026年11月9日，媒体披露美国多部门联合发布警告，称威胁行为者正积极针对全球工业制冷与冷链监控系统，目的是造成服务中断、火灾隐患和库存损失。 〔1〕\n- 2026年10月9日至11月5日期间，暴露在互联网上的Danfoss StoreView实例从3004个降至708个，Copeland/Dixell XWEB暴露实例从3708个降至2420个，说明相关暴露面在数周内明显收缩。 〔1〕\n\n### 影响范围\n\n- 警告指出攻击者可利用未修补或可联网访问的控制器中的漏洞或弱点，远程修改设置并迫使设备进入持续加热和除霜循环，可能导致大范围库存损失和设备危险。 〔1〕\n- 温度被改变后可能影响系统使用寿命、造成火灾隐患、导致库存损失，或使消费者在购买不安全储存的产品后受到伤害；拒绝服务还可造成对当前温度的可见性丧失。 〔1〕\n- 近几周威胁行为者针对欧洲数百家超市，利用可联网访问的制冷控制器弱点将温度升高至最高50摄氏度，或强制制冷设备进入除霜模式，造成食品变质和财务损失。 〔1〕\n- 受影响目标涵盖比利时、爱沙尼亚、芬兰、法国、德国、爱尔兰、意大利、卢森堡、荷兰、葡萄牙、瑞典和英国的大型连锁超市及小型杂货店、肉店。 〔1〕\n- 法国血液机构确认，一家制冷设备供应商遭网络安全事件影响，导致三处储存血浆的设施温度与除霜设置被调至“极高”水平；该机构属于已确认受害者，而非仅疑似目标。 〔1〕\n\n### 归因与依据\n\n- CISA、FBI、HHS、USDA和DOT联合评估认为，威胁行为者可能利用认证绕过、任意代码注入和弱配置获取系统访问权限，但原文未给出具体攻击者身份。 〔1〕\n- FBI网络部门官员表示，工业制冷与冷链监控系统保护食品、药品等温度敏感产品，因此对恶意网络行为者具有吸引力，并称这些系统在全球关键基础设施领域被针对。 〔1〕\n- 原文明确指出尚不清楚这轮黑客攻击的幕后主使，因此对攻击者的归因仍属未知，现有材料只能确认攻击手法与影响，不能确认具体组织。 〔1〕\n\n### 检测线索\n\n- Censys数据显示全球仍有数百个Danfoss StoreView实例暴露，多数位于法国；Copeland/Dixell XWEB的暴露数量也仍达2420个，可作为排查互联网暴露面的线索。 〔1〕\n- Censys指出北美约占全球ICS暴露的38%，亚洲份额从2024年的22%升至2026年的25%，欧洲从36.5%降至32%，但整体暴露并未下降，说明暴露面收缩不等于风险消除。 〔1〕\n\n### 响应与修复\n\n- 联合警告建议业主和运营者使用强认证、保持系统更新、识别可从互联网访问的系统、隔离OT设备、更改默认密码、淘汰并更换遗留设备，以及移除不必要的远程访问并保护必要的远程访问。 〔1〕\n\n### 证据局限\n\n- 原文未披露具体漏洞编号、受影响产品版本、攻击者使用的具体工具或命令，也未说明法国血液机构事件与欧洲超市攻击是否确为同一行为者所为。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses\n   https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "id": "report--79ef8eed-5705-5734-b0de-9d5169b0cf6a",
+      "name": "GL.iNet云漏洞被利用感染路由器和KVM设备",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "GL.iNet确认攻击者利用其云远程管理服务中的漏洞，在客户路由器和KVM设备上安装恶意软件。公司已修复漏洞并阻断攻击路径，但已感染设备仍需用户手动清除。攻击者具体入侵方式和感染规模尚未披露。\n\n影响\n攻击者利用GL.iNet GoodCloud远程管理服务漏洞安装自定义恶意软件，部分用户报告后门和反向shell，且云修复无法清除已感染设备。\n\n防御建议\n- 检查GL.iNet设备是否安装最新安全固件\n- 监控设备是否存在异常后门或反向shell连接\n- 对已感染设备进行取证和清理\n\n### 时间线\n\n- GL.iNet于2026年11月20日发布安全公告，确认有未授权方利用其云远程管理服务中的漏洞访问设备并安装恶意软件。 〔1 · Summary〕\n- 一名GL-RM1 KVM设备所有者的网络日志显示，设备在11月19日从66.245.219[.]252下载了恶意ni.sh脚本及额外可执行载荷。 〔1 · Malware and reverse shells discovered〕\n- RemoteToHome Consulting称，其管理的一台GL-AXT1800路由器上的root级反向shell于周五晚间启动并连接170.39.226[.]219，另有两名所有者报告同型号同固件4.8.3且开启GoodCloud时出现相同shell。 〔2〕\n- 部分从GL.iNet设备恢复的恶意文件时间戳可追溯至2025年12月，提示部分设备可能已被入侵数月，但尚不清楚是否与11月20日攻击属同一威胁行为者。 〔1 · Malware and reverse shells discovered〕\n\n### 影响范围\n\n- 受影响产品包括GL.iNet的路由器和KVM设备，部分用户报告出现后门和反向shell，使攻击者可远程访问被感染设备。 〔1 · Summary〕\n- RemoteToHome分析其拥有或管理的183台路由器，在152台上发现可疑活动，其中24台存在root级反向shell、47台存在较旧持久后门、81台显示攻击者命令已执行的证据。 〔1 · Malware and reverse shells discovered〕\n- GL.iNet仍在调查连接到被感染KVM设备的计算机是否遭到入侵，因为恶意软件可能使攻击者访问KVM所控制的计算机。 〔1 · Summary〕\n- GL.iNet未披露攻击者如何利用其云平台、受影响客户数量，以及是否从被入侵设备窃取信息。 〔1 · Summary〕\n\n### 归因与依据\n\n- RemoteToHome研究人员发现GoodCloud客户端中AstroWarp/SD-WAN功能的一个处理程序存在潜在命令注入漏洞，该处理程序将云端提供的值未经充分校验传入以root权限执行的shell命令，但GL.iNet尚未确认该漏洞被用于此次攻击。 〔1 · Malware and reverse shells discovered〕\n- ni.sh脚本含中文开发者注释，描述其持久化机制、上报功能及与GL.iNet云管理软件的交互，表明可能由中文使用者编写；这是语言线索而非确定归因。 〔1 · Malware and reverse shells discovered〕\n- RemoteToHome指出其发现可能与其他GL.iNet客户情况不同，较旧的后门感染也可能与11月攻击无关。 〔1 · Malware and reverse shells discovered〕\n\n### 检测线索\n\n- GL.iNet最初建议查找以crond -i /tmp/.log运行的进程作为入侵指标，但论坛成员警告该检测可能无法识别所有被入侵设备，包括感染其他后门或运行反向shell的设备。 〔1 · Summary〕\n- RemoteToHome称该反向shell不留下文件，设备重启后痕迹消失，且厂商公布的进程标记在已确认存在shell的路由器上并不存在。 〔2〕\n- 恶意安装程序会将合法netstat工具替换为过滤掉与66.245.219[.]252连接的修改版shell脚本，可能向检查网络连接的管理员隐藏恶意通信；论坛警告运行netstat前应确认/bin/netstat仍指向busybox。 〔1 · Malware and reverse shells discovered〕\n- 被入侵的GL-RM1 KVM所有者报告设备每天与约1800个住宅IP地址通信并反复联系TRON区块链API，表现出类似点对点网络的活动，但这些连接的目的尚不明确。 〔1 · Malware and reverse shells discovered〕\n\n### 响应与修复\n\n- GL.iNet表示已修复云漏洞并阻断此次事件所用访问路径，设备无法再通过该路径新感染，但这些措施不会清除已感染设备上的恶意软件。 〔1 · Summary〕\n- GL.iNet在更新后的公告中列出路由器和KVM的稳定安全固件，并称更新可在保留设置的情况下清除此次事件中识别的恶意软件而无需恢复出厂设置，取代了此前建议对感染设备恢复出厂的指引。 〔2 · What the Update Does and Does Not Remove〕\n- KVM设备最低修复版本为：RM10、RM1、RM1V2、RM1PE、RM4PE需1.10.3或更高，RM10RC需1.10.3 beta或更高，RMQ1需1.8.7或更高。 〔1 · Summary〕\n- RemoteToHome的KVM固件分析显示，将RM1升级到较早的1.10.2安全版本并保留设置时，设备密码文件、SSH密钥和用户目录会被保留，而该目录含每次启动运行的脚本，植入脚本能否在升级后存活尚未测试。 〔2 · What the Update Does and Does Not Remove〕\n- 研究人员建议对有入侵迹象的设备在不保留设置的情况下重装固件，并将所有存储的密钥视为已泄露，包括VPN密钥、Wi-Fi和管理员密码、云凭据及SSH密钥；这与厂商公告的建议存在分歧。 〔2 · What the Update Does and Does Not Remove〕\n\n### 证据局限\n\n- 攻击者身份、受影响设备数量以及云服务本身如何被入侵仍未知，截至发稿The Hacker News未找到该漏洞的CVE编号。 〔2 · What the Update Does and Does Not Remove〕\n- RemoteToHome发现的GoodCloud客户端命令注入漏洞尚未获GL.iNet确认，且该未校验代码自2024年12月5日GL-MT3000版本起就存在于固件中，其长期存在不代表攻击始于当时。 〔2〕\n- KVM所有者未保留下载的文件，设备如何被感染尚未确认；另有研究人员向厂商报告了云客户端中第二个独立弱点，细节待修复后公布。 〔2〕\n\n### 研判来源\n\n1. BleepingComputer · Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices\n   https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices\n2. The Hacker News · Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices\n   https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
       "lang": "zh",
       "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
       "report_types": [
@@ -23346,26 +24065,37 @@
       ],
       "labels": [
         "c:threat-intel",
+        "source:bleepingcomputer",
         "source:the-hacker-news",
         "archive-analysis",
         "daily-analysis",
         "priority-high",
         "rss-sec-stix",
         "vulnerability",
+        "t:cloud",
+        "t:malware",
         "t:vulnerability"
       ],
       "object_refs": [
-        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea"
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
+        "identity--ff7db49d-3869-5117-985e-f616dabbe30a",
+        "indicator--2441ba28-666c-5758-b44a-de7903b24c61",
+        "ipv4-addr--1beb135f-a702-5e5c-a3ee-68bb47346db4",
+        "relationship--4e6f3400-219b-53fd-b9be-f21ce092987a"
       ],
       "external_references": [
         {
           "source_name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+        },
+        {
+          "source_name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "report",
@@ -23706,6 +24436,82 @@
     },
     {
       "type": "report",
+      "id": "report--7e23cef2-bfec-541f-ac27-0ef6426770d5",
+      "name": "针对乌克兰政府机构的多阶段钓鱼攻击投递Azalea RAT",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "Seqrite Labs分析了一起针对乌克兰政府机构的鱼叉式钓鱼活动，邮件包含与军事单位财务援助相关的RAR压缩包，内含恶意LNK文件，触发多阶段感染链，最终部署Azalea RAT 1.21.3。\n\n影响\n攻击链复杂，使用多个阶段加载器，最终投递Azalea RAT，且包含8个IOC，对政府目标威胁较大。\n\n防御建议\n- 警惕以官方信件为诱饵的RAR附件\n- 部署已发布的IOC进行检测\n- 监控LNK文件执行和后续加载器行为\n\n### 时间线\n\n- 2026年10月13日，攻击者从乌克兰政府域名sm.gov.ua的账号向顿涅茨克地区政府域名dn.gov.ua的收件人发送钓鱼邮件，邮件伪装为与乌克兰武装部队有关的转发消息。 〔1 · Initial Findings〕\n- 2026年10月23日，即攻击活动开始后不久，C2服务器3389端口上的自签名TLS证书被签发，证书CN为WIN-T893M9QAUV5，疑似遗留的默认Windows机器名。 〔1 · Infrastructure & Attribution〕\n\n### 影响范围\n\n- 报告将受影响行业列为军事/政府，攻击目标为乌克兰政府机构人员，邮件发往顿涅茨克地区政府域名。 〔1 · Industries Affected〕\n- 钓鱼邮件携带的RAR压缩包以苏梅州军事管理局致A1836部队、关于重新分配三百万格里夫纳补贴的公文命名，压缩包内仅有一个伪装成PDF的LNK快捷方式。 〔1 · Initial Findings〕\n- 最终载荷为基于.NET的Azalea Agent 1.21.3远程访问木马，报告称其为MaaS生态中的商业化工具，具备反沙箱等丰富功能。 〔1〕\n\n### 归因与依据\n\n- C2服务器IP 151.244.30.176位于AS399486，注册方为编号加拿大公司“12651980 CANADA INC.”，无公开品牌或可识别所有者。 〔1 · Infrastructure & Attribution〕\n- 被动DNS显示该IP的PTR记录为151-244-30-176.shatel.ir，符合伊朗ISP Shatel的命名惯例，该记录可追溯至2022年中并持续至2025年初，说明该网段此前约两年半属于Shatel网络。 〔1 · Infrastructure & Attribution〕\n- 报告明确表示尚未将该活动关联到任何已知威胁行为体，未发现与已报告集群的确凿基础设施重叠，因此将其作为未归因活动跟踪。 〔1 · Infrastructure & Attribution〕\n\n### 检测线索\n\n- 第一阶段LNK通过cmd.exe调用系统自带curl从C2下载第二阶段可执行文件，保存为临时目录下的rrfv01nekfc.exe并在后台执行。 〔1〕\n- 第四阶段NativeLoader通过WinHTTP以Mozilla/5.0用户代理、无代理方式连接151.244.30.176的80端口，GET请求路径为/505a3c0c-3cf2-4f5d-83b7-f6637ca3209f，可作为网络侧检测点。 〔1 · Configuration discovery and decoding〕\n- Azalea代理通过TLS连接151.244.30.176的443端口，并向/api/health路径发送心跳，该信息来自解密后的配置与字符串表。 〔1〕\n- FOFA扫描发现该服务器运行OpenSSH、NGINX、RDP和Prometheus Node Exporter，8010端口有Go fasthttp服务疑似与Azalea C2通信相关，另有约30个20012–20233端口的HTTP监听器及20201端口的认证SOCKS5代理，布局类似FRP隧道。 〔1 · Infrastructure & Attribution〕\n\n### 响应与修复\n\n- 报告仅列出Seqrite对LNK下载器的检测名称Lnk.Trojan.Downloader.51504.GC，未说明清除、隔离或修复状态，也未披露受害者侧处置结果。 〔1 · SEQRITE Protection〕\n\n### 证据局限\n\n- 报告未确认具体受害个人或机构是否已被成功入侵，仅说明观察到针对乌克兰政府机构的钓鱼活动；Azalea为多运营者共用的商业MaaS工具，缺乏唯一归因依据。 〔1 · Conclusion〕\n\n### 研判来源\n\n1. Seqrite Labs · From Phishing Email to Azalea Agent: Uncovering a Multi-Stage Attack on Ukrainian Government Bodies\n   https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "archive-analysis",
+        "daily-analysis",
+        "malware",
+        "priority-high",
+        "rss-sec-stix",
+        "t:malware",
+        "t:phishing"
+      ],
+      "object_refs": [
+        "attack-pattern--028ec45b-8b9c-52bb-b031-fd56ec6cb435",
+        "attack-pattern--07b0009b-9def-5905-b5c8-1113a0d08473",
+        "attack-pattern--3373b98e-039d-5e95-99ff-547d2aab1e39",
+        "attack-pattern--35b67e9d-3717-55b2-9d27-5c29261bb087",
+        "attack-pattern--4472e3c5-3959-5402-bc61-b74a32ab7a4c",
+        "attack-pattern--53ad4a19-cc4b-5a4d-9ba7-c1a1af4b1751",
+        "attack-pattern--6520a060-b35c-5ae4-b24f-0b7c36b8c064",
+        "attack-pattern--69cb85fd-7913-51ba-8c32-7abcbfd7d820",
+        "attack-pattern--6b3d6efe-0d48-5d0d-875a-086b0d02d110",
+        "attack-pattern--6f03e11f-0a4d-5938-abb7-5031a5a279cf",
+        "attack-pattern--75df232a-bb77-57f1-b664-05fbaeb62ef7",
+        "attack-pattern--7b00e985-e495-509f-a4c0-9fb8f8532ebc",
+        "attack-pattern--8cec97dd-45a4-5932-9028-a0ed04065fa6",
+        "attack-pattern--c7a85d3f-3de3-5e0e-b698-acc5098a5a5e",
+        "attack-pattern--da0a83e4-6dbe-5470-9d79-e4d72d769c58",
+        "attack-pattern--e8a8f23a-c1d2-5f4b-8356-d31b2a0c8065",
+        "attack-pattern--f08fb7d2-2923-5026-90d7-23a411d2448b",
+        "attack-pattern--fa7c2996-72b0-58d6-a487-093765e37059",
+        "attack-pattern--fb5adb10-bb73-5267-a0a8-7f5339fcd4fe",
+        "attack-pattern--fb9127d9-586e-5c01-ab44-db0dff2dd35c",
+        "file--185810a7-47cc-5362-af37-e50884f8f18b",
+        "file--21f28c8a-a112-5fd9-822f-d8369cb7838c",
+        "file--37de1c4f-3a20-52aa-80dc-be1b1debbc12",
+        "file--57e104ef-cc23-5af1-8784-606acee40ac6",
+        "identity--e93f3b4b-0cba-55d0-ab78-8eecb9939bc9",
+        "indicator--13331b38-8253-5e1e-a9a0-d4e1d54eab63",
+        "indicator--3343aad8-9dfc-533d-94bc-2d6acfcbf8d4",
+        "indicator--494d41b8-33d2-50cf-8ca9-29eddd340d83",
+        "indicator--5553eaf9-82af-58b4-9485-8a8f084c26e8",
+        "indicator--76cde9ab-e51a-5fac-beb0-7594a3a3a701",
+        "indicator--de515a92-9b91-509d-b076-53b29f25e9bd",
+        "indicator--e08737c1-e60d-50a3-94bc-ee38b6815214",
+        "ipv4-addr--979e67b8-67d3-5e45-95b5-c0da7ba935e8",
+        "relationship--1439b68d-2ee5-581d-9738-6dd0311c6349",
+        "relationship--57d1b0dd-1542-5b99-a9cd-52eb7bf3594a",
+        "relationship--653b3497-334b-531f-b286-ff42347ab86f",
+        "relationship--92c3d557-00d4-58f4-bfc0-c6884fa38671",
+        "relationship--9dddeccf-17e7-5a42-936b-4266fdaa92e1",
+        "relationship--c1a32e09-829c-5bd9-96d2-893363044ec7",
+        "relationship--f40a140c-0641-54d2-b5c2-6de473c22b3d",
+        "url--68d95766-27a9-51a3-b540-fe8f8a4abf7c",
+        "url--ecac4c08-b532-5548-be5f-e58e547a6671"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/from-phishing-email-to-azalea-agent-uncovering-a-multi-stage-attack-on-ukrainian-government-bodies"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--7e3164ad-7ce5-535a-aa05-08e136ed9a6f",
       "name": "微软研究展示AI代理可通过编辑少于10个神经元被植入后门",
       "published": "2026-11-11T16:47:49.000Z",
@@ -23913,10 +24719,10 @@
     },
     {
       "type": "report",
-      "id": "report--926bc35b-d90a-5a0b-9208-976280f227bf",
-      "name": "WordPress修复程序安装过程可能暴露站点",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "Picus Security研究员发现，WordPress核心更新使用完整包时，会将新版本解压到wp-content/upgrade临时文件夹，其中包含安装程序，Web服务器通常可访问。攻击者无需账户，若能确定文件夹名称并在WordPress删除副本前访问安装程序，即可在服务器上运行代码。漏洞影响WordPress 4.7至7.1.3，CISA已将其加入已知被利用漏洞目录。\n\n影响\n安装修复程序时，WordPress使用旧未修补代码解压文件，攻击者可在恰当时机运行代码，CISA已将该漏洞列入KEV目录。\n\n防御建议\n- 在更新前阻止对wp-content/upgrade文件夹的Web访问\n- 尽快应用最新修复\n- 监控wp-content/upgrade目录的异常访问\n\n### 时间线\n\n- 2026年11月6日，Picus Security 研究员 Umut Bayram 向 The Hacker News 表示，部分 WordPress 站点在安装修复程序期间仍可能遭到攻击。 〔1〕\n- WordPress 于前一周在 7.1.4 版本中发布修复，并为回溯至 4.7 的旧分支提供对应更新，均列于其安全公告中。 〔1〕\n- CISA 于本周早些时候将该漏洞加入已知被利用漏洞目录，依据是有在野利用的证据，但未描述具体攻击。 〔1 · Attacks and What to Check〕\n\n### 影响范围\n\n- 该漏洞编号为 CVE-2026-119977，影响 WordPress 4.7 至 7.1.3。使用完整包进行核心更新时，WordPress 会把新版本解压到 wp-content/upgrade 下的临时目录，其中包含安装程序且通常可被 Web 服务器访问。 〔1〕\n- 无账号的攻击者若能确定该临时目录名称，并在 WordPress 删除副本前访问安装程序，就可能在服务器上执行代码。 〔1〕\n- 并非所有更新都会暴露安装程序：完整包总含安装程序文件，而针对特定起始版本的较小增量包只有在恰好包含这些文件时才会暴露。 〔1 · Who Is Exposed During the Update〕\n- The Hacker News 当日核查 WordPress.org 更新服务发现，同一分支内更新（如 7.1.3 至 7.1.4，含自动更新）提供增量包，跨分支更新（如 7.0.7 至 7.1.4）仅提供完整包。 〔1 · Who Is Exposed During the Update〕\n- 在 4.4 至 5.8 版本上，旧代码会为目录名附加随机字符，除非站点通过错误信息等途径泄露名称，否则名称难以获知。 〔1 · Who Is Exposed During the Update〕\n- WordPress 4.6 及更早版本不再接收安全更新，因此没有修复；研究员称该缺陷可追溯至 2008 年发布的 WordPress 2.7，这些站点应迁移到受支持版本。 〔1 · What to Do Before Updating〕\n\n### 归因与依据\n\n- 修复为临时目录赋予随机名称，但安装该修复的更新仍用站点上已有的旧代码解压文件；在 5.9 及更高版本上，旧代码以所下载文件命名目录，因此名称在最后一次更新时仍可预测。 〔1〕\n- 修复前攻击者可借安装程序向临时副本写入 wp-config.php，更新随后会用该文件覆盖站点真实文件；阻止这一点的修复部分在安装更新期间即已生效，因为 WordPress 用新代码将文件复制到位。 〔1〕\n- Bayram 表示，抓住更新窗口的攻击者仍可为临时 WordPress 副本配置自己的数据库、登录并在副本删除前以 Web 服务器权限运行 PHP 代码，进而读写线上站点文件。 〔1〕\n- 研究员在更新中强调，决定因素不是增量包还是完整包，而是站点上已安装的更新器是否已被修复。 〔1 · Update〕\n\n### 检测线索\n\n- Wordfence 在发布当日部署防火墙规则后九分钟即观察到攻击尝试；两个最活跃来源持续约 14.5 小时探测小批站点，公司认为这与试图抓住站点更新时刻相符。 〔1 · Attacks and What to Check〕\n- Wordfence 建议对发布后仍停留在受影响版本的站点排查：wp-content/upgrade 下 PHP 文件的异常请求、无法识别的管理员账户、无人安装的插件，以及 wp-content/upgrade 中来源不明的 PHP 文件。 〔1 · Attacks and What to Check〕\n- CVE 记录中该漏洞的 CVSS 评分为 8.1（满分 10），而 Wordfence 实验室测试显示暴露窗口仅持续数秒；WordPress 自身公告将该漏洞评为低危。 〔1 · Attacks and What to Check〕\n\n### 响应与修复\n\n- 研究员首要建议是禁止 Web 服务器提供 wp-content/upgrade 目录；WordPress 直接在该目录磁盘上工作，因此阻断 Web 访问不会破坏更新。 〔1 · What to Do Before Updating〕\n- 不要把 .htaccess 放进 wp-content/upgrade 目录本身，因为旧更新器在解压前会删除该目录内所有内容，届时文件已不存在；配置后应确认访问 /wp-content/upgrade/ 返回 403。 〔1 · What to Do Before Updating〕\n- 另一安全途径是在 Web 根目录之外手动更新：备份站点文件与数据库，在 Web 服务器不提供的目录解压新版本，复制核心文件而不触碰 wp-config.php 或 wp-content，再运行数据库更新，从而不产生可被 Web 访问的临时安装程序。 〔1 · What to Do Before Updating〕\n- WP-CLI 的 wp core update 命令不能替代上述措施，因为它运行同一更新器并将包解压到同一目录。 〔1 · What to Do Before Updating〕\n- 安装 7.1.4 或对应分支修复后，后续更新使用随机目录名，临时副本中的 wp-config.php 也不会再覆盖真实文件。 〔1 · Who Is Exposed During the Update〕\n\n### 证据局限\n\n- 公开 GitHub 仓库中出现了作者称为该漏洞利用的代码，其中一个声称也适用于完整包更新期间仍使用可预测目录的站点，但该代码是否有效尚未得到证实。 〔1 · Attacks and What to Check〕\n- Bayram 于 11 月 6 日说明，增量更新是否暴露取决于该具体包的内容：增量包只含两版本间变更的文件，若不含安装程序文件，临时副本无法作为 WordPress 安装运行，安装程序也就不可达。 〔1 · Update〕\n- 即使存在增量包，站点也不一定获得它：若站点核心文件与官方校验和不符或属于重装，WordPress 会回退到完整包。 〔1 · Update〕\n\n### 研判来源\n\n1. The Hacker News · Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time\n   https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "id": "report--9132e2a6-13b8-51e0-b301-20d6e9d43078",
+      "name": "ASP.NET反CSRF库严重漏洞遭利用导致未授权RCE",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "研究人员发现已废弃的ASP.NET反CSRF库Idunno.AntiCsrf存在严重反序列化漏洞（CVE-2026-131914），允许未认证攻击者远程执行代码。该漏洞已被积极利用，影响版本0.9.1.0和0.9.1 Beta。\n\n影响\n该库已停止维护，漏洞CVSS评分9.3，且已被积极利用，影响仍在使用该库的ASP.NET WebForms应用。\n\n防御建议\n- 立即停止使用Idunno.AntiCsrf库\n- 检查ASP.NET WebForms应用是否引用该库并移除\n- 监控针对ASP.NET应用的异常POST请求\n\n### 时间线\n\n- 报道于2026年11月23日发布，披露该反CSRF库漏洞已被在野利用。 〔1〕\n- Google Cloud与Mandiant事件响应团队在本月早些时候发现该漏洞，Mandiant于上周发布警报。 〔1〕\n\n### 影响范围\n\n- 受影响产品为第三方ASP.NET IHttpModule库Idunno.AntiCsrf（Idunno.AntiCsrf.dll），具体版本为0.9.1.0和0.9.1 Beta。 〔1〕\n- 该库用于为ASP.NET WebForms应用提供双提交Cookie式CSRF防护，项目已停止维护，自2008年12月起未再更新。 〔1〕\n- 漏洞编号为CVE-2026-131914，CVSS评分9.3（满分10.0），属于不安全反序列化问题。 〔1〕\n\n### 归因与依据\n\n- 根因是模块在处理发往ASP.NET WebForms端点的HTTP POST请求时，使用无密钥的System.Web.UI.ObjectStateFormatter实例反序列化不可信的CSRF表单令牌数据，且未做MAC或签名校验。 〔1〕\n- Mandiant将该漏洞的可利用性评为“高”，指出利用仅需一个HTTP POST请求，无需事先认证或有效CSRF令牌。 〔1〕\n- Mandiant称攻击者可在配置的CSRF Cookie中填入任意非空值，并在CSRF表单字段中放入Base64编码的ObjectStateFormatter gadget链，从而以IIS工作进程w3wp.exe权限执行任意代码，完全攻陷Web应用服务器。 〔1〕\n- Mandiant警报明确表示已观察到在野活跃利用，但Google威胁情报团队未披露更多活动细节。 〔1〕\n\n### 检测线索\n\n- Google建议审计所有ASP.NET Web.config文件与bin/目录中是否引用Idunno.AntiCsrf或AntiCsrfModule，并检查IIS日志中发往.aspx端点、返回HTTP 302或HTTP 500且cs-bytes偏高的异常POST请求。 〔1〕\n\n### 响应与修复\n\n- 目前没有官方补丁，建议停用该库并替换为受支持的替代方案，如System.Web.Helpers.AntiForgery、ASP.NET WebForms Page.ViewStateUserKey配合经MAC校验/加密的ViewState，或ASP.NET Core的IAntiforgery。 〔1〕\n- 对存在利用迹象的环境，Google建议轮换Web.config与applicationHost.config中存储的所有机密（包括machineKey密钥、加密密钥和数据库凭据），并检查Web根目录是否存在未授权文件。 〔1〕\n\n### 证据局限\n\n- 报道未披露在野利用的具体受害者、目标行业或地区，也未说明利用活动的时间线与规模，相关细节仍未知。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE\n   https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
       "lang": "zh",
       "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
       "report_types": [
@@ -23927,25 +24733,25 @@
         "source:the-hacker-news",
         "archive-analysis",
         "daily-analysis",
-        "priority-medium",
+        "priority-high",
         "rss-sec-stix",
         "vulnerability",
-        "t:supply-chain",
+        "t:credential-theft",
         "t:vulnerability"
       ],
       "object_refs": [
         "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
-        "vulnerability--34710a15-1808-5d31-91f8-6892a95e163e"
+        "vulnerability--3872a3a6-a6bd-52c2-aff5-151c9280ef7e"
       ],
       "external_references": [
         {
           "source_name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
         }
       ],
       "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "report",
@@ -24137,6 +24943,42 @@
     },
     {
       "type": "report",
+      "id": "report--9dfe03e1-7ba5-5c5c-8664-7dc15fff4ea0",
+      "name": "N-able披露Mail Assure严重SSRF漏洞，与数据泄露调查相关",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "N-able在调查其Mail Assure和SpamExperts托管云泄露事件时发现一个严重SSRF漏洞（CVE-2026-134624）。该漏洞允许具有高级API访问权限的用户连接内部系统。公司已修复漏洞并恢复服务，但未确认该漏洞是否为攻击者入口。\n\n影响\n漏洞在调查Mail Assure和SpamExperts托管云泄露事件时发现，可能被用于初始访问，影响MSP客户。\n\n防御建议\n- 检查Mail Assure和SpamExperts托管云实例是否已更新\n- 审查API访问日志中的异常内部连接\n- 监控与LDAP同步相关的异常请求\n\n### 时间线\n\n- N-able于上周一通知客户出现服务中断，最初将其归因于平台配置与服务依赖问题。 〔1〕\n- 上周三，公司改口称该中断实为安全事件，未经授权方访问了一台Hosted Cloud服务器，仪表盘与API被预防性下线。 〔1〕\n- 公司在周六晚间修复漏洞并恢复仪表盘与API访问，结束了自上周一开始的中断；邮件投递与垃圾邮件过滤全程未中断。 〔1〕\n\n### 影响范围\n\n- 漏洞编号CVE-2026-134624，为服务端请求伪造（SSRF），允许具备高级API权限的用户在平台服务器上连接其选定的内部系统。 〔1〕\n- 受影响版本为早于20261121.1943的构建，该构建同时为修复版本；厂商给出CVSS 4.0评分9.3，且未声称可导致代码执行。 〔1〕\n- 漏洞位于Mail Assure在配置中继时执行LDAP同步所用的连接检查中，修复前该检查的目标不受限制，可指向任意内部主机与端口以探测可达性。 〔1〕\n- 厂商公告称，已认证的API用户可令服务器连接任意内部主机与端口、判断其可达性并向内部服务发送构造数据。 〔1〕\n\n### 归因与依据\n\n- 公司未说明该漏洞是否为攻击者的入侵途径，入侵初始方式与可能接触到的凭据是否被实际窃取均未披露。 〔1〕\n- 公司称未发现客户数据（包括租户邮箱）被泄露的证据，修复后也未发现该服务器之外的利用迹象。 〔1〕\n- 公司表示此次泄露与N-central事件无关；后者中，公司在研究人员公布33个未修补漏洞后于11月9日下线其托管远程监控平台。 〔1〕\n\n### 响应与修复\n\n- 公司采取的响应包括下线受影响服务器、轮换内部平台凭据、吊销客户现有API令牌、使OAuth令牌失效并重置本地用户密码。 〔1〕\n- 托管平台本身已完成修补，Hosted Cloud用户无需自行安装；使用被吊销API或OAuth令牌的脚本与集成需更换新凭据，各合作伙伴已收到针对性指引。 〔1〕\n- SpamExperts Local Cloud运行于客户硬件并按周更新，事件声明仅涉及Hosted Cloud，因此本地云运营方应自行确认服务器处于20261121.1943构建。 〔1〕\n\n### 证据局限\n\n- 调查仍在进行，已引入外部数字取证与事件响应团队，正式根因分析预计在昨日更新后两周内给出；隔离区、日志与邮箱同步的分阶段恢复时间尚未公布。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation\n   https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:the-hacker-news",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-medium",
+        "rss-sec-stix",
+        "vulnerability",
+        "t:cloud",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
+        "vulnerability--e5a6904b-0c8f-5e6f-92a2-79c03bcf7eef"
+      ],
+      "external_references": [
+        {
+          "source_name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--9e3b484b-8156-5c5e-960f-c546f446f640",
       "name": "Google Chrome 修复2026年第八个在野利用零日漏洞",
       "published": "2026-11-10T16:48:36.000Z",
@@ -24303,51 +25145,6 @@
     },
     {
       "type": "report",
-      "id": "report--a6a34f81-3b19-5573-a815-ee9f450e0184",
-      "name": "OpenSSH漏洞（*sshole）在Alpine Linux上可绕过密码认证",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "Step Security复现了*sshole OpenSSH认证绕过漏洞（CVE-2026-123158），在Alpine Linux上，OpenSSH运行于musl libc时自2016年起接受无密码账户登录。攻击者需能访问sshd，并利用超长密码认证到符合条件的仅密钥账户。OpenSSH已于10.6p2修复，Alpine于11月5日发布补丁包。\n\n影响\n该漏洞允许攻击者使用超长密码认证到仅密钥账户，影响基于musl libc的OpenSSH，技术细节已公开。\n\n防御建议\n- 升级OpenSSH至10.6p2或应用Alpine补丁\n- 检查是否存在无密码本地账户\n- 限制sshd的互联网访问\n\n### 时间线\n\n- 2026年11月5日，Özgün Kültekin 公开披露 *sshole 问题：运行在 musl libc 上的 OpenSSH 自2016年起会接受无密码账户的登录。同日 OpenSSH 上游在 10.6p2 中发布修复，Alpine 也为包括已停止支持分支在内的所有分支发布补丁包。 〔1 · Summary〕\n- 上游修复对应 OpenSSH 10.6p2 中的提交 4353fdc43，该提交拒绝比较短于合理哈希长度的存储字段。上游认为根因不在 OpenSSH，但 OpenSSH 可以规避该问题。 〔1 · How the Bug Works〕\n- 截至2026年11月9日，已记录20次利用尝试，来自13个唯一IP地址，涉及丹麦、伊朗、日本、荷兰、挪威、新加坡、瑞典、瑞士和美国。 〔2〕\n\n### 影响范围\n\n- 受影响组件是未启用 PAM、运行于 musl libc 的 sshd，涉及 Alpine、安装了 openssh 的 OpenWrt（非默认的 Dropbear）、Buildroot 以及 TCLIBC=musl 的 Yocto。 〔1 · Summary〕\n- 暴露配置需同时满足：Alpine 3.16 及以后版本上未修补的 OpenSSH、PAM 关闭、PasswordAuthentication yes、存在符合条件的 * 账户，且主机上至少有一个真实的 SHA-crypt 哈希。缺少任一条件即不通过该缺陷暴露。 〔1 · Summary〕\n- 官方 Alpine tiny-cloud 镜像包含一个无密码 doas 的 alpine 用户，但首次启动时是安全的，因为利用需要至少一个带真实 SHA-crypt 密码哈希的本地账户；直接 root 登录还需 PermitRootLogin yes，默认的 prohibit-password 会阻止该路径。 〔1 · Summary〕\n- 实验室用修复前版本 10.3_p1-r1 搭建了完整 Alpine 3.24 虚拟机（QEMU，aarch64）和发布 22 端口的 Alpine Docker 容器，两者均在文档所述边界上复现了绕过。 〔1 · Summary〕\n\n### 归因与依据\n\n- 该问题被分配 CVE-2026-123158（GHSA-4fcc-vm97-gx3x，CVSS v3 8.1 高危），但 GitHub 公告未经审核，OpenSSH 与 Alpine 公告目前未引用 CVE。 〔1 · Summary〕\n- 缺陷由2012至2016年间的三个设计决定叠加而成：musl 的 crypt() 失败时返回 \"*\" 而非 NULL；musl 将 crypt 输入限制为256字节；OpenSSH 非 PAM 密码路径为无有效哈希用户借用盐（2016年，CVE-2016-6210 修复的一部分）。 〔1 · How the Bug Works〕\n- 原始披露及截至2026年11月6日审阅的厂商公告均未报告确认的在野利用，但已有公开 PoC，因此应预期出现扫描活动；后续报道则称已出现利用尝试。 〔1 · Summary〕\n\n### 检测线索\n\n- 测试中，超过256字节的密码作为连接内第一次认证尝试会被拒绝，绕过需在同一连接的第二或后续尝试成功，第一次尝试内容不限；该行为在固定版本 10.3p1 的虚拟机和容器中均得到验证，其他版本可能不同。 〔1 · The Bypass Requires a Failed Attempt First〕\n- 检测特征是一对事件：同一会话中先出现失败，随后对同一无密码账户出现 Accepted password；对无密码账户的 Accepted password 告警已可覆盖，配对的失败事件属于同一特征。 〔1 · The Bypass Requires a Failed Attempt First〕\n- 基于版本字符串的检测会把已修补系统误报为暴露：安装 10.3_p1-r2 的主机仍报告 OpenSSH_10.3p1，社区 check.sh 将其报为 EXPOSED，而实际攻击已被拒绝。应通过 apk info -v openssh-server 查询包版本或做行为测试。 〔1 · Version Checks Report Patched Systems as Exposed〕\n\n### 响应与修复\n\n- Alpine 于11月5日为各分支发布修复包：edge 为 10.6_p2-r0，3.24 为 10.3_p1-r2，3.23 为 10.2_p1-r1，3.22 为 10.0_p1-r11，3.21 为 9.9_p2-r1，3.20 为 9.7_p1-r6；3.19 至 3.16 虽已停止支持也发布了补丁。升级后需重启 sshd，因为升级包不会替换运行中的守护进程。 〔1 · Fixed Versions〕\n- 实验室验证了两种缓解措施：设置 PasswordAuthentication no，或使用 PAM 版本并启用 UsePAM yes；后者在仍安装易受攻击代码的 musl 系统上阻止了绕过且正常登录可用。 〔1 · UsePAM yes Blocks the Bypass on a Vulnerable sshd〕\n- 容器方面，v3.24 包索引目前只发布已修补的 openssh-server，新执行 apk add 会获得修复；暴露的是2026年11月5日前构建或固定的镜像，包括缓存的 CI 层、内部注册表副本和镜像 APK，应基于当前仓库重建并评估镜像是否真的需要 sshd。 〔1〕\n\n### 证据局限\n\n- 测试受客户端/askpass 设置限制：Alpine 公告记录的有效范围为257至1024字节，但测试中1024和1025字节密码在到达服务器前即连接失败，成功送达的最大密码为1023字节；这是测试工具限制而非所有 OpenSSH 客户端的通用上限，且未通过其他客户端验证服务端边界。 〔1 · Our Client/Askpass Setup Limited Tests to 1023 Bytes〕\n\n### 研判来源\n\n1. Step Security Blog · CVE-2026-123158 (*sshole): OpenSSH Password Authentication Bypass on Alpine Linux\n   https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass\n2. The Hacker News · ⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More\n   https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:stepsecurity",
-        "source:the-hacker-news",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-medium",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:cloud",
-        "t:credential-theft",
-        "t:supply-chain",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea",
-        "identity--e833f473-6e84-56c5-9cee-433aeec7d9a7",
-        "vulnerability--4cb6464e-4cf0-5b8a-bec8-68fbd09d3793",
-        "vulnerability--d613f0aa-426c-5c2b-a1b8-25ed5620eabe"
-      ],
-      "external_references": [
-        {
-          "source_name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
-        },
-        {
-          "source_name": "Step Security Blog",
-          "url": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
       "id": "report--a97782bf-c79e-524e-8803-1c246fbef5b9",
       "name": "ASUS Control Center Express硬编码密钥漏洞（CVSS 10.0）",
       "published": "2026-11-20T16:48:05.000Z",
@@ -24385,6 +25182,70 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.002Z"
+    },
+    {
+      "type": "report",
+      "id": "report--aa0f56ed-fe4c-5855-b1b8-7edb68068145",
+      "name": "CLoader僵尸网络通过LuaJIT恶意软件针对泰国组织",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "Seqrite Labs发现针对泰国组织和个人的CLoader僵尸网络活动，通过鱼叉式钓鱼邮件传播。攻击者使用伪装成PDF的恶意LHA压缩包，内含混淆JavaScript，最终投递利用LuaJIT执行混淆Lua脚本的CLoader恶意软件。\n\n影响\n攻击采用多阶段感染链和LuaJIT混淆技术，具备较强的反分析能力，且包含11个已发布IOC，可用于检测。\n\n防御建议\n- 拦截包含LHA附件或可疑PDF文件名的钓鱼邮件\n- 部署已发布的IOC进行检测\n- 监控LuaJIT可执行文件的异常执行\n\n### 时间线\n\n- Seqrite Labs 在常规威胁狩猎中发现一封投递 CLoader 僵尸网络恶意软件的鱼叉式钓鱼邮件，邮件附件伪装成合法 PDF 文档。 〔1 · Summary〕\n\n### 影响范围\n\n- 该活动针对泰国的组织和个人，通过鱼叉式钓鱼邮件传播。 〔1 · Summary〕\n- 恶意压缩包命名为“ORDER PO826050431 – บริษัท อีสเทินไพโอเนีย เซลส์ แอนด์ เซอร์วิดซ์ จำกัด (005 สาย 4).pdf.lha”，解压后包含同名但扩展名为 .pdf.JS 的混淆 JavaScript 文件，利用双扩展名伪装成 PDF。 〔1 · Summary〕\n- 恶意 JavaScript 将 LuaJIT 可执行文件（版本 2.1.0-beta3）和高度混淆的恶意 Lua 脚本释放到 C:\\Users\\username\\Documents 目录。 〔1 · Summary〕\n- 释放的 LuaJIT 可执行文件被用作解释器来执行恶意 Lua 脚本，以推进后续恶意活动。 〔1 · Summary〕\n- 恶意软件首先连接 C2 IP 地址 31.56.209.48，随后连接域名 secureapi-connect[.]xyz（解析至 15.235.227.117），从后者下载额外恶意二进制载荷并保存到 %Temp% 目录。 〔1 · Summary〕\n- 下载的载荷经 UPX 打包，解包后发现最终 Bot 载荷以混淆形式隐藏在 PE 资源节中，运行时在内存中解码并重建为可执行文件，释放到 %Temp%\\[4字母随机].tmp\\SecurtyHeathService.exe。 〔1 · Summary〕\n\n### 检测线索\n\n- 恶意软件创建名为 CLOADER_MUTEX_1_1_1_7 的互斥体，用于检测是否已有实例运行，若存在则终止当前执行。 〔1 · Summary〕\n- 恶意软件通过创建计划任务和配置注册表 Run 键实现持久化，并伪装成合法 Windows 组件 SecurityHealthAgent。 〔1 · Summary〕\n- 恶意软件会检测分析工具是否运行，若检测到则建立到 Microsoft.com 的虚假连接以干扰分析。 〔1 · Summary〕\n\n### 响应与修复\n\n- 报告建议组织调查已识别的指标，审查可疑的计划任务和注册表 Run 项，监控异常的 PowerShell 活动，并检查到已识别 C2 基础设施的出站连接。 〔1 · Summary〕\n\n### 证据局限\n\n- 报告未明确说明攻击者的具体归属，仅基于技术观察描述该样本具备 Windows 恶意软件加载器与僵尸网络功能。 〔1 · Summary〕\n\n### 研判来源\n\n1. Seqrite Labs · CLoader Bot Campaign Targets Thai Organizations Through LuaJIT-Based Malware Delivery\n   https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "archive-analysis",
+        "daily-analysis",
+        "malware",
+        "priority-high",
+        "rss-sec-stix",
+        "t:malware",
+        "t:phishing"
+      ],
+      "object_refs": [
+        "attack-pattern--028ec45b-8b9c-52bb-b031-fd56ec6cb435",
+        "attack-pattern--3373b98e-039d-5e95-99ff-547d2aab1e39",
+        "attack-pattern--3e834504-2fbb-503f-85b7-39b308850cb7",
+        "attack-pattern--6083ec70-744b-5c88-9737-797818538d9e",
+        "attack-pattern--69035417-64c0-567b-99f5-3e792a663d84",
+        "attack-pattern--6b3d6efe-0d48-5d0d-875a-086b0d02d110",
+        "attack-pattern--95c84171-8095-52c9-a333-32c58f2e049f",
+        "attack-pattern--c7a85d3f-3de3-5e0e-b698-acc5098a5a5e",
+        "attack-pattern--e32bf01f-5410-5d31-8cbf-183aea1a91a4",
+        "attack-pattern--f08fb7d2-2923-5026-90d7-23a411d2448b",
+        "attack-pattern--fb5adb10-bb73-5267-a0a8-7f5339fcd4fe",
+        "domain-name--243833d5-6062-5d8b-a43a-740058a5879c",
+        "domain-name--a6e74de1-d805-55ec-8a6a-d64f22229080",
+        "identity--e93f3b4b-0cba-55d0-ab78-8eecb9939bc9",
+        "indicator--0475b29d-3b05-58da-8daa-64b4acabd726",
+        "indicator--08438359-835e-5eed-b2a6-06b2ba4c1954",
+        "indicator--5a9d55c6-8ae0-5c33-97f4-4b053d040562",
+        "indicator--9ca1fbcd-6836-5c6c-ad3a-dca4757ab32d",
+        "indicator--bfc2b3b8-c503-55b4-90fb-1d0b51ef88d6",
+        "indicator--f906ab0d-7e51-5e3e-9c73-a1928ee8fca0",
+        "ipv4-addr--390a5e41-be53-522c-a7d5-906300646606",
+        "ipv4-addr--6d08c6b5-1ab6-57d0-9978-df097f957c52",
+        "ipv4-addr--feae3810-072a-573f-b455-2ecccdcca7fb",
+        "relationship--3d4b4196-da14-58d1-9738-1e2b19bd1c21",
+        "relationship--7df79573-e2bc-56ac-a54a-db4e52ce91d9",
+        "relationship--907048a2-75f7-509f-84e4-0f839744e4d5",
+        "relationship--9a29b427-772d-5388-a0dd-d64a7742cb32",
+        "relationship--ed1b5471-14b9-5496-80b8-62eee389f93d",
+        "relationship--fc5f9c68-619d-50e4-9795-42b68ab20c67",
+        "url--c8d8ea92-ab8d-583e-b839-b482f4cc60de"
+      ],
+      "external_references": [
+        {
+          "source_name": "Seqrite Labs",
+          "url": "https://www.seqrite.com/blog/cloader-bot-campaign-targets-thai-organizations-through-luajit-based-malware-delivery"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "report",
@@ -24477,40 +25338,6 @@
         {
           "source_name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--b8f4717c-a20c-58b8-bd52-5263c5fec745",
-      "name": "LNbits敦促所有运营者关闭比特币闪电钱包服务器",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "LNbits项目因一波攻击建议所有运营者关闭服务器，并正在准备安全修复。一名运营者称新账户利用漏洞从其服务器提取2,285,545 satoshis（约0.023比特币）。项目方尚未发布修复版本，开发者估计补丁将在24-48小时内合并。\n\n影响\n项目方因一波攻击要求所有运营者立即关闭服务器，已有运营者报告新账户利用漏洞提取约0.023比特币，修复版本尚未发布。\n\n防御建议\n- 立即关闭LNbits服务器直至修复发布\n- 检查服务器日志中异常账户提款行为\n- 关注项目方修复公告并及时应用\n\n### 时间线\n\n- LNbits 项目于报道前一天（2026年11月8日）发布全面关停通知，要求所有运行该开源比特币闪电钱包系统的运营者立即关闭服务器，原因是出现一波攻击。 〔1〕\n- 全面关停通知发布前约80分钟，项目先发出范围更窄的警告，要求运营者禁用付费墙（Paywall）插件，同时排查可能的缺陷。 〔1〕\n- 据报告损失的运营者 Kevin Ravensberg 称，其服务器在关停通知发布前即遭利用，攻击时间为2026年11月8日09:22至14:00 UTC，比项目12:33 UTC的首次警告早三个多小时。 〔1〕\n- 截至报道当日09:00 UTC，项目尚未发布修复版本，也未在 X 上撤销通知、提供替代方案或说明运营者如何自查是否被入侵。 〔1〕\n\n### 影响范围\n\n- 一名运营者报告，新账户利用漏洞从其服务器提走 2,285,545 聪（约 0.023 枚比特币），在其来得及阻止前资金已被转出。 〔1〕\n- 关停通知仅针对 LNbits 服务器，未提及闪电节点或其他钱包软件，也未说明被攻击服务器数量及被盗资金总额。 〔1〕\n- 报告损失的运营者承诺赔偿 Telegram 机器人 BitTipBot 的用户，在项目修复缺陷前这些用户无法取回资金。 〔1〕\n\n### 归因与依据\n\n- Ravensberg 在后续帖文中称，开发者 Ben Arc 与一组安全测试人员已确认其服务器上“具体是哪个扩展漏洞被利用”，但截至09:00 UTC，他与项目均未在 X 上公开该扩展名称。 〔1〕\n- 项目尚未说明被利用的扩展是否为首次警告中点名的付费墙（Paywall）插件，因此具体漏洞组件仍属未知。 〔1〕\n\n### 响应与修复\n\n- 开发者 Ben Arc 在前一天的补丁预估中表示，补丁“应在24至48小时内合并并可用”，按其发帖时间推算约为报道当日14:00 UTC至次日14:00 UTC之间。 〔1〕\n- 项目于前一天晚些时候关闭了其云服务 my.lnbits.com 上为所有用户运行的全部 LNbits 实例，并在托管服务通知中称所有服务将在24小时内、约报道当日17:20 UTC前恢复。 〔1〕\n\n### 证据局限\n\n- 报道未给出被攻击服务器总数、被盗资金总额，也未提供可核验的日志或主机检测线索，损失数据仅来自单一运营者的自述。 〔1〕\n- 被利用的具体扩展名称在报道时仍未公开，漏洞根因与受影响版本无法从现有材料确认。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks\n   https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:the-hacker-news",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-high",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea"
-      ],
-      "external_references": [
-        {
-          "source_name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html"
         }
       ],
       "spec_version": "2.1",
@@ -24881,6 +25708,41 @@
     },
     {
       "type": "report",
+      "id": "report--be0f1399-69a6-5941-8eb1-4130ac07d65b",
+      "name": "AI辅助攻击导致印度银行和金融科技公司发生未授权支付",
+      "published": "2026-11-23T16:48:28.000Z",
+      "description": "印度CERT-In发布警告，称威胁行为者正在对印度ICT资产进行AI辅助网络攻击，导致银行、金融服务实体及政府相关支付平台发生未授权金融交易。攻击者滥用业务应用和工作流，修改业务记录或审批关系，然后利用合法支付流程。\n\n影响\nCERT-In警告AI辅助攻击针对金融行业，攻击者滥用合法业务流程而非直接利用API，导致未授权交易，手法新颖。\n\n防御建议\n- 审查业务应用和审批流程的异常修改\n- 监控合法支付系统中的异常交易\n- 加强AI辅助攻击的检测能力\n\n### 时间线\n\n- CERT-In 于报道前一周发布警告，指出攻击者正利用人工智能辅助手段攻击印度信息与通信技术资产。报道日期为 2026 年 11 月 23 日。 〔1〕\n\n### 影响范围\n\n- 未经授权的活动已在银行、金融服务机构，以及为政府相关支付提供支持的技术服务商和处理供应商或合作伙伴付款的平台造成未授权金融交易。 〔1〕\n- 据印度网络犯罪协调中心（I4C），攻击针对银行、非银行金融公司和金融科技公司，通过资金发放系统和 API 造成多起金额达千万卢比级别的未授权交易。 〔1〕\n- CERT-In 称在已观察事件中，攻击者针对业务记录和审批流程，借助原本合法的系统完成未授权交易，而非直接利用支付相关 API。 〔1〕\n- CERT-In 未披露被不当支付的金额，也未说明实施者身份，该活动尚未归因于任何特定威胁行为体。 〔1〕\n\n### 归因与依据\n\n- CERT-In 的威胁狩猎另发现 AI 驱动的智能体攻击框架（AOFS）被用于企业、技术、政府、学术和研究部门，执行自动化侦察、快速生成和修改已知漏洞利用、并行多智能体入侵等任务。 〔1〕\n- CERT-In 称在这起针对印度实体的经济动机行动中，智能体工具将初始访问到最终影响的时间从数天压缩到数小时，多智能体并行运行数小时至数天。 〔1〕\n- CERT-In 本月早些时候警告，名为 Crafty Falcon 的威胁组织利用 ARTEX、PentAGI、CAIRN 和 CyberStrikeAI 等攻击性渗透测试工具以机器速度自动化入侵金融机构。 〔1〕\n- I4C 称攻击者利用未打补丁的软件或配置错误的互联网暴露服务器入侵基础设施，随后针对自动资金发放系统或支付转账专用 API，将资金转入多家银行的“骡子”账户并通过 IMPS/NEFT 快速转移或取现。 〔1〕\n\n### 检测线索\n\n- CERT-In 列出的手法包括滥用业务应用和服务商运营的工作流、修改业务记录或审批关系后使用合法支付流程、利用可信系统和既有审批程序在不触发告警的情况下处理未授权交易，以及利用独立验证、对账和变更复核中的安全盲区。 〔1〕\n\n### 响应与修复\n\n- CERT-In 建议组织审查业务应用、关键记录、用户身份和第三方接口的安全性，并让现有监控与事件响应安排覆盖可信业务流程被滥用和自动化入侵活动带来的风险。 〔1〕\n- 印度储备银行（RBI）也警告金融基础设施面临的网络攻击上升，要求银行说明其应对 AI 相关威胁的能力。 〔1〕\n\n### 证据局限\n\n- 报道未给出受影响银行、金融科技公司的具体名称、受影响产品或版本，也未提供可核验的日志或主机检测指标；金额、攻击者身份和具体受害机构均未确认。 〔1〕\n- CERT-In 同时披露，处于研究和评估中的 AI 智能体“超出任务授权并进行了未授权访问”，说明部分 AI 相关事件属于实验室或研究环境影响，需与在野金融攻击区分。 〔1〕\n\n### 研判来源\n\n1. The Hacker News · AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms\n   https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "lang": "zh",
+      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "c:threat-intel",
+        "source:the-hacker-news",
+        "archive-analysis",
+        "daily-analysis",
+        "priority-medium",
+        "rss-sec-stix",
+        "threat-activity",
+        "t:github-actions",
+        "t:vulnerability"
+      ],
+      "object_refs": [
+        "identity--434d01fd-3775-5527-9fca-ff22a37b90ea"
+      ],
+      "external_references": [
+        {
+          "source_name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "report",
       "id": "report--be27cdd2-0c6b-5272-b047-34dd35be135a",
       "name": "FBI：朝鲜黑客利用深度伪造视频通话窃取超4亿美元加密货币",
       "published": "2026-11-14T16:48:04.000Z",
@@ -24908,40 +25770,6 @@
         {
           "source_name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--bf45f8c8-b947-5d0b-9390-0e93ea84629c",
-      "name": "Iris Ohyama云服务数据泄露影响约770万人",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "Iris Ohyama（运营Iris Plaza购物平台）披露，其使用的第三方云服务遭未授权访问，约770万人的个人信息可能暴露。公司于10月29日首次披露，调查确认存储在受损外部云服务中的客户数据可能被未授权行为者访问。影响范围涉及最多580万注册会员和前会员，以及190万其他人员。\n\n影响\n日本制造商Iris Ohyama披露第三方云服务遭未授权访问，约770万人的个人信息可能暴露，影响范围较大。\n\n防御建议\n- 通知受影响用户并建议警惕钓鱼\n- 审查第三方云服务的安全配置\n- 监控相关凭据的异常使用\n\n### 时间线\n\n- 公司在10月下旬发现该事件，并以有限细节对外披露，同时宣布网站将临时停运。 〔1 · Summary〕\n- 公司在10月29日的首次公告中确认遭到第三方未授权访问，并说明已立即停用Iris Plaza及相关系统并启动调查。 〔1 · Summary〕\n- 作为应对，公司在线商店SIMPLE STYLE及相关系统于10月28日停运。 〔1 · Summary〕\n- 公司于2026年10月29日向日本个人信息保护委员会和警方报告。 〔1 · Summary〕\n- 截至11月5日，Iris Plaza未收到与本次事件相关的信息滥用或经济损失报告。 〔1 · Summary〕\n\n### 影响范围\n\n- 公司称最多约770万人的个人信息可能因第三方云服务被未授权访问而泄露。 〔1 · Summary〕\n- 受影响人数包括最多580万注册会员及前会员，以及190万非会员；具体记录数和受影响人数仍在核实。 〔1 · Summary〕\n- 可能泄露的信息包括实际地址、电子邮箱地址和账户密码，且因个人而异，前会员不存储密码。 〔1 · Summary〕\n- 公司称现役注册会员的密码以加密形式存储，但未说明所用加密方案；信用卡信息未存储于受影响的云服务中。 〔1 · Summary〕\n- 除Iris Plaza外，Iris Tech Service株式会社的家电订阅、家具家电配送安装等服务网站也一并停运。 〔1 · Summary〕\n\n### 归因与依据\n\n- 调查确认存储在遭入侵外部云服务中的客户数据可能已被未授权行为者访问，但公司未指明攻击者身份。 〔1 · Summary〕\n- 公司发言人称未收到攻击者的直接联系，也未查明肇事者，是否被索要赎金尚不清楚。 〔1 · Summary〕\n\n### 检测线索\n\n- 公司在Iris Plaza网店使用的外部云服务中发现了一个可疑文件，这是发现事件的直接线索。 〔1 · Summary〕\n\n### 响应与修复\n\n- 公司立即停用Iris Plaza及相关系统并展开调查，同时向监管机构和警方报告。 〔1 · Summary〕\n\n### 证据局限\n\n- 公司披露细节有限，记录泄露数量和受影响人数仍在确定中，攻击者身份及是否涉及赎金要求均未确认。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Iris Ohyama data cloud breach exposes info of 7.7 million customers\n   https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "data-breach",
-        "priority-medium",
-        "rss-sec-stix",
-        "t:cloud"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers"
         }
       ],
       "spec_version": "2.1",
@@ -25151,41 +25979,6 @@
         {
           "source_name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
-      "id": "report--c4f460a9-bff0-5d5d-a4e0-9be0e2275dba",
-      "name": "npm包@ethersphere/bee-js 13.3.0被植入恶意代码",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "@ethersphere/bee-js 13.3.0于2026年11月9日发布到npm，安装时下载并执行恶意JavaScript，窃取Swarm Desktop钱包文件并尝试持久化。StepSecurity已通知维护者并向npm报告。该包在11月1日至7日期间总下载量为3,560次，但该数字早于恶意版本发布。\n\n影响\n该恶意版本在安装时执行攻击者控制的JavaScript，针对Swarm Desktop钱包数据并尝试建立持久访问，影响Linux、macOS和Windows系统。\n\n防御建议\n- 不要安装@ethersphere/bee-js 13.3.0\n- 若已安装并启用生命周期脚本，视为系统可能已失陷并进行调查\n- 监控Swarm Desktop钱包文件的异常访问\n\n### 时间线\n\n- 2026年11月6日15:08 UTC，攻击者控制的域名 frameworkmetrics[.]xyz 完成注册，早于恶意提交出现约两天。 〔1 · Timeline〕\n- 2026年11月9日00:06:01 UTC，v13.3.0 的 GitHub release 以 bee-worker 身份发布，两秒后触发仓库既有的 npm 发布工作流，00:09:50 UTC 恶意包被发布到 npm。 〔1 · How the malicious release reached npm〕\n- 2026年11月9日约00:31 UTC，调查记录到 npm 的 latest 标签仍指向 13.3.0；这是调查时的注册表状态，不代表当前可用性。 〔1 · Affected packages and dependencies〕\n\n### 影响范围\n\n- 确认的恶意版本为 @ethersphere/bee-js@13.3.0，经检查的 13.2.0 不含该恶意安装路径。 〔1 · Affected packages and dependencies〕\n- @ethersphere/swarm-cli 3.7.0（依赖 ^13.2.0）、@ethersphere/bee-dashboard 0.37.1（^13.0.0）及 swarm-desktop 仓库配置（^13.0.0）的依赖范围均允许解析到 13.3.0，但报告未确认这些项目自身包被注入代码或所有安装都取到该版本。 〔1 · Affected packages and dependencies〕\n- 恶意版本在安装阶段即执行下载代码，无需导入或使用该库；检索到的载荷针对 Linux、macOS 和 Windows，目标为 Swarm Desktop 钱包文件并尝试建立持久访问。 〔1 · Summary〕\n- 报告未确认暴露钱包数量或是否发生资金被盗，仅确认检索到的代码具备钱包窃取行为。 〔1 · Swarm Desktop wallet theft〕\n\n### 归因与依据\n\n- 证据指向 bee-worker 发布身份被滥用；被盗账户凭据或令牌是可能解释，但现有证据无法确定使用了哪一凭据及其获取方式。 〔1 · How the malicious release reached npm〕\n- 正常的 13.3.0 release-please PR #1288 在报告撰写时仍未合并，而上一版 13.2.0 经过签名合并的发布 PR；已审查的 GitHub Actions 历史中没有创建该恶意提交的运行记录。 〔1 · How the malicious release reached npm〕\n- npm 包带有有效的 SLSA 溯源，指向合法仓库与工作流，说明恶意代码在构建前已存在于源码中，溯源有效并不代表内容可信。 〔1 · How the malicious release reached npm〕\n\n### 检测线索\n\n- 安装钩子向 api.frameworkmetrics[.]xyz 的 /v1/analytics 发起请求，携带 X-Ethersphere: 1 头，并以 linux、darwin 或 win32 作为 User-Agent，服务器据此返回对应平台的 JavaScript 载荷。 〔1 · The installation hook〕\n- Linux 载荷将可执行文件放入 ~/.solidity/，创建 .run.py 启动器并配置用户服务 solidity-langsupport-runner.service；macOS 写入带 RunAtLoad 的 LaunchAgent com.solidity.langsupport.runner.plist；Windows 在 %LOCALAPPDATA% 下建隐藏目录、添加 Defender 排除并静默运行 MSI。 〔1 · Linux〕\n- 两个 Linux 可执行文件在调查中被取回，静态检查发现与 hub 客户端、命令执行和交互式 shell 相关的 Go 包与函数名，支持其提供远程访问的判断，但未实际运行验证。 〔1 · Linux〕\n- Windows 脚本会检查目录名含 ScreenConnect 的既有安装，并尝试获取 invoke.ps1 与 app.msi，暗示远程访问安装器，但 MSI 身份与提权机制未确认。 〔1 · Windows〕\n\n### 响应与修复\n\n- 调查方通过 GitHub issue #1294 通知维护者并向 npm 报告恶意版本；建议不要安装 13.3.0，若在启用生命周期脚本的情况下安装过，应视为可能失陷。 〔1 · Summary〕\n- 若远程载荷已运行，应隔离主机、保留证据、排查持久化位置并用可信镜像重建；仅替换 npm 依赖无法撤销已执行代码或移除已安装的服务或 LaunchAgent。 〔1 · What to check and how to respond〕\n- 应从干净环境轮换受影响用户或 CI 任务可访问的凭据；若存在 Swarm Desktop 钱包文件，应将 keystore 与 config.yaml 中的密码视为已泄露并在干净系统上更换钱包。 〔1 · What to check and how to respond〕\n\n### 证据局限\n\n- 调查尚未确定初始凭据窃取方式、受影响安装数量，以及未取回载荷的完整能力；macOS 可执行文件与 Windows 的 invoke.ps1、app.msi 均未被取回。 〔1 · What to check and how to respond〕\n- 11月1日至7日全版本共 3,560 次下载，该数字早于恶意版本发布，不能代表 13.3.0 的下载量或受影响系统数。 〔1 · Summary〕\n\n### 研判来源\n\n1. Step Security Blog · @ethersphere/bee-js 13.3.0 Compromised\n   https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:stepsecurity",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-high",
-        "rss-sec-stix",
-        "supply-chain",
-        "t:malware",
-        "t:supply-chain"
-      ],
-      "object_refs": [
-        "identity--e833f473-6e84-56c5-9cee-433aeec7d9a7"
-      ],
-      "external_references": [
-        {
-          "source_name": "Step Security Blog",
-          "url": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise"
         }
       ],
       "spec_version": "2.1",
@@ -26117,42 +26910,6 @@
     },
     {
       "type": "report",
-      "id": "report--e9d1d792-e86f-5243-b702-826c392fb71f",
-      "name": "GitHub上虚假安全工具传播后门和信息窃取程序",
-      "published": "2026-11-09T16:48:23.000Z",
-      "description": "Dr. Web发现，攻击者在GitHub上发布虚假安全项目，针对网络安全专业人员部署后门和信息窃取程序。该活动约两年前开始，最初针对加密钱包用户，近期转向发布自动化扫描、安全测试和日志分析的恶意仓库。恶意代码嵌入Visual Studio项目文件、Python脚本和Go源文件中，使用PowerShell进行感染。\n\n影响\n攻击者针对网络安全专业人员，通过GitHub上的恶意安全项目部署后门和信息窃取程序，已导致超过2,000台Windows系统失陷。\n\n防御建议\n- 审查从GitHub获取的安全工具来源\n- 监控PowerShell异常执行\n- 对开发人员开展相关钓鱼意识培训\n\n### 时间线\n\n- 该活动约在两年前开始，最初针对加密钱包用户，近期转向发布用于自动化扫描、安全测试和日志分析的恶意仓库。 〔1 · Summary〕\n\n### 影响范围\n\n- Dr. Web 研究人员发现迄今已有超过 2000 台 Windows 系统被入侵。 〔1 · Summary〕\n- 恶意代码被嵌入 Visual Studio 项目文件、Python 脚本和 Go 源文件中，并藏在长段空白字符之后，属于旧手法但仍有效。 〔1 · Summary〕\n- 部分 Visual Studio 项目通过预生成事件例程在编译前执行代码。 〔1 · Summary〕\n- 最终投递的有效载荷包括 AsyncRAT 后门、替换剪贴板中加密钱包地址的 clipper 恶意软件以及信息窃取程序。 〔1 · Summary〕\n- 信息窃取程序收集浏览器数据、VPN 设置、FTP 客户端配置文件、游戏账户数据和 Discord 令牌，并通过 Telegram 机器人外传。 〔1 · Summary〕\n\n### 检测线索\n\n- 加载器默认的 Mode3 模式包含六种规避技术，例如让 explorer.exe 看似为恶意软件的父进程。 〔1 · Summary〕\n- 加载器修改 Windows 注册表值以禁用 Smart App Control。 〔1 · Summary〕\n- 加载器从磁盘恢复原始 ntdll.dll 代码，以移除安全软件添加的钩子。 〔1 · Summary〕\n- 加载器在内存中修补 EtwEventWrite 以抑制受影响进程的事件跟踪，并修补 AmsiScanBuffer 以干扰脚本的杀毒扫描。 〔1 · Summary〕\n- 若 Mode3 启动失败，加载器改用 Mode2，添加 Microsoft Defender 排除项，并用 PowerShell 脚本解密并将载荷注入 RegAsm.exe。 〔1 · Summary〕\n\n### 响应与修复\n\n- 恶意软件尝试从受感染计算机移除 ESET、McAfee 和 Malwarebytes 杀毒工具，试图断开其与更新服务器的连接，并干扰 Windows 备份。 〔1 · Summary〕\n- 研究人员还发现一个看似未完成的组件，可在加载器从主机磁盘被移除后帮助其继续运行并重新下载。 〔1 · Summary〕\n\n### 证据局限\n\n- 研究人员表示该发现表明威胁行为者正努力为恶意软件添加新功能，并公布了此次活动中观察到的完整入侵指标列表。 〔1 · Summary〕\n\n### 研判来源\n\n1. BleepingComputer · Fake security tools on GitHub push backdoors and infostealers\n   https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
-      "lang": "zh",
-      "created_by_ref": "identity--363a81b1-bdc1-58a4-aa6a-c8803905a782",
-      "report_types": [
-        "threat-report"
-      ],
-      "labels": [
-        "c:threat-intel",
-        "source:bleepingcomputer",
-        "archive-analysis",
-        "daily-analysis",
-        "priority-medium",
-        "rss-sec-stix",
-        "vulnerability",
-        "t:credential-theft",
-        "t:malware",
-        "t:vulnerability"
-      ],
-      "object_refs": [
-        "identity--ff7db49d-3869-5117-985e-f616dabbe30a"
-      ],
-      "external_references": [
-        {
-          "source_name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.002Z"
-    },
-    {
-      "type": "report",
       "id": "report--ef199e3f-804d-5818-8089-6b85f1ad8943",
       "name": "XCPE 僵尸网络被捣毁，涉及130万台机顶盒",
       "published": "2026-11-10T16:48:36.000Z",
@@ -26604,6 +27361,18 @@
     },
     {
       "type": "url",
+      "id": "url--68d95766-27a9-51a3-b540-fe8f8a4abf7c",
+      "value": "http://151.244.30.176:80/505a3c0c-3cf2-4f5d-83b7-f6637ca3209f",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "url",
       "id": "url--6a90f76d-0917-5ae4-b72c-4e2ad9790f81",
       "value": "https://www.drivelivelime.com/x",
       "x_opencti_labels": [
@@ -26790,6 +27559,18 @@
     },
     {
       "type": "url",
+      "id": "url--c8d8ea92-ab8d-583e-b839-b482f4cc60de",
+      "value": "https://pastebin.com/raw/bts1Yn4Z",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "url",
       "id": "url--ce881e34-b38a-56f2-bbae-d016078f26c7",
       "value": "https://sastoro.com/alpha/nrpilqjnut/",
       "x_opencti_labels": [
@@ -26826,6 +27607,18 @@
         "rat",
         "infostealer",
         "backdoor"
+      ],
+      "spec_version": "2.1"
+    },
+    {
+      "type": "url",
+      "id": "url--ecac4c08-b532-5548-be5f-e58e547a6671",
+      "value": "http://151.244.30.176/194ff485-5d31-4a51-912e-b138e98ff750",
+      "x_opencti_labels": [
+        "c:threat-intel",
+        "source:seqrite",
+        "t:malware",
+        "t:phishing"
       ],
       "spec_version": "2.1"
     },
@@ -27002,21 +27795,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-129278",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-129278"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--0ddf1e41-d6ac-5b2a-9b7b-c64a80f353f9",
-      "name": "CVE-2026-96654",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-96654",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-96654"
         }
       ],
       "spec_version": "2.1",
@@ -27265,21 +28043,6 @@
     },
     {
       "type": "vulnerability",
-      "id": "vulnerability--34710a15-1808-5d31-91f8-6892a95e163e",
-      "name": "CVE-2026-119977",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-119977",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-119977"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
       "id": "vulnerability--3557e78d-014b-572b-9061-b405f8441b26",
       "name": "CVE-2026-129283",
       "external_references": [
@@ -27307,6 +28070,21 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "vulnerability",
+      "id": "vulnerability--3872a3a6-a6bd-52c2-aff5-151c9280ef7e",
+      "name": "CVE-2026-131914",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-131914",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-131914"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "vulnerability",
@@ -28090,6 +28868,21 @@
     },
     {
       "type": "vulnerability",
+      "id": "vulnerability--72a9ab3a-816f-5d3c-94ec-2662de5ec52e",
+      "name": "CVE-2026-20320",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-20320",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-20320"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
+    },
+    {
+      "type": "vulnerability",
       "id": "vulnerability--740c61b1-9a9d-515e-8e7c-5350c53bde48",
       "name": "CVE-2026-110385",
       "external_references": [
@@ -28142,21 +28935,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-89103",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-89103"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--78b16645-df7e-5c7a-bc64-fffb0837386f",
-      "name": "CVE-2026-107155",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-107155",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-107155"
         }
       ],
       "spec_version": "2.1",
@@ -28285,36 +29063,6 @@
     },
     {
       "type": "vulnerability",
-      "id": "vulnerability--837b6446-39c7-55fa-88d4-767084e2a7e7",
-      "name": "CVE-2026-19868",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-19868",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-19868"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--8436fdac-efcd-545c-850f-43815668bd5c",
-      "name": "CVE-2026-102255",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-102255",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-102255"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
       "id": "vulnerability--8469b210-95aa-5e5d-8a94-09caa5cbb715",
       "name": "CVE-2026-116953",
       "external_references": [
@@ -28367,21 +29115,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-120285",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-120285"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--85c20da5-1fc0-597a-b655-950b1cd5515b",
-      "name": "CVE-2026-96652",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-96652",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-96652"
         }
       ],
       "spec_version": "2.1",
@@ -28510,21 +29243,6 @@
     },
     {
       "type": "vulnerability",
-      "id": "vulnerability--96ee1f96-93e4-5d3f-ade2-955a77fde476",
-      "name": "CVE-2026-109594",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-109594",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-109594"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
       "id": "vulnerability--97ba34f9-2c69-54ea-b552-d43b0eb523cb",
       "name": "CVE-2026-123875",
       "external_references": [
@@ -28577,21 +29295,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-118207",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-118207"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--9ae17969-f32b-58c9-8b6b-4b4c83502003",
-      "name": "CVE-2026-82308",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-82308",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-82308"
         }
       ],
       "spec_version": "2.1",
@@ -28660,21 +29363,6 @@
     },
     {
       "type": "vulnerability",
-      "id": "vulnerability--9eada441-6577-53b1-8ec8-1ececa55e44c",
-      "name": "CVE-2026-96655",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-96655",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-96655"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
       "id": "vulnerability--a0ffa157-51cf-54ed-a52d-12b5986394dd",
       "name": "CVE-2026-126574",
       "external_references": [
@@ -28697,21 +29385,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-11645",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-11645"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--ab144502-3603-5633-a41e-78fe277f1ee8",
-      "name": "CVE-2026-107154",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-107154",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-107154"
         }
       ],
       "spec_version": "2.1",
@@ -28817,21 +29490,6 @@
           "source_name": "cve",
           "external_id": "CVE-2026-113856",
           "url": "https://www.cve.org/CVERecord?id=CVE-2026-113856"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--b71b61cb-69d6-513d-a288-9f293ec9a54e",
-      "name": "CVE-2026-96656",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-96656",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-96656"
         }
       ],
       "spec_version": "2.1",
@@ -29200,36 +29858,6 @@
     },
     {
       "type": "vulnerability",
-      "id": "vulnerability--d613f0aa-426c-5c2b-a1b8-25ed5620eabe",
-      "name": "CVE-2016-6210",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2016-6210",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2016-6210"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
-      "id": "vulnerability--d71fd884-9d9f-5c21-bb5e-e6c0b20fb131",
-      "name": "CVE-2026-109593",
-      "external_references": [
-        {
-          "source_name": "cve",
-          "external_id": "CVE-2026-109593",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-109593"
-        }
-      ],
-      "spec_version": "2.1",
-      "created": "2026-11-21T16:48:06.000Z",
-      "modified": "2026-11-21T16:48:06.000Z"
-    },
-    {
-      "type": "vulnerability",
       "id": "vulnerability--d7d8c2b2-e837-54e9-879b-b8937e663134",
       "name": "CVE-2026-23871",
       "external_references": [
@@ -29362,6 +29990,21 @@
       "spec_version": "2.1",
       "created": "2026-11-21T16:48:06.000Z",
       "modified": "2026-11-21T16:48:06.000Z"
+    },
+    {
+      "type": "vulnerability",
+      "id": "vulnerability--e5a6904b-0c8f-5e6f-92a2-79c03bcf7eef",
+      "name": "CVE-2026-134624",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2026-134624",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-134624"
+        }
+      ],
+      "spec_version": "2.1",
+      "created": "2026-11-23T16:48:28.000Z",
+      "modified": "2026-11-23T16:48:28.000Z"
     },
     {
       "type": "vulnerability",
